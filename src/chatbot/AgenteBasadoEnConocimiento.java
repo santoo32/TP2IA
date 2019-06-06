@@ -1,0 +1,42 @@
+package chatbot;
+
+import java.util.ArrayList;
+
+import productionsystem.Estrategia;
+import productionsystem.Regla;
+import productionsystem.TipoEstrategia;
+
+public class AgenteBasadoEnConocimiento {
+	
+	public AgenteBasadoEnConocimiento() {
+	}
+	
+	public void start(String oracion){
+		
+		//borrar despues
+		/////////////
+		ArrayList<String> condicion1 = new ArrayList<String>();
+		condicion1.add("Hola");
+		Regla r1 = new Regla(condicion1, "Holaaa!");
+		ArrayList<String> condicion2 = new ArrayList<String>();
+		condicion2.add("Buenas");
+		Regla r2 = new Regla(condicion2, "Muy buenaas!");
+		ArrayList<Regla> reglas = new ArrayList<Regla>();
+		reglas.add(r1);
+		reglas.add(r2);
+		///////////	
+		
+		
+		
+		//pasar el string a una clase que lo divida en palabras
+		
+		//pasar las palabras a una clase que chequee con que reglas matchea esas palabras
+		
+		//ver que regla ejecutar segun la estrategia
+		Estrategia e = new Estrategia(TipoEstrategia.ALEATORIO);
+		e.setReglasDisponibles(reglas);
+		
+		//ejecutar la regla
+		System.out.println(e.buscarRegla());
+	}
+}
