@@ -5,24 +5,36 @@ import java.util.ArrayList;
 import productionsystem.Estrategia;
 import productionsystem.Regla;
 import productionsystem.TipoEstrategia;
+import tp2iav1.pkg0.interfazPrincipal;
+
 
 public class AgenteBasadoEnConocimiento {
 	
+    
+    
 	public AgenteBasadoEnConocimiento() {
+            
+            
 	}
 	
+
 	public void start(String oracion){
 		
+                System.out.println("agent.start(" + oracion + ")");
 		//borrar despues
 		/////////////
 		ArrayList<String> condicion1 = new ArrayList<String>();
 		condicion1.add("Hola");
 		Regla r1 = new Regla(condicion1, "Holaaa!");
-		ArrayList<String> condicion2 = new ArrayList<String>();
-		condicion2.add("Buenas");
+		
+                ArrayList<String> condicion2 = new ArrayList<String>();
+		
+                condicion2.add("Buenas");
 		condicion2.add("Tardes");
-		Regla r2 = new Regla(condicion2, "Muy buenaas!");
-		ArrayList<Regla> reglas = new ArrayList<Regla>();
+		
+                Regla r2 = new Regla(condicion2, "Muy buenaas!");
+		
+                ArrayList<Regla> reglas = new ArrayList<Regla>();
 		reglas.add(r1);
 		reglas.add(r2);
 		///////////	

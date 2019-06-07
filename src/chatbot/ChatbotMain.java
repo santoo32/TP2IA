@@ -1,9 +1,24 @@
 package chatbot;
 
+import static java.time.Clock.system;
+import tp2iav1.pkg0.interfazPrincipal;
+
 public class ChatbotMain {
+    
+    public static AgenteBasadoEnConocimiento a;
+    
 	public static void main(String[] args)  {
-		//LLAMAR A LA INTERFAZ
-		AgenteBasadoEnConocimiento a = new AgenteBasadoEnConocimiento();
-		a.start("Hola");
+
+		a = new AgenteBasadoEnConocimiento();
+		
+                //LLAMAR A LA INTERFAZ
+                interfazPrincipal ventana = new interfazPrincipal(a);    
+                ventana.setVisible(true);
+                
+                //prueba
+                ventana.setBotText("hola");
+                ventana.setBotText("que tal");
+                ventana.setBotText("que tal");
+                
 	}
 }
