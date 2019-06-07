@@ -21,7 +21,7 @@ public class Regla {
 	public Regla(List<String> condicion, String respuesta) {
 		novedad=0;
 		prioridad=0;
-		especificidad=0;
+		especificidad=condicion.size();
 		this.condicion = condicion;
 		this.respuesta=respuesta;
 	}
@@ -40,6 +40,7 @@ public class Regla {
 	}
 	public void setCondicion(List<String> condicion) {
 		this.condicion = condicion;
+		this.especificidad = condicion.size();
 	}
 	public String getRespuesta() {
 		return respuesta;
@@ -77,5 +78,16 @@ public class Regla {
 		return rpta; 
 	}
 	
+	public boolean verificaCondicion (ArrayList<String> palabras) {
+		int cantPalabras = palabras.size();
+		int contador = 0;
+		for(String s1 : palabras) {
+			for(String s2 : this.condicion) {
+				if(s1.equals(s2)) contador++;
+			}
+		}
+		if(contador == cantPalabras) return true;
+		else return false;
+	}
 	
 }

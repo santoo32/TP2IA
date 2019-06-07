@@ -5,38 +5,25 @@ import java.util.List;
 public class Estrategia {
 	private TipoEstrategia tipoEstrategia;
 	private List<Regla> reglasDisponibles;
+	
 
 	public Estrategia(TipoEstrategia tipoEstrategia) {
 		super();
 		this.tipoEstrategia = tipoEstrategia;
 	}
-	
-	
-	
 	public TipoEstrategia getTipoEstrategia() {
 		return tipoEstrategia;
 	}
-
-
-
 	public void setTipoEstrategia(TipoEstrategia tipoEstrategia) {
 		this.tipoEstrategia = tipoEstrategia;
 	}
-
-
-
 	public List<Regla> getReglasDisponibles() {
 		return reglasDisponibles;
 	}
-
-
-
 	public void setReglasDisponibles(List<Regla> reglasDisponibles) {
 		this.reglasDisponibles = reglasDisponibles;
 	}
-
-
-
+	
 	public Regla buscarRegla() {
 		Regla r = new Regla();
 		switch(tipoEstrategia) {
@@ -47,8 +34,12 @@ public class Estrategia {
 		case NOVEDAD:
 			break;
 		case ESPECIFICIDAD:
+			Especificidad e = new Especificidad();
+			r = e.specificity(reglasDisponibles);
 			break;
 		case PRIORIDAD:
+			Prioridad p = new Prioridad();
+			r = p.priority(reglasDisponibles);
 			break;
 		case NODUPLICACION:
 			break;
