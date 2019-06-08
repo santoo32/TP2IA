@@ -11,14 +11,15 @@ public class ChatbotMain {
 
 		a = new AgenteBasadoEnConocimiento();
 		
-                //LLAMAR A LA INTERFAZ
-                interfazPrincipal ventana = new interfazPrincipal(a);    
-                ventana.setVisible(true);
+        //LLAMAR A LA INTERFAZ
+       interfazPrincipal ventana = new interfazPrincipal(a);
+       ventana.setLocationRelativeTo(null);
+       ventana.setVisible(true);
                 
                 //prueba
-                ventana.setBotText("hola");
+               /* ventana.setBotText("hola");
                 ventana.setBotText("que tal");
-                ventana.setBotText("que tal");
+                ventana.setBotText("que tal");*/
                 
 	}
 }
