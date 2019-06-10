@@ -12,10 +12,7 @@ public class AgenteBasadoEnConocimiento {
 	
     
     
-	public AgenteBasadoEnConocimiento() {
-            
-            
-	}
+	public AgenteBasadoEnConocimiento() {}
 	
 
 	public String start(String oracion){
@@ -25,12 +22,15 @@ public class AgenteBasadoEnConocimiento {
 		/////////////
 		ArrayList<String> condicion1 = new ArrayList<String>();
 		condicion1.add("Hola");
-		Regla r1 = new Regla(condicion1, "Holaaa!");
+		
+                Regla r1 = new Regla(condicion1, "Holaaa!");
+                
 		ArrayList<String> condicion2 = new ArrayList<String>();
 		condicion2.add("Buenas");
 		condicion2.add("Tardes");
 		Regla r2 = new Regla(condicion2, "Muy buenaas!");
-		ArrayList<Regla> reglas = new ArrayList<Regla>();
+		
+                ArrayList<Regla> reglas = new ArrayList<Regla>();
 		reglas.add(r1);
 		reglas.add(r2);
 		ArrayList<String> oracionIngresada = new ArrayList<String>();

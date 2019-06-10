@@ -4,14 +4,14 @@ public class Notebook {
 	private Double precio;
 	private String marca;
 	private String procesador;
-	private Double tamPantalla;
+	private Integer tamPantalla;
 	private String resolucion; //HD O FULL HD
-	private Double memoriaRom; //EN GIGAS
-	private Double memoriaRam; //EN GIGAS
+	private Integer memoriaRom; //EN GIGAS
+	private Integer memoriaRam; //EN GIGAS
 	private boolean placaDeVideo; //true si tiene sino false
 	
-	public Notebook(Double precio, String marca, String procesador, Double tamPantalla, String resolucion,
-			Double memoriaRom, Double memoriaRam, boolean placaDeVideo) {
+	public Notebook(Double precio, String marca, String procesador, Integer tamPantalla, String resolucion,
+			Integer memoriaRom, Integer memoriaRam, boolean placaDeVideo) {
 		super();
 		this.precio = precio;
 		this.marca = marca;
@@ -40,10 +40,10 @@ public class Notebook {
 	public void setProcesador(String procesador) {
 		this.procesador = procesador;
 	}
-	public Double getTamPantalla() {
+	public Integer getTamPantalla() {
 		return tamPantalla;
 	}
-	public void setTamPantalla(Double tamPantalla) {
+	public void setTamPantalla(Integer tamPantalla) {
 		this.tamPantalla = tamPantalla;
 	}
 	public String getResolucion() {
@@ -52,16 +52,16 @@ public class Notebook {
 	public void setResolucion(String resolucion) {
 		this.resolucion = resolucion;
 	}
-	public Double getMemoriaRom() {
+	public Integer getMemoriaRom() {
 		return memoriaRom;
 	}
-	public void setMemoriaRom(Double memoriaRom) {
+	public void setMemoriaRom(Integer memoriaRom) {
 		this.memoriaRom = memoriaRom;
 	}
-	public Double getMemoriaRam() {
+	public Integer getMemoriaRam() {
 		return memoriaRam;
 	}
-	public void setMemoriaRam(Double memoriaRam) {
+	public void setMemoriaRam(Integer memoriaRam) {
 		this.memoriaRam = memoriaRam;
 	}
 	public boolean isPlacaDeVideo() {

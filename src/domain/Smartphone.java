@@ -5,13 +5,13 @@ public class Smartphone {
 	private Double precio;
 	private Double tamPantalla;
 	private Double resolucionCamara; //en megapixeles (la trasera)
-	private Double memoriaRom; //EN GIGAS
-	private Double memoriaRam; //EN GIGAS
+	private Integer memoriaRom; //EN GIGAS
+	private Integer memoriaRam; //EN GIGAS
 	private String SO; //Android o IOS
 	
 	
-	public Smartphone(String marca, Double precio, Double tamPantalla, Double resolucionCamara, Double memoriaRom,
-			Double memoriaRam, String sO) {
+	public Smartphone(String marca, Double precio, Double tamPantalla, Double resolucionCamara, Integer memoriaRom,
+			Integer memoriaRam, String sO) {
 		super();
 		this.marca = marca;
 		this.precio = precio;
@@ -45,16 +45,16 @@ public class Smartphone {
 	public void setResolucionCamara(Double resolucionCamara) {
 		this.resolucionCamara = resolucionCamara;
 	}
-	public Double getMemoriaRom() {
+	public Integer getMemoriaRom() {
 		return memoriaRom;
 	}
-	public void setMemoriaRom(Double memoriaRom) {
+	public void setMemoriaRom(Integer memoriaRom) {
 		this.memoriaRom = memoriaRom;
 	}
-	public Double getMemoriaRam() {
+	public Integer getMemoriaRam() {
 		return memoriaRam;
 	}
-	public void setMemoriaRam(Double memoriaRam) {
+	public void setMemoriaRam(Integer memoriaRam) {
 		this.memoriaRam = memoriaRam;
 	}
 	public String getSO() {
