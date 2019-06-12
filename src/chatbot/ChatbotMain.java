@@ -14,7 +14,7 @@ public class ChatbotMain {
     
 	public static void main(String[] args)  {
 
-		a = new AgenteBasadoEnConocimiento();
+        a = new AgenteBasadoEnConocimiento();
 		
         //LLAMAR A LA INTERFAZ
        interfazPrincipal ventana = new interfazPrincipal(a);

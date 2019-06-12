@@ -15,7 +15,7 @@ public class AgenteBasadoEnConocimiento {
 	public AgenteBasadoEnConocimiento() {}
 	
 
-	public String start(String oracion){
+	public String start(String oracion, boolean mode){
 		
         System.out.println("ENVIADO: " + oracion);
 		//borrar despues
