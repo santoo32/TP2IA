@@ -1,49 +1,52 @@
 package productionsystem;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Estrategia {
-	private TipoEstrategia tipoEstrategia;
-	private List<Regla> reglasDisponibles;
+	private List<Regla> reglasActivas;
+	private List<Regla> reglasUsadas;
 	
 
-	public Estrategia(TipoEstrategia tipoEstrategia) {
+	public Estrategia() {
 		super();
-		this.tipoEstrategia = tipoEstrategia;
 	}
-	public TipoEstrategia getTipoEstrategia() {
-		return tipoEstrategia;
+
+	public List<Regla> getReglasActivas() {
+		return reglasActivas;
 	}
-	public void setTipoEstrategia(TipoEstrategia tipoEstrategia) {
-		this.tipoEstrategia = tipoEstrategia;
+	public void setReglasActivas(List<Regla> reglasActivas) {
+		this.reglasActivas = reglasActivas;
 	}
-	public List<Regla> getReglasDisponibles() {
-		return reglasDisponibles;
+	public List<Regla> getReglasUsadas() {
+		return reglasUsadas;
 	}
-	public void setReglasDisponibles(List<Regla> reglasDisponibles) {
-		this.reglasDisponibles = reglasDisponibles;
+	public void setReglasUsadas(List<Regla> reglasUsadas) {
+		this.reglasUsadas = reglasUsadas;
 	}
-	
+	public void agregarUsada(Regla r) {
+		this.reglasUsadas.add(r);
+	}
+
+
 	public Regla buscarRegla() {
 		Regla r = new Regla();
-		switch(tipoEstrategia) {
-		case ALEATORIO: 
+		ArrayList<Regla> aux = new ArrayList<Regla>();
+		
+		//NO DUPLICACION
+		NoDuplicacion np = new NoDuplicacion();
+		aux = np.noDuplication(reglasActivas, reglasUsadas);
+		System.out.println("AUX: "+aux.size());
+		if(aux.size()>1) {
 			Aleatorio a = new Aleatorio();
-			r = a.random(reglasDisponibles);
-			break;
-		case NOVEDAD:
-			break;
-		case ESPECIFICIDAD:
-			Especificidad e = new Especificidad();
-			r = e.specificity(reglasDisponibles);
-			break;
-		case PRIORIDAD:
-			Prioridad p = new Prioridad();
-			r = p.priority(reglasDisponibles);
-			break;
-		case NODUPLICACION:
-			break;
+			r = a.random(aux);
+		}else {
+			if(aux.size()==0) {
+				return null;
+			}else r=aux.get(0);
+			
 		}
+		
 		return r;
 	}
 }

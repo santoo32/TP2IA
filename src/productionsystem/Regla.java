@@ -79,7 +79,7 @@ public class Regla {
 	}
 	
 	public boolean verificaCondicion (ArrayList<String> palabras) {
-		int cantPalabras = palabras.size();
+		int cantPalabras = this.getCondicion().size();
 		int contador = 0;
 		for(String s1 : palabras) {
 			for(String s2 : this.condicion) {
