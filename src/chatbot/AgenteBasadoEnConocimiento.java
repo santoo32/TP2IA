@@ -29,7 +29,6 @@ public class AgenteBasadoEnConocimiento {
 		//pasar las palabras a un metodo que chequee con que reglas matchea esas palabras
 		ArrayList<Regla> reglasActivas = this.verificarReglas(reglasDisponibles, palabras);
 		
-		System.out.println("Activas:" +reglasActivas.size()+ "Usadas: "+reglasUsadas.size());
 		
 		if(!reglasActivas.isEmpty()) {
 			//ver que regla ejecutar 

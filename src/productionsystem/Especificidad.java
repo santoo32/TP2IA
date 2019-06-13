@@ -1,5 +1,6 @@
 package productionsystem;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Especificidad {
@@ -7,13 +8,19 @@ public class Especificidad {
 	public Especificidad() {
 	}
 	
-	public Regla specificity(List<Regla> list) {
-		Regla reglaEspecifica = list.get(0);
+	public ArrayList<Regla> specificity(List<Regla> list) {
+		int max =0;
+		ArrayList<Regla> reglasActivas = new ArrayList<Regla>();
 		for(Regla r : list) {
-			if(r.getEspecificidad() > reglaEspecifica.getEspecificidad() )
-				reglaEspecifica = r;
+			if(r.getEspecificidad() > max )
+				max = r.getEspecificidad();
 		}
-		return reglaEspecifica;
+		for(Regla r : list) {
+			if(r.getEspecificidad()==max)
+				reglasActivas.add(r);
+				
+		}
+		return reglasActivas;
 	}
 	
 	public String toString() {

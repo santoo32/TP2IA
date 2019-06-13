@@ -1,5 +1,6 @@
 package productionsystem;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Prioridad {
@@ -8,13 +9,19 @@ public class Prioridad {
 		
 	}
 	
-	public Regla priority(List<Regla> list) {
-		Regla reglaPrioridad = list.get(0);
+	public ArrayList<Regla> priority(List<Regla> list) {
+		int max = 0;
+		ArrayList<Regla> reglasActivas = new ArrayList<Regla>();
 		for(Regla r : list) {
-			if(r.getPrioridad() > reglaPrioridad.getPrioridad() )
-				reglaPrioridad = r;
+			if(r.getPrioridad() > max )
+				max = r.getPrioridad();
 		}
-		return reglaPrioridad;
+		for(Regla r : list) {
+			if(r.getPrioridad()==max)
+				reglasActivas.add(r);
+		}
+		
+		return reglasActivas;
 	}
 	
 	public String toString() {
