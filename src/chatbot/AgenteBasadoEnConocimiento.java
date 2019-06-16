@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import productionsystem.Estrategia;
 import productionsystem.Regla;
+import stanfordCoreNLP.StanfordDemo;
 import sttYtts.LeerArchivo;
 import tp2iav1.pkg0.interfazPrincipal;
 
@@ -23,8 +24,8 @@ public class AgenteBasadoEnConocimiento {
 	public String start(String oracion, boolean mode){
 
 		//pasar el string a una clase que lo divida en palabras
-		//PROVISORIO, DESPUES BORRAR
-		ArrayList<String> palabras = this.dividirEnPalabras(oracion);
+		StanfordDemo sd = new StanfordDemo();
+		ArrayList<String> palabras = sd.normalizarPalabras(oracion);
 		
 		//pasar las palabras a un metodo que chequee con que reglas matchea esas palabras
 		ArrayList<Regla> reglasActivas = this.verificarReglas(reglasDisponibles, palabras);
@@ -64,7 +65,7 @@ public class AgenteBasadoEnConocimiento {
 		LeerArchivo a = new LeerArchivo();
 		this.reglasDisponibles = a.leerReglas();
 	}
-	public ArrayList<String> dividirEnPalabras(String oracion){
+	/*public ArrayList<String> dividirEnPalabras(String oracion){
 		ArrayList<String> palabras = new ArrayList<String>();
 		int i=0;
 		while(i<oracion.length()) {
@@ -77,7 +78,7 @@ public class AgenteBasadoEnConocimiento {
 			i++;
 		}
 		return palabras;
-	}
+	}*/
 	
 	
 	

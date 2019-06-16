@@ -106,6 +106,16 @@ public class StanfordDemo {
 		}*/
 	}
 	
+	public ArrayList<String> normalizarPalabras(String oracion){
+		ArrayList<String> resultado = new ArrayList<String>();
+		ArrayList<Palabra> aux = this.identificarPalabras(oracion);
+		this.normalizar(aux);
+		for(Palabra p : aux) {
+			resultado.add(p.getPalabra());
+		}
+		
+		return resultado;
+	}
 	
 	
 }
