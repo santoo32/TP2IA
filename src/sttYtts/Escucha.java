@@ -10,6 +10,7 @@ import java.util.Locale;
 public class Escucha extends ResultAdapter{
 	private static Recognizer recognizer;
 	private String respuesta = "";
+	private interfazPrincipal intUI;
 	private Habla lee = new Habla();
 	private EscribirArchivo escribir = new EscribirArchivo();
 	
@@ -28,13 +29,25 @@ public class Escucha extends ResultAdapter{
 	 		
 	 		//Almacena en la variable respuesta lo que se escuchó
 	 		for (int i=0; i < tokens.length; i++){
-	 			System.out.println("tokens: "+tokens[i].getSpokenText());
+	 			//System.out.println("tokens: "+tokens[i].getSpokenText());
 	 			respuesta+= tokens[i].getSpokenText()+" ";
 	 		}
-	 			 		
-	 		System.out.println("Usuario>> "+respuesta);
+	 		
+	 		System.out.println("Usuario>> "+respuesta);	 		
+	 		
+	 		if(respuesta.trim().equals("Desactivar")) {
+	 			this.terminarEscucha();
+		 		intUI.dejarDeEscuchar();
+ 			}else {
+ 				if(respuesta.trim().equals("Borrar")) {
+ 			 		intUI.actualizarTexto("",true);
+ 	 			}else {
+ 	 		 		intUI.actualizarTexto(respuesta,false);
+ 	 			}
+ 			}
+	 		
 	 		//Escribo en el txt
-	 		escribir.escribir("Usuario",respuesta, "Prueba");
+	 		//escribir.escribir("Usuario",respuesta, "Prueba");
 	 		
 	 		//trim() elimina los espacios en blanco antes y después de cada palabra
 	 		/*if(respuesta.trim().equals("fin")){
@@ -66,25 +79,24 @@ public class Escucha extends ResultAdapter{
 	 	}
  	}
 		
-	public String  terminarEscucha() {
-		if(Escucha.recognizer != null) {
-			Escucha.recognizer.suspend();
+	public void terminarEscucha() {
+		if(recognizer != null) {
+			recognizer.suspend();
 		}
-		
-		return respuesta;
 	}
-	
-	
-	public void empezarEscucha() {
+		
+	public void empezarEscucha(interfazPrincipal i) {
 		if(recognizer != null) {
 			try {
 				recognizer.resume();
+				
 			} catch (AudioException e) {
 				e.printStackTrace();
 			} catch (EngineStateError e) {
 				e.printStackTrace();
 			}
 		}else {
+			this.intUI = i;
 			escucha();
 		}
 	}
@@ -107,7 +119,7 @@ public class Escucha extends ResultAdapter{
  			rg.setEnabled(true);
  			
  			//Agrega un listener al reconocedor para obtener los resultados
- 			recognizer.addResultListener(new Escucha());
+ 			recognizer.addResultListener(this/*new Escucha(this.intUI)*/);
  			
  			//Guarda los cambios en el reconocedor
  			recognizer.commitChanges();
@@ -117,7 +129,6 @@ public class Escucha extends ResultAdapter{
  			
  			//Empieza a escuchar
  			recognizer.resume();
- 			 
  			System.out.println("Empieze Dictado");
  			
  		}catch (Exception e){

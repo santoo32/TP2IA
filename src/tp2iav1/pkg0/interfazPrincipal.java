@@ -6,6 +6,7 @@
 package tp2iav1.pkg0;
 
 import chatbot.AgenteBasadoEnConocimiento;
+import sttYtts.EscribirArchivo;
 import sttYtts.Escucha;
 import sttYtts.Habla;
 
@@ -32,9 +33,11 @@ public class interfazPrincipal extends javax.swing.JFrame {
     private static boolean userMode = true;    
     private Escucha e = new Escucha();
 	private Habla habla = new Habla();
+	private EscribirArchivo escribe = new EscribirArchivo();
     private String escribirEnElChat = "";    
     public static String userText;
     public AgenteBasadoEnConocimiento agent;
+	
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextArea JlabelBotText;
@@ -89,7 +92,6 @@ public class interfazPrincipal extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(153, 153, 153));
         
-        //Invocamos el método, ahora si funcionara
         jTextField1.setFocusable(true);        
         
         jTextField1.addKeyListener(new KeyListener(){
@@ -103,6 +105,20 @@ public class interfazPrincipal extends javax.swing.JFrame {
             public void keyReleased(KeyEvent e){
             }
         }); 
+        
+        jButton2.setFocusable(true);        
+        
+        jButton2.addKeyListener(new KeyListener(){
+            public void keyTyped(KeyEvent e){
+            }
+            public void keyPressed(KeyEvent e){
+                if(e.getKeyCode()==KeyEvent.VK_ENTER){
+                	enviarKeyTyped(e);
+                }
+            }
+            public void keyReleased(KeyEvent e){
+            }
+        });       
 
         jButtonEnviar.setText("Enviar");          
         jButtonEnviar.addActionListener(new java.awt.event.ActionListener() {
@@ -248,30 +264,48 @@ public class interfazPrincipal extends javax.swing.JFrame {
     	if(pressed){
 
             this.jButton2.setBackground(Color.white);            
-            escribirEnElChat = e.terminarEscucha();
-            this.jTextField1.setText("Respuesta: "+escribirEnElChat);
+            e.terminarEscucha();
             pressed = false;
 
         }else{
 
             this.jButton2.setBackground(Color.red);
-            e.empezarEscucha();
+            e.empezarEscucha(this);
             pressed = true;
         }
     }//GEN-LAST:event_jButton2ActionPerformed
     
+    public void dejarDeEscuchar() {
+    	this.jButton2.setBackground(Color.white);
+        pressed = false;
+    }
+    
+    public void actualizarTexto(String texto, boolean borrar) {
+    	if(borrar) {
+    		this.jTextField1.setText(texto);
+    	}else {
+        	this.jTextField1.setText(this.jTextField1.getText().concat(" "+texto));    		
+    	}
+    }
     
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
             
     }//GEN-LAST:event_jButton2MouseClicked    
     
     private void jButtonEnviarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEnviarActionPerformed
-        boolean isUserMode = true;
+    	//Por si aprieta enviar y el microfono está prendido. Dejo de escuchar         
+    	if(pressed){
+    		e.terminarEscucha();
+    	}
+    	
+    	boolean isUserMode = true;
         if(this.jRadioButtonCliente.isSelected()){
             isUserMode = true;
         }else{
              isUserMode = false;
         }
+        //Escribo en el txt
+	 	escribe.escribir("Usuario", this.jTextField1.getText(), "Prueba");
     	this.setBotText(this.jTextField1.getText(), false);
     	String respuesta;
         
@@ -287,7 +321,10 @@ public class interfazPrincipal extends javax.swing.JFrame {
         }*/
         pararImagen();
         
-        
+        if(pressed){
+        	//Cuando termina de responder vuelvo a escuchar
+        	e.empezarEscucha(this);
+        }
     }//GEN-LAST:event_jButtonEnviarActionPerformed
 
     /**

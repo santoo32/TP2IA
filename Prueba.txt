@@ -118,3 +118,65 @@ Chatbot>> Hola ¿En que te puedo ayudar?
 Chatbot>> Perdon, no te entendi :(
 Chatbot>> Hola ¿En que te puedo ayudar?
 Chatbot>> Hola ¿En que te puedo ayudar?
+Usuario>> Hola
+Chatbot>> Hola ¿En que te puedo ayudar?
+Usuario>>  Hola 
+Chatbot>> Hola ¿En que te puedo ayudar?
+Usuario>>  Hola 
+Chatbot>> Hola ¿En que te puedo ayudar?
+Usuario>> Hola
+Chatbot>> Hola ¿En que te puedo ayudar?
+Usuario>>  Hola 
+Chatbot>> Hola ¿En que te puedo ayudar?
+Usuario>>  Muy buenas 
+Chatbot>> Buenas ¿Que necesitas?
+Usuario>>  Muy buenas 
+Chatbot>> Buenas ¿Que necesitas?
+Usuario>>  Hola 
+Chatbot>> Hola ¿En que te puedo ayudar?
+Usuario>>  Muy buenas 
+Chatbot>> Buenas ¿Que necesitas?
+Usuario>>  Hola 
+Chatbot>> Hola ¿En que te puedo ayudar?
+Usuario>>  Hola 
+Chatbot>> Hola ¿En que te puedo ayudar?
+Usuario>>  Muy buenas 
+Chatbot>> Buenas ¿Que necesitas?
+Usuario>>  Cual es tu nombre? 
+Chatbot>> Soy tu asistente de compras ¿En que te puedo ayudar?
+Usuario>>  yo necesitar una notebook 
+Chatbot>> ¿Cuánto piensa gastar?
+Usuario>>   Hola 
+Chatbot>> Hola ¿En que te puedo ayudar?
+Usuario>>   Muy buenas 
+Chatbot>> Buenas ¿Que necesitas?
+Usuario>>   Cual es tu nombre? 
+Chatbot>> Soy tu asistente de compras ¿En que te puedo ayudar?
+Usuario>>   yo necesitar una notebook 
+Chatbot>> ¿Qué uso le piensa dar?
+Usuario>>     Hola 
+Chatbot>> Hola ¿En que te puedo ayudar?
+Usuario>>   Muy buenas 
+Chatbot>> Buenas ¿Que necesitas?
+Usuario>>   Cual es tu nombre? 
+Chatbot>> Soy tu asistente de compras ¿En que te puedo ayudar?
+Usuario>>    yo necesitar una notebook 
+Chatbot>> ¿Cuánto piensa gastar?
+Usuario>>  Hola 
+Chatbot>> Hola ¿En que te puedo ayudar?
+Usuario>>  Muy buenas 
+Chatbot>> Buenas ¿Que necesitas?
+Usuario>>  Cual es tu nombre? 
+Chatbot>> Soy tu asistente de compras ¿En que te puedo ayudar?
+Usuario>>  yo necesitar una notebook 
+Chatbot>> ¿Qué uso le piensa dar?
+Usuario>> Hola
+Chatbot>> Hola ¿En que te puedo ayudar?
+Usuario>> Hola
+Chatbot>> Hola ¿En que te puedo ayudar?
+Usuario>>  Muy buenas 
+Chatbot>> Buenas ¿Que necesitas?
+Usuario>>  Cual es tu nombre? 
+Chatbot>> Soy tu asistente de compras ¿En que te puedo ayudar?
+Usuario>>  yo necesitar una notebook 
+Chatbot>> ¿Cuánto piensa gastar?
