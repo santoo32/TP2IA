@@ -1,0 +1,4 @@
+TIPOPRODUCTO NOTEBOOK *¿Qué uso le piensa dar?*USO*1*1*
+TIPOPRODUCTO NOTEBOOK *¿Para que la vas a usar?*USO*2*1*
+TIPOPRODUCTO USO NOTEBOOK *¿Que tamaño de pantalla queres?*TAMPANTALLA*3*2*
+TIPOPRODUCTO USO NOTEBOOK *¿Que tan grande queres la pantalla?*TAMPANTALLA*4*2*

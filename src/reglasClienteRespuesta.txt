@@ -1,0 +1,32 @@
+necesitar notebook *Genial, tengo notebooks para ofrecerte*5*3*TIPOPRODUCTO*notebook*
+necesitar notebook *Buenisimo! Tengo cosas que te pueden interesar*6*3*TIPOPRODUCTO*notebook*
+querer notebook *Genial, tengo notebooks para ofrecerte*7*3*TIPOPRODUCTO*notebook*
+querer notebook *Buenisimo! Tengo cosas que te pueden interesar*8*3*TIPOPRODUCTO*notebook*
+buscar notebook *Genial, tengo notebooks para ofrecerte*9*3*TIPOPRODUCTO*notebook*
+buscar notebook *Buenisimo! Tengo cosas que te pueden interesar*10*3*TIPOPRODUCTO*notebook*
+preguntar notebook *Genial, tengo notebooks para ofrecerte*11*3*TIPOPRODUCTO*notebook*
+preguntar notebook *Buenisimo! Tengo cosas que te pueden interesar*12*3*TIPOPRODUCTO*notebook*
+necesitar tablet *Genial, tengo tablets para ofrecerte*13*3*TIPOPRODUCTO*tablet*
+necesitar tablet *Buenisimo! Tengo cosas que te pueden interesar*14*3*TIPOPRODUCTO*tablet*
+querer tablet *Genial, tengo tablets para ofrecerte*15*3*TIPOPRODUCTO*tablet*
+querer tablet *Buenisimo! Tengo cosas que te pueden interesar*16*3*TIPOPRODUCTO*tablet*
+buscar tablet *Genial, tengo tablets para ofrecerte*17*3*TIPOPRODUCTO*tablet*
+buscar tablet *Buenisimo! Tengo cosas que te pueden interesar*18*3*TIPOPRODUCTO*tablet*
+preguntar tablet *Genial, tengo tablets para ofrecerte*19*3*TIPOPRODUCTO*tablet*
+preguntar tablet *Buenisimo! Tengo cosas que te pueden interesar*20*3*TIPOPRODUCTO*tablet*
+necesitar celular *Genial, tengo celulares para ofrecerte*21*3*TIPOPRODUCTO*celular*
+necesitar celular *Buenisimo! Tengo cosas que te pueden interesar*22*3*TIPOPRODUCTO*celular*
+querer celular *Genial, tengo celulares para ofrecerte*23*3*TIPOPRODUCTO*celular*
+querer celular *Buenisimo! Tengo cosas que te pueden interesar*24*3*TIPOPRODUCTO*celular*
+buscar celular *Genial, tengo celulares para ofrecerte*25*3*TIPOPRODUCTO*celular*
+buscar celular *Buenisimo! Tengo cosas que te pueden interesar*26*3*TIPOPRODUCTO*celular*
+preguntar celular *Genial, tengo celulares para ofrecerte*27*3*TIPOPRODUCTO*celular*
+preguntar celular *Buenisimo! Tengo cosas que te pueden interesar*28*3*TIPOPRODUCTO*celular*
+necesitar televisor *Genial, tengo televisores para ofrecerte*29*3*TIPOPRODUCTO*televisor*
+necesitar televisor *Buenisimo! Tengo cosas que te pueden interesar*30*3*TIPOPRODUCTO*televisor*
+querer televisor *Genial, tengo televisores para ofrecerte*31*3*TIPOPRODUCTO*televisor*
+querer televisor *Buenisimo! Tengo cosas que te pueden interesar*32*3*TIPOPRODUCTO*televisor*
+buscar televisor *Genial, tengo televisores para ofrecerte*33*3*TIPOPRODUCTO*televisor*
+buscar televisor *Buenisimo! Tengo cosas que te pueden interesar*34*3*TIPOPRODUCTO*televisor*
+preguntar televisor *Genial, tengo televisores para ofrecerte*35*3*TIPOPRODUCTO*televisor*
+preguntar televisor *Buenisimo! Tengo cosas que te pueden interesar*36*3*TIPOPRODUCTO*televisor*
