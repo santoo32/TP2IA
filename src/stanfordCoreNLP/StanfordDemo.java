@@ -1,23 +1,9 @@
 package stanfordCoreNLP;
 
-import java.io.*;
 import java.text.Normalizer;
 import java.util.*;
-
-import edu.stanford.nlp.coref.CorefCoreAnnotations;
-
-import edu.stanford.nlp.coref.data.CorefChain;
-import edu.stanford.nlp.io.*;
 import edu.stanford.nlp.ling.*;
-import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
 import edu.stanford.nlp.pipeline.*;
-import edu.stanford.nlp.semgraph.SemanticGraph;
-import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations;
-import edu.stanford.nlp.semgraph.SemanticGraphEdge;
-import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
-import edu.stanford.nlp.simple.Sentence;
-import edu.stanford.nlp.simple.Token;
-import edu.stanford.nlp.trees.*;
 import edu.stanford.nlp.util.*;
 
 /** This class demonstrates building and using a Stanford CoreNLP pipeline. */

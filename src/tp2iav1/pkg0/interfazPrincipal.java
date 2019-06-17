@@ -6,6 +6,8 @@
 package tp2iav1.pkg0;
 
 import chatbot.AgenteBasadoEnConocimiento;
+import sttYtts.Escucha;
+
 import java.awt.Color;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
@@ -24,7 +26,10 @@ import javax.swing.ImageIcon;
 public class interfazPrincipal extends javax.swing.JFrame {
     private static boolean pressed = false;
     private static boolean userMode = true;
-
+    
+    private Escucha e = new Escucha();
+    private String escribirEnElChat = "";
+    
     public static String userText;
     public AgenteBasadoEnConocimiento agent;
     /**
@@ -203,15 +208,20 @@ public class interfazPrincipal extends javax.swing.JFrame {
     public String getUserText(){
         return this.userText;
     }
+    
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        if(pressed){
+        
+    	if(pressed){
 
-            this.jButton2.setBackground(Color.white);
+            this.jButton2.setBackground(Color.white);            
+            escribirEnElChat = e.terminarEscucha();
+            this.jTextField1.setText("Respuesta: "+escribirEnElChat);
             pressed = false;
 
         }else{
 
             this.jButton2.setBackground(Color.red);
+            e.empezarEscucha();
             pressed = true;
         }
     }//GEN-LAST:event_jButton2ActionPerformed

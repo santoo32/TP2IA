@@ -1,0 +1,107 @@
+Usuario>> Horario 
+Chatbot>> Horario 
+Usuario>> fin 
+Chatbot>> Hasta la vista baby!
+Usuario>> Horario 
+Chatbot>> Horario 
+Usuario>> Orientada 
+Chatbot>> Orientada 
+Usuario>> Orientada Horario 
+Chatbot>> Orientada Horario 
+Usuario>> fin 1 
+Chatbot>> fin 1 
+Usuario>> Horario 
+Chatbot>> Horario 
+Usuario>> Horario 
+Chatbot>> Horario 
+Usuario>> fin 
+Chatbot>> Hasta la vista baby!
+Usuario>> Horario 
+Chatbot>> Horario 
+Usuario>> Horario Horario 
+Chatbot>> Horario Horario 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> Clases 1 
+Chatbot>> Clases 1 
+Usuario>> Clases 1 
+Chatbot>> Clases 1 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> fin Horario 
+Chatbot>> fin Horario 
+Usuario>> fin 9 
+Chatbot>> fin 9 
+Usuario>> fin 
+Chatbot>> Hasta la vista baby!
+Usuario>> Horario 
+Chatbot>> Horario 
+Usuario>> Orientada 
+Chatbot>> Orientada 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> fin 
+Chatbot>> Hasta la vista baby!
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> Java 
+Chatbot>> Java 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> fin 
+Chatbot>> Hasta la vista baby!
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> 2 
+Chatbot>> 2 
+Usuario>> Java 
+Chatbot>> Java 
+Usuario>> Java 
+Chatbot>> Java 
+Usuario>> Java 
+Chatbot>> Java 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> 1 
+Usuario>> Java 
+Usuario>> Java 
+Usuario>> 1 
+Usuario>> 1 
+Usuario>> 2 
+Usuario>> 1 
+Usuario>> Java 
+Usuario>> Union de Santa Fe 
+Usuario>> Radio 
+Usuario>> fin 
+Usuario>> Java 
+Usuario>> 1 
+Usuario>> 2 
+Usuario>> Objetos 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> 1 
+Chatbot>> 1 

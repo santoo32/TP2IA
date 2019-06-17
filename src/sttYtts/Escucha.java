@@ -2,18 +2,18 @@ package sttYtts;
 
 import javax.speech.*;
 import javax.speech.recognition.*;
+import tp2iav1.pkg0.interfazPrincipal;
 import java.io.FileReader;
+import java.util.ArrayList;
 import java.util.Locale;
  
 public class Escucha extends ResultAdapter{
- 
 	private static Recognizer recognizer;
 	private String respuesta = "";
 	private Habla lee = new Habla();
 	private EscribirArchivo escribir = new EscribirArchivo();
 	
 	public Escucha() {
-		
 	}
 	
 	@Override
@@ -21,20 +21,20 @@ public class Escucha extends ResultAdapter{
 	// Recibe el evento RESULT_ACCEPTED: imprímelo, limpie, salga
  	public void resultAccepted(ResultEvent re) {
 	 	try {
+	 		respuesta = "";
 	 		Result res = (Result)(re.getSource());
 	 		//Obtiene palabra por palabra (también guarda los espacios)
-	 		ResultToken tokens[] = res.getBestTokens(); 		
+	 		ResultToken tokens[] = res.getBestTokens(); 
 	 		
-	 		respuesta = "";
 	 		//Almacena en la variable respuesta lo que se escuchó
 	 		for (int i=0; i < tokens.length; i++){
 	 			System.out.println("tokens: "+tokens[i].getSpokenText());
 	 			respuesta+= tokens[i].getSpokenText()+" ";
 	 		}
-	 		
+	 			 		
 	 		System.out.println("Usuario>> "+respuesta);
 	 		//Escribo en el txt
-	 		escribir.escribir("Usuario", respuesta, "Prueba");
+	 		escribir.escribir("Usuario",respuesta, "Prueba");
 	 		
 	 		//trim() elimina los espacios en blanco antes y después de cada palabra
 	 		if(respuesta.trim().equals("fin")){
@@ -54,7 +54,7 @@ public class Escucha extends ResultAdapter{
 		 				recognizer.resume();
 	 				}else {
 	 					//Suspende el reconocedor
-		 				recognizer.suspend();	 					
+		 				recognizer.suspend();	
 		 				lee.leer(respuesta);
 		 				//Activa el reconocedor
 		 				recognizer.resume();
@@ -65,6 +65,29 @@ public class Escucha extends ResultAdapter{
 	 		System.out.println("Ha ocurrido algo inesperado " + ex);
 	 	}
  	}
+		
+	public String  terminarEscucha() {
+		if(Escucha.recognizer != null) {
+			Escucha.recognizer.suspend();
+		}
+		
+		return respuesta;
+	}
+	
+	
+	public void empezarEscucha() {
+		if(recognizer != null) {
+			try {
+				recognizer.resume();
+			} catch (AudioException e) {
+				e.printStackTrace();
+			} catch (EngineStateError e) {
+				e.printStackTrace();
+			}
+		}else {
+			escucha();
+		}
+	}
  
  	public void escucha(){
  		try{
@@ -85,8 +108,6 @@ public class Escucha extends ResultAdapter{
  			
  			//Agrega un listener al reconocedor para obtener los resultados
  			recognizer.addResultListener(new Escucha());
- 
- 			System.out.println("Empieze Dictado");
  			
  			//Guarda los cambios en el reconocedor
  			recognizer.commitChanges();
@@ -96,13 +117,16 @@ public class Escucha extends ResultAdapter{
  			
  			//Empieza a escuchar
  			recognizer.resume();
+ 			 
+ 			System.out.println("Empieze Dictado");
  			
  		}catch (Exception e){
  			System.out.println("Exception en " + e.toString());
  			e.printStackTrace();
  			System.exit(0);
  		}
- 	}
+ 		
+ 	} 	
 	 	
 }
 
