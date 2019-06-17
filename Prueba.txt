@@ -105,3 +105,16 @@ Usuario>> 1
 Chatbot>> 1 
 Usuario>> 1 
 Chatbot>> 1 
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> 1 
+Chatbot>> 1 
+Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Buenas ¿Que necesitas?
+Chatbot>> Soy tu asistente de compras ¿En que te puedo ayudar?
+Chatbot>> ¿Cuánto piensa gastar?
+Chatbot>> Perdon, no te entendi :(
+Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Perdon, no te entendi :(
+Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Hola ¿En que te puedo ayudar?
