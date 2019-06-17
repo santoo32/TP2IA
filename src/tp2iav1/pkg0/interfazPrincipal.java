@@ -7,10 +7,13 @@ package tp2iav1.pkg0;
 
 import chatbot.AgenteBasadoEnConocimiento;
 import sttYtts.Escucha;
+import sttYtts.Habla;
 
 import java.awt.Color;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+
 import static java.lang.Thread.sleep;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -18,6 +21,7 @@ import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -25,13 +29,28 @@ import javax.swing.ImageIcon;
  */
 public class interfazPrincipal extends javax.swing.JFrame {
     private static boolean pressed = false;
-    private static boolean userMode = true;
-    
+    private static boolean userMode = true;    
     private Escucha e = new Escucha();
-    private String escribirEnElChat = "";
-    
+	private Habla habla = new Habla();
+    private String escribirEnElChat = "";    
     public static String userText;
     public AgenteBasadoEnConocimiento agent;
+    
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextArea JlabelBotText;
+    private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.ButtonGroup buttonGroup2;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButtonEnviar;
+    private javax.swing.JLabel jImageLogo;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JRadioButton jRadioButtonCliente;
+    private javax.swing.JRadioButton jRadioButtonVendedor;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTextField jTextField1;
+    // End of variables declaration//GEN-END:variables
     /**
      * Creates new form interfazPrincipal
      */
@@ -69,14 +88,29 @@ public class interfazPrincipal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(153, 153, 153));
+        
+        //Invocamos el método, ahora si funcionara
+        jTextField1.setFocusable(true);        
+        
+        jTextField1.addKeyListener(new KeyListener(){
+            public void keyTyped(KeyEvent e){
+            }
+            public void keyPressed(KeyEvent e){
+                if(e.getKeyCode()==KeyEvent.VK_ENTER){
+                	enviarKeyTyped(e);
+                }
+            }
+            public void keyReleased(KeyEvent e){
+            }
+        }); 
 
-        jButtonEnviar.setText("Enviar");
+        jButtonEnviar.setText("Enviar");          
         jButtonEnviar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonEnviarActionPerformed(evt);
+            	jButtonEnviarActionPerformed(evt);
             }
         });
-
+        
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/60540small.png"))); // NOI18N
         jButton2.setBorderPainted(false);
         jButton2.setPreferredSize(new java.awt.Dimension(70, 70));
@@ -229,17 +263,7 @@ public class interfazPrincipal extends javax.swing.JFrame {
     
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
             
-    }//GEN-LAST:event_jButton2MouseClicked
-    
-    
-    //SI SE PRESIONA ENTER SE ENVIA EL TEXTO, PERO NO FUNCA
-    private void enviarKeyTyped(java.awt.event.KeyEvent evt) {
-    	char teclaPresionada = evt.getKeyChar();
-    	
-    	if(teclaPresionada == KeyEvent.VK_ENTER) {
-    		this.jButtonEnviar.doClick();
-    	}
-    }
+    }//GEN-LAST:event_jButton2MouseClicked    
     
     private void jButtonEnviarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEnviarActionPerformed
         boolean isUserMode = true;
@@ -254,6 +278,7 @@ public class interfazPrincipal extends javax.swing.JFrame {
     	respuesta = agent.start(this.jTextField1.getText(), isUserMode);
     	this.jTextField1.setText("");
     	this.setBotText(respuesta, true);
+    	habla.leer(respuesta);
         moverImagen();
         /*try {
             sleep(2000);
@@ -295,27 +320,18 @@ public class interfazPrincipal extends javax.swing.JFrame {
         });
     }*/
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextArea JlabelBotText;
-    private javax.swing.ButtonGroup buttonGroup1;
-    private javax.swing.ButtonGroup buttonGroup2;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButtonEnviar;
-    private javax.swing.JLabel jImageLogo;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JRadioButton jRadioButtonCliente;
-    private javax.swing.JRadioButton jRadioButtonVendedor;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextField jTextField1;
-    // End of variables declaration//GEN-END:variables
-
     private void pararImagen() {
        jImageLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/noVoice.png"))); 
     }
 
     private void moverImagen() {
         jImageLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ezgif.com-resize.gif"))); 
+    }
+	
+	//SI SE PRESIONA ENTER SE ENVIA EL TEXTO
+    private void enviarKeyTyped(java.awt.event.KeyEvent evt) {
+    	if(evt.getKeyCode() == KeyEvent.VK_ENTER) {
+    		this.jButtonEnviar.doClick();
+    	}
     }
 }

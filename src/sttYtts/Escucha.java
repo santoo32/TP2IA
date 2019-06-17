@@ -37,7 +37,7 @@ public class Escucha extends ResultAdapter{
 	 		escribir.escribir("Usuario",respuesta, "Prueba");
 	 		
 	 		//trim() elimina los espacios en blanco antes y después de cada palabra
-	 		if(respuesta.trim().equals("fin")){
+	 		/*if(respuesta.trim().equals("fin")){
 	 			//Libera el recurso
 	 			recognizer.deallocate(); 			
 	 			lee.leer("Hasta la vista baby!");
@@ -60,7 +60,7 @@ public class Escucha extends ResultAdapter{
 		 				recognizer.resume();
 	 				}	 				
 	 			}
-	 		}
+	 		}*/
 	 	}catch(Exception ex){
 	 		System.out.println("Ha ocurrido algo inesperado " + ex);
 	 	}
@@ -89,7 +89,7 @@ public class Escucha extends ResultAdapter{
 		}
 	}
  
- 	public void escucha(){
+ 	private void escucha(){
  		try{
  			//Crea el reconocedor para el Lcoale por defecto
  			recognizer = Central.createRecognizer(new EngineModeDesc(Locale.ROOT));
