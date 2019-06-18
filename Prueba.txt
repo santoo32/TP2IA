@@ -180,3 +180,26 @@ Usuario>>  Cual es tu nombre?
 Chatbot>> Soy tu asistente de compras ¿En que te puedo ayudar?
 Usuario>>  yo necesitar una notebook 
 Chatbot>> ¿Cuánto piensa gastar?
+Usuario>> Querer notebook
+Usuario>> querer notebook
+Usuario>> querer notebook
+Usuario>> querer notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> querer celular
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Lo queres con Android o IOS?
+Usuario>> querer televisor
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Cual es su presupuesto?
+Usuario>> asda
+Chatbot>> Creo que no me respondiste :S
+Usuario>> querer notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Usuario>> querer notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Usuario>> asdas
+Chatbot>> Creo que no me respondiste :S
+Usuario>> asdads

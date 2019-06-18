@@ -1,5 +1,7 @@
 package sttYtts;
 
+import java.util.Locale;
+
 import javax.speech.*;
 import javax.speech.synthesis.*;
  

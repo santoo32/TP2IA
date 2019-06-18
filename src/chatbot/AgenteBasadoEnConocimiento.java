@@ -61,7 +61,6 @@ public class AgenteBasadoEnConocimiento {
 			reglasRespuestasUsadas.add(respuestaEjecutar);
 			this.preguntasHechas.add(this.preguntaActiva);
 			this.reglasPreguntasUsadas=this.filtrarPreguntas();
-			System.out.println("USADAS: "+this.reglasPreguntasUsadas.size());
 			respuesta+=respuestaEjecutar.getSalida();
 			
 			//refinar los productos
@@ -73,7 +72,6 @@ public class AgenteBasadoEnConocimiento {
 			//elegir una pregunta
 			//buscar preguntas activas
 			ArrayList<Regla> reglasPreguntasActivas = this.verificarReglasPreguntas();
-			System.out.println("USADAS: "+reglasPreguntasActivas.size());
 			if(!reglasPreguntasActivas.isEmpty()) {
 				//elijo una segun estrategia
 				e.setReglasActivas(reglasPreguntasActivas);
