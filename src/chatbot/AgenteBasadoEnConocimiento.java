@@ -7,6 +7,7 @@ import domain.Smartphone;
 import domain.Tablet;
 import domain.Tv;
 import productionsystem.Estrategia;
+import productionsystem.NoDuplicacion;
 import productionsystem.Regla;
 import productionsystem.ReglaPregunta;
 import productionsystem.ReglaRespuesta;
@@ -20,6 +21,7 @@ public class AgenteBasadoEnConocimiento {
 	private TipoPregunta preguntaActiva;
 	private ArrayList<TipoPregunta> preguntasHechas;
     private ArrayList<ReglaPregunta> reglasPreguntasDisponibles;
+    private ArrayList<Regla> reglasPreguntasUsadas;
     private ArrayList<ReglaRespuesta> reglasRespuestasDisponibles;
     private ArrayList<Regla> reglasRespuestasUsadas;
     //productos disponibles
@@ -34,6 +36,7 @@ public class AgenteBasadoEnConocimiento {
 		this.reglasRespuestasDisponibles = new ArrayList<ReglaRespuesta>();
 		this.reglasRespuestasUsadas = new ArrayList<Regla>();
 		this.reglasPreguntasDisponibles = new ArrayList<ReglaPregunta>();
+		this.reglasPreguntasUsadas = new ArrayList<Regla>();
 		this.cargarReglas();
 	}
 	
@@ -46,10 +49,8 @@ public class AgenteBasadoEnConocimiento {
 		//pasar el string a una clase que lo divida en palabras
 		StanfordDemo sd = new StanfordDemo();
 		ArrayList<String> palabras = sd.normalizarPalabras(oracion);
-		
 		//pasar las palabras a un metodo que chequee con que reglas matchea esas palabras
 		ArrayList<Regla> reglasRespuestaActivas = this.verificarReglasRespuestas(reglasRespuestasDisponibles, palabras, preguntaActiva);
-		
 		
 		if(!reglasRespuestaActivas.isEmpty()){
 		//quiere decir que lo que ingreso el usuario corresponde a la pregunta hecha
@@ -59,6 +60,7 @@ public class AgenteBasadoEnConocimiento {
 			ReglaRespuesta respuestaEjecutar = (ReglaRespuesta) e.buscarRegla();
 			reglasRespuestasUsadas.add(respuestaEjecutar);
 			this.preguntasHechas.add(this.preguntaActiva);
+			this.reglasPreguntasUsadas=this.filtrarPreguntas();
 			respuesta+=respuestaEjecutar.getSalida();
 			
 			//refinar los productos
@@ -73,12 +75,12 @@ public class AgenteBasadoEnConocimiento {
 			if(!reglasPreguntasActivas.isEmpty()) {
 				//elijo una segun estrategia
 				e.setReglasActivas(reglasPreguntasActivas);
-				e.setReglasUsadas(this.filtrarPreguntas());
+				e.setReglasUsadas(reglasPreguntasUsadas);
 				ReglaPregunta preguntaEjecutar = (ReglaPregunta) e.buscarRegla();
 				this.preguntaActiva=preguntaEjecutar.getTipoPregunta();
 				respuesta+="\n"+preguntaEjecutar.getSalida();
 			}else { //recomendar
-				
+				respuesta="Te recomiendo esto:";
 				
 				//vaciar todas las variables
 			}
@@ -94,7 +96,8 @@ public class AgenteBasadoEnConocimiento {
 		for(ReglaPregunta r : this.reglasPreguntasDisponibles) {
 			if(r.verificarPregunta(this.preguntasHechas)) reglasPreguntasActivas.add(r);
 		}
-		return reglasPreguntasActivas;
+		if(reglasPreguntasUsadas.size()==reglasPreguntasActivas.size()) return new ArrayList<Regla>();
+		else return reglasPreguntasActivas;
 	}
 
 
@@ -113,12 +116,13 @@ public class AgenteBasadoEnConocimiento {
 	}
 	public ArrayList<Regla> filtrarPreguntas(){
 		ArrayList<Regla> reglasUsadas = new ArrayList<Regla>();
-		
 		for(ReglaPregunta r : this.reglasPreguntasDisponibles) {
 			for(TipoPregunta t: this.preguntasHechas) {
-				if(t.equals(r.getTipoPregunta())) reglasUsadas.add(r);
+				if(t.equals(r.getTipoPregunta())) 
+					reglasUsadas.add(r);
 			}
 		}
+		
 		return reglasUsadas;
 	}
 	/*public ArrayList<String> dividirEnPalabras(String oracion){

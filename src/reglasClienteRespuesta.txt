@@ -30,3 +30,40 @@ buscar televisor *Genial, tengo televisores para ofrecerte*33*3*TIPOPRODUCTO*tel
 buscar televisor *Buenisimo! Tengo cosas que te pueden interesar*34*3*TIPOPRODUCTO*televisor*
 preguntar televisor *Genial, tengo televisores para ofrecerte*35*3*TIPOPRODUCTO*televisor*
 preguntar televisor *Buenisimo! Tengo cosas que te pueden interesar*36*3*TIPOPRODUCTO*televisor*
+diseno *Te puedo recomendar una notebook con placa de video.*37*4*USO*diseno*
+diseno *Tengo algunas notebooks con buen desempeño en video.*38*4*USO*diseno*
+gaming *Te puedo recomendar una notebook con placa de video.*39*4*USO*diseno*
+gaming *Tengo algunas notebooks con buen desempeño en video.*40*4*USO*diseno*
+jugar *Te puedo recomendar una notebook con placa de video.*41*4*USO*diseno*
+jugar *Tengo algunas notebooks con buen desempeño en video.*42*4*USO*diseno*
+oficina *Te puedo recomendar algunas notebooks que tenemos.*43*4*USO*oficina*
+oficina *Tengo algunas notebooks con buen desempeño diario.*44*4*USO*oficina*
+diario *Te puedo recomendar algunas notebooks que tenemos.*45*4*USO*oficina*
+diario *Tengo algunas notebooks con buen desempeño diario.*46*4*USO*oficina*
+documento *Te puedo recomendar algunas notebooks que tenemos.*47*4*USO*oficina*
+documento *Tengo algunas notebooks con buen desempeño diario.*48*4*USO*oficina*
+programar *Te puedo recomendar algunas notebooks con buen procesador.*49*4*USO*programar*
+programar *Tengo algunas notebooks con buen desempeño en procesador. *50*4*USO*programar*
+codificar *Te puedo recomendar algunas notebooks con buen procesador.*51*4*USO*programar*
+codificar *Tengo algunas notebooks con buen desempeño en procesador. *52*4*USO*programar*
+desarrollar *Te puedo recomendar algunas notebooks con buen procesador.*53*4*USO*programar*
+desarrollar *Tengo algunas notebooks con buen desempeño en procesador. *54*4*USO*programar*
+gastar mucho *Tengo algunas de calidad que podrían interesarte.*55*5*PRECIO*gastarucho*
+gastar mucho *Tengo algunas topes de gama que podrían interesarte.*56*5*PRECIO*gastarmucho*
+presupuesto alto *Tengo algunas de calidad que podrían interesarte.*57*5*PRECIO*gastarmucho*
+presupuesto alto *Tengo algunas topes de gama que podrían interesarte.*58*5*PRECIO*gastarmucho*
+gastar poco *Tengo algunas económicas que podrían interesarte. *59*5*PRECIO*gastarmucho*
+gastar poco *Tengo algunas baratas que podrían interesarte. *60*5*PRECIO*gastarmucho*
+presupuesto bajo *Tengo algunas económicas que podrían interesarte. *61*5*PRECIO*gastarpoco*
+presupuesto bajo *Tengo algunas baratas que podrían interesarte. *62*5*PRECIO*gastarpoco*
+pantalla grande *Perfecto!*63*6*TAMPANTALLA*grande*
+pantalla mediana *Perfecto!*64*6*TAMPANTALLA*mediana*
+pantalla chica *Perfecto!*65*6*TAMPANTALLA*chica*
+hd *Bien!*66*7*RESPANTALLA*hd*
+full hd *Bien!*67*7*RESPANTALLA*fullhd*
+mucha ram *Esta bien*68*8*RAM*mucharam*
+poca ram *Esta bien*69*8*RAM*pocaram*
+mucho disco *Perfecto!*70*9*ROM*muchodisco*
+grande disco *Perfecto!*71*9*ROM*muchodisco*
+poco disco *Perfecto!*72*9*ROM*pocodisco*
+chico disco *Perfecto!*73*9*ROM*pocodisco*
