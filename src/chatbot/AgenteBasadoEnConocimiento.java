@@ -61,6 +61,7 @@ public class AgenteBasadoEnConocimiento {
 			reglasRespuestasUsadas.add(respuestaEjecutar);
 			this.preguntasHechas.add(this.preguntaActiva);
 			this.reglasPreguntasUsadas=this.filtrarPreguntas();
+			System.out.println("USADAS: "+this.reglasPreguntasUsadas.size());
 			respuesta+=respuestaEjecutar.getSalida();
 			
 			//refinar los productos
@@ -72,6 +73,7 @@ public class AgenteBasadoEnConocimiento {
 			//elegir una pregunta
 			//buscar preguntas activas
 			ArrayList<Regla> reglasPreguntasActivas = this.verificarReglasPreguntas();
+			System.out.println("USADAS: "+reglasPreguntasActivas.size());
 			if(!reglasPreguntasActivas.isEmpty()) {
 				//elijo una segun estrategia
 				e.setReglasActivas(reglasPreguntasActivas);
@@ -96,8 +98,24 @@ public class AgenteBasadoEnConocimiento {
 		for(ReglaPregunta r : this.reglasPreguntasDisponibles) {
 			if(r.verificarPregunta(this.preguntasHechas)) reglasPreguntasActivas.add(r);
 		}
-		if(reglasPreguntasUsadas.size()==reglasPreguntasActivas.size()) return new ArrayList<Regla>();
-		else return reglasPreguntasActivas;
+		return this.eliminarRepetidas(reglasPreguntasActivas);
+	}
+
+
+	private ArrayList<Regla> eliminarRepetidas(ArrayList<Regla> reglasPreguntasActivas) {
+		boolean encontrado = false;
+		if(!reglasPreguntasUsadas.isEmpty()) {
+			ArrayList<Regla> aux = new ArrayList<Regla>();
+			for(Regla r1: reglasPreguntasActivas) {
+				for(Regla r2 : this.reglasPreguntasUsadas) {
+					if(r1.getId()==r2.getId()) encontrado = true;
+				}
+				if(!encontrado) aux.add(r1);
+				encontrado=false;
+			}
+			return aux;
+		}else return reglasPreguntasActivas;
+		
 	}
 
 

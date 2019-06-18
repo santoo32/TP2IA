@@ -14,22 +14,22 @@ buscar tablet *Genial, tengo tablets para ofrecerte*17*3*TIPOPRODUCTO*tablet*
 buscar tablet *Buenisimo! Tengo cosas que te pueden interesar*18*3*TIPOPRODUCTO*tablet*
 preguntar tablet *Genial, tengo tablets para ofrecerte*19*3*TIPOPRODUCTO*tablet*
 preguntar tablet *Buenisimo! Tengo cosas que te pueden interesar*20*3*TIPOPRODUCTO*tablet*
-necesitar celular *Genial, tengo celulares para ofrecerte*21*3*TIPOPRODUCTO*celular*
-necesitar celular *Buenisimo! Tengo cosas que te pueden interesar*22*3*TIPOPRODUCTO*celular*
-querer celular *Genial, tengo celulares para ofrecerte*23*3*TIPOPRODUCTO*celular*
-querer celular *Buenisimo! Tengo cosas que te pueden interesar*24*3*TIPOPRODUCTO*celular*
-buscar celular *Genial, tengo celulares para ofrecerte*25*3*TIPOPRODUCTO*celular*
-buscar celular *Buenisimo! Tengo cosas que te pueden interesar*26*3*TIPOPRODUCTO*celular*
-preguntar celular *Genial, tengo celulares para ofrecerte*27*3*TIPOPRODUCTO*celular*
-preguntar celular *Buenisimo! Tengo cosas que te pueden interesar*28*3*TIPOPRODUCTO*celular*
-necesitar televisor *Genial, tengo televisores para ofrecerte*29*3*TIPOPRODUCTO*televisor*
-necesitar televisor *Buenisimo! Tengo cosas que te pueden interesar*30*3*TIPOPRODUCTO*televisor*
-querer televisor *Genial, tengo televisores para ofrecerte*31*3*TIPOPRODUCTO*televisor*
-querer televisor *Buenisimo! Tengo cosas que te pueden interesar*32*3*TIPOPRODUCTO*televisor*
-buscar televisor *Genial, tengo televisores para ofrecerte*33*3*TIPOPRODUCTO*televisor*
-buscar televisor *Buenisimo! Tengo cosas que te pueden interesar*34*3*TIPOPRODUCTO*televisor*
-preguntar televisor *Genial, tengo televisores para ofrecerte*35*3*TIPOPRODUCTO*televisor*
-preguntar televisor *Buenisimo! Tengo cosas que te pueden interesar*36*3*TIPOPRODUCTO*televisor*
+necesitar celular *Genial, tengo celulares para ofrecerte*21*3*TIPOPRODUCTO*smartphone*
+necesitar celular *Buenisimo! Tengo cosas que te pueden interesar*22*3*TIPOPRODUCTO*smartphone*
+querer celular *Genial, tengo celulares para ofrecerte*23*3*TIPOPRODUCTO*smartphone*
+querer celular *Buenisimo! Tengo cosas que te pueden interesar*24*3*TIPOPRODUCTO*smartphone*
+buscar celular *Genial, tengo celulares para ofrecerte*25*3*TIPOPRODUCTO*smartphone*
+buscar celular *Buenisimo! Tengo cosas que te pueden interesar*26*3*TIPOPRODUCTO*smartphone*
+preguntar celular *Genial, tengo celulares para ofrecerte*27*3*TIPOPRODUCTO*smartphone*
+preguntar celular *Buenisimo! Tengo cosas que te pueden interesar*28*3*TIPOPRODUCTO*smartphone*
+necesitar televisor *Genial, tengo televisores para ofrecerte*29*3*TIPOPRODUCTO*tv*
+necesitar televisor *Buenisimo! Tengo cosas que te pueden interesar*30*3*TIPOPRODUCTO*tv*
+querer televisor *Genial, tengo televisores para ofrecerte*31*3*TIPOPRODUCTO*tv*
+querer televisor *Buenisimo! Tengo cosas que te pueden interesar*32*3*TIPOPRODUCTO*tv*
+buscar televisor *Genial, tengo televisores para ofrecerte*33*3*TIPOPRODUCTO*tv*
+buscar televisor *Buenisimo! Tengo cosas que te pueden interesar*34*3*TIPOPRODUCTO*tv*
+preguntar televisor *Genial, tengo televisores para ofrecerte*35*3*TIPOPRODUCTO*tv*
+preguntar televisor *Buenisimo! Tengo cosas que te pueden interesar*36*3*TIPOPRODUCTO*tv*
 diseno *Te puedo recomendar una notebook con placa de video.*37*4*USO*diseno*
 diseno *Tengo algunas notebooks con buen desempeño en video.*38*4*USO*diseno*
 gaming *Te puedo recomendar una notebook con placa de video.*39*4*USO*diseno*
@@ -50,20 +50,30 @@ desarrollar *Te puedo recomendar algunas notebooks con buen procesador.*53*4*USO
 desarrollar *Tengo algunas notebooks con buen desempeño en procesador. *54*4*USO*programar*
 gastar mucho *Tengo algunas de calidad que podrían interesarte.*55*5*PRECIO*gastarucho*
 gastar mucho *Tengo algunas topes de gama que podrían interesarte.*56*5*PRECIO*gastarmucho*
-presupuesto alto *Tengo algunas de calidad que podrían interesarte.*57*5*PRECIO*gastarmucho*
-presupuesto alto *Tengo algunas topes de gama que podrían interesarte.*58*5*PRECIO*gastarmucho*
-gastar poco *Tengo algunas económicas que podrían interesarte. *59*5*PRECIO*gastarmucho*
-gastar poco *Tengo algunas baratas que podrían interesarte. *60*5*PRECIO*gastarmucho*
+presupuesto alto *Tengo algo de calidad que podría interesarte.*57*5*PRECIO*gastarmucho*
+presupuesto alto *Tengo topes de gama que podrían interesarte.*58*5*PRECIO*gastarmucho*
+gastar poco *Tengo algo económico que podría interesarte. *59*5*PRECIO*gastarmucho*
+gastar poco *Tengo algo barato que podría interesarte. *60*5*PRECIO*gastarmucho*
 presupuesto bajo *Tengo algunas económicas que podrían interesarte. *61*5*PRECIO*gastarpoco*
 presupuesto bajo *Tengo algunas baratas que podrían interesarte. *62*5*PRECIO*gastarpoco*
 pantalla grande *Perfecto!*63*6*TAMPANTALLA*grande*
+tamano grande *Perfecto!*83*6*TAMPANTALLA*grande*
 pantalla mediana *Perfecto!*64*6*TAMPANTALLA*mediana*
 pantalla chica *Perfecto!*65*6*TAMPANTALLA*chica*
 hd *Bien!*66*7*RESPANTALLA*hd*
 full hd *Bien!*67*7*RESPANTALLA*fullhd*
+4k *Bien!*82*7*RESPANTALLA*4k*
 mucha ram *Esta bien*68*8*RAM*mucharam*
 poca ram *Esta bien*69*8*RAM*pocaram*
 mucho disco *Perfecto!*70*9*ROM*muchodisco*
 grande disco *Perfecto!*71*9*ROM*muchodisco*
 poco disco *Perfecto!*72*9*ROM*pocodisco*
 chico disco *Perfecto!*73*9*ROM*pocodisco*
+camara buena *Fantastico!*74*2*CAMARA*camarabuena*
+camara excelente *Fantastico!*75*2*CAMARA*camarabuena*
+camara normal *Fantastico!*76*2*CAMARA*camaranormal*
+camara decente *Fantastico!*77*2*CAMARA*camaranormal*
+android *Tengo unos Android que podrían interesarte.*78*3*SO*android*
+android *Buena elección, tengo celus con Android.*79*3*SO*android*
+ios *Tengo algunos iphone que te podrian gustar*80*3*SO*ios*
+ios *Buena eleccion, tengo iphones para ofrecerte*81*3*SO*ios*
