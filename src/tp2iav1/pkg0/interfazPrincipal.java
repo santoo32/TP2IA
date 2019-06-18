@@ -60,6 +60,7 @@ public class interfazPrincipal extends javax.swing.JFrame {
     public interfazPrincipal(AgenteBasadoEnConocimiento agent) {
         this.agent = agent;
         initComponents();
+        this.setBotText("Hola!, ¿Que necesitas?", true);
     }
     public interfazPrincipal(){
         

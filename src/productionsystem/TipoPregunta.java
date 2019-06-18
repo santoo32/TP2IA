@@ -1,0 +1,5 @@
+package productionsystem;
+
+public enum TipoPregunta {
+	TIPOPRODUCTO, USO, PRECIO, TAMPANTALLA, RESPANTALLA, RAM, ROM, CAMARA, SO, NOTEBOOK, TV, SMARTPHONE, TABLET
+}
