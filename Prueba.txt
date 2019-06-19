@@ -203,3 +203,10 @@ Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
 Usuario>> asdas
 Chatbot>> Creo que no me respondiste :S
 Usuario>> asdads
+Usuario>> Necesito una tablet
+Chatbot>> Creo que no me respondiste :S
+Usuario>> Necesitar una tablet
+Chatbot>> Genial, tengo tablets para ofrecerte
+¿Con que tipo de camara?
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?

@@ -61,6 +61,7 @@ public class interfazPrincipal extends javax.swing.JFrame {
         this.agent = agent;
         initComponents();
         this.setBotText("Hola!, ¿Que necesitas?", true);
+        habla.leer("Hola!, ¿Que necesitas?");
     }
     public interfazPrincipal(){
         
@@ -238,7 +239,6 @@ public class interfazPrincipal extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
-
         pack();
     }// </editor-fold>//GEN-END:initComponents
     
