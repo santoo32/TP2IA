@@ -109,132 +109,104 @@ Usuario>> 1
 Chatbot>> 1 
 Usuario>> 1 
 Chatbot>> 1 
-Chatbot>> Hola ¿En que te puedo ayudar?
-Chatbot>> Buenas ¿Que necesitas?
-Chatbot>> Soy tu asistente de compras ¿En que te puedo ayudar?
-Chatbot>> ¿Cuánto piensa gastar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
+Chatbot>> Buenas ï¿½Que necesitas?
+Chatbot>> Soy tu asistente de compras ï¿½En que te puedo ayudar?
+Chatbot>> ï¿½Cuï¿½nto piensa gastar?
 Chatbot>> Perdon, no te entendi :(
-Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
 Chatbot>> Perdon, no te entendi :(
-Chatbot>> Hola ¿En que te puedo ayudar?
-Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
 Usuario>> Hola
-Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
 Usuario>>  Hola 
-Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
 Usuario>>  Hola 
-Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
 Usuario>> Hola
-Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
 Usuario>>  Hola 
-Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
 Usuario>>  Muy buenas 
-Chatbot>> Buenas ¿Que necesitas?
+Chatbot>> Buenas ï¿½Que necesitas?
 Usuario>>  Muy buenas 
-Chatbot>> Buenas ¿Que necesitas?
+Chatbot>> Buenas ï¿½Que necesitas?
 Usuario>>  Hola 
-Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
 Usuario>>  Muy buenas 
-Chatbot>> Buenas ¿Que necesitas?
+Chatbot>> Buenas ï¿½Que necesitas?
 Usuario>>  Hola 
-Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
 Usuario>>  Hola 
-Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
 Usuario>>  Muy buenas 
-Chatbot>> Buenas ¿Que necesitas?
+Chatbot>> Buenas ï¿½Que necesitas?
 Usuario>>  Cual es tu nombre? 
-Chatbot>> Soy tu asistente de compras ¿En que te puedo ayudar?
+Chatbot>> Soy tu asistente de compras ï¿½En que te puedo ayudar?
 Usuario>>  yo necesitar una notebook 
-Chatbot>> ¿Cuánto piensa gastar?
+Chatbot>> ï¿½Cuï¿½nto piensa gastar?
 Usuario>>   Hola 
-Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
 Usuario>>   Muy buenas 
-Chatbot>> Buenas ¿Que necesitas?
+Chatbot>> Buenas ï¿½Que necesitas?
 Usuario>>   Cual es tu nombre? 
-Chatbot>> Soy tu asistente de compras ¿En que te puedo ayudar?
+Chatbot>> Soy tu asistente de compras ï¿½En que te puedo ayudar?
 Usuario>>   yo necesitar una notebook 
-Chatbot>> ¿Qué uso le piensa dar?
+Chatbot>> ï¿½Quï¿½ uso le piensa dar?
 Usuario>>     Hola 
-Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
 Usuario>>   Muy buenas 
-Chatbot>> Buenas ¿Que necesitas?
+Chatbot>> Buenas ï¿½Que necesitas?
 Usuario>>   Cual es tu nombre? 
-Chatbot>> Soy tu asistente de compras ¿En que te puedo ayudar?
+Chatbot>> Soy tu asistente de compras ï¿½En que te puedo ayudar?
 Usuario>>    yo necesitar una notebook 
-Chatbot>> ¿Cuánto piensa gastar?
+Chatbot>> ï¿½Cuï¿½nto piensa gastar?
 Usuario>>  Hola 
-Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
 Usuario>>  Muy buenas 
-Chatbot>> Buenas ¿Que necesitas?
+Chatbot>> Buenas ï¿½Que necesitas?
 Usuario>>  Cual es tu nombre? 
-Chatbot>> Soy tu asistente de compras ¿En que te puedo ayudar?
+Chatbot>> Soy tu asistente de compras ï¿½En que te puedo ayudar?
 Usuario>>  yo necesitar una notebook 
-Chatbot>> ¿Qué uso le piensa dar?
+Chatbot>> ï¿½Quï¿½ uso le piensa dar?
 Usuario>> Hola
-Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
 Usuario>> Hola
-Chatbot>> Hola ¿En que te puedo ayudar?
+Chatbot>> Hola ï¿½En que te puedo ayudar?
 Usuario>>  Muy buenas 
-Chatbot>> Buenas ¿Que necesitas?
+Chatbot>> Buenas ï¿½Que necesitas?
 Usuario>>  Cual es tu nombre? 
-Chatbot>> Soy tu asistente de compras ¿En que te puedo ayudar?
+Chatbot>> Soy tu asistente de compras ï¿½En que te puedo ayudar?
 Usuario>>  yo necesitar una notebook 
-Chatbot>> ¿Cuánto piensa gastar?
+Chatbot>> ï¿½Cuï¿½nto piensa gastar?
 Usuario>> Querer notebook
 Usuario>> querer notebook
 Usuario>> querer notebook
 Usuario>> querer notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
+ï¿½Quï¿½ uso le piensa dar?
 Usuario>> querer celular
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Lo queres con Android o IOS?
+ï¿½Lo queres con Android o IOS?
 Usuario>> querer televisor
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Cual es su presupuesto?
+ï¿½Cual es su presupuesto?
 Usuario>> asda
 Chatbot>> Creo que no me respondiste :S
 Usuario>> querer notebook
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
+ï¿½Para que la vas a usar?
 Usuario>> querer notebook
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
+ï¿½Para que la vas a usar?
 Usuario>> asdas
 Chatbot>> Creo que no me respondiste :S
 Usuario>> asdads
-Usuario>> querer notebook
-Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
-Usuario>> jh
+Usuario>> Necesito una tablet
 Chatbot>> Creo que no me respondiste :S
-Usuario>> dasda
-Chatbot>> Creo que no me respondiste :S
-Usuario>> asdas
-Usuario>> asfa
-Usuario>> asda
-Usuario>> querer notebook
-Usuario>> adssda
-Usuario>> lolo
-Usuario>> asdas
-Chatbot>> Creo que no me respondiste :S
-Usuario>> asdasd
-Usuario>> querer notebook
-Usuario>> asda
-Usuario>> hjg
-Usuario>> asdaf
-Chatbot>> Creo que no me respondiste :S
-Usuario>> querer notebook
-Chatbot>> Genial, tengo notebooks para ofrecerte
-ï¿½Quï¿½ uso le piensa dar?
-Usuario>> querer notebook
-Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
-Usuario>> lool
-Chatbot>> Creo que no me respondiste :S
-Usuario>> kkk
-Chatbot>> Creo que no me respondiste :S
-Usuario>> lll
-Chatbot>> Creo que no me respondiste :S
-Usuario>> lll
-Chatbot>> Creo que no me respondiste :S
+Usuario>> Necesitar una tablet
+Chatbot>> Genial, tengo tablets para ofrecerte
+ï¿½Con que tipo de camara?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
