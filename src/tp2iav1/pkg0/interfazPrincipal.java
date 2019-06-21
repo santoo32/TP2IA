@@ -266,7 +266,11 @@ public class interfazPrincipal extends javax.swing.JFrame {
     
     
 	private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
-    	this.setBotText(this.agent.recomendar(), true);
+    	String r=this.agent.recomendar();
+    	if(!r.isEmpty()) {
+    		this.setBotText("Te puedo recomendar esto: \n"+this.agent.recomendar(), true);
+    	}else this.setBotText("No tengo nada para recomendarte: \n", true);
+		
     	this.agent.setVariables();
     	this.setBotText("Hola!, ¿Que necesitas?", true);
     }

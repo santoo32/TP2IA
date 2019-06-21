@@ -1,6 +1,9 @@
 package chatbot;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 import domain.Notebook;
 import domain.Smartphone;
@@ -28,6 +31,8 @@ public class AgenteBasadoEnConocimiento {
     private StanfordDemo sd = new StanfordDemo();
     
 	public AgenteBasadoEnConocimiento() {
+		this.reglasRespuestasDisponibles = new ArrayList<ReglaRespuesta>();
+		this.reglasPreguntasDisponibles = new ArrayList<ReglaPregunta>();
 		this.setVariables();
 		this.cargarReglas();
 		this.recomendacion = new Recomendacion();
@@ -38,9 +43,7 @@ public class AgenteBasadoEnConocimiento {
 	public void setVariables() {
 		this.preguntaActiva=TipoPregunta.TIPOPRODUCTO;
 		this.preguntasHechas = new ArrayList<TipoPregunta>();
-		this.reglasRespuestasDisponibles = new ArrayList<ReglaRespuesta>();
 		this.reglasRespuestasUsadas = new ArrayList<Regla>();
-		this.reglasPreguntasDisponibles = new ArrayList<ReglaPregunta>();
 		this.reglasPreguntasUsadas = new ArrayList<Regla>();
 			
 	}
@@ -54,6 +57,7 @@ public class AgenteBasadoEnConocimiento {
 		//pasar el string a una clase que lo divida en palabras
 		
 		ArrayList<String> palabras = sd.normalizarPalabras(oracion);
+		System.out.println(palabras);
 		//pasar las palabras a un metodo que chequee con que reglas matchea esas palabras
 		ArrayList<Regla> reglasRespuestaActivas = this.verificarReglasRespuestas(reglasRespuestasDisponibles, palabras, preguntaActiva);
 		
@@ -87,11 +91,16 @@ public class AgenteBasadoEnConocimiento {
 				this.preguntaActiva=preguntaEjecutar.getTipoPregunta();
 				respuesta+="\n"+preguntaEjecutar.getSalida();
 			}else { //recomendar
-				String r = recomendacion.recomendar();
-				if(!r.isEmpty())
-					respuesta+=r;
-				else respuesta += "No tengo nada para recomendarte :(";
 				
+				String r = recomendacion.recomendar();
+				if(!r.isEmpty()) {
+					respuesta="Te puedo recomendar esto: \n";
+					respuesta+=r;
+				}else respuesta += "No tengo nada para recomendarte :(\n";
+				DateFormat dateFormat = new SimpleDateFormat("HH:mm");
+				Date date = new Date();
+				respuesta+="- - - - - - - - - - - - - - - - - - - - -" + "\n";
+				respuesta+=dateFormat.format(date)+ " Asistente:           " + "Hola!, ¿Que necesitas?" + "\n";
 				
 				
 				//vaciar todas las variables
@@ -108,9 +117,7 @@ public class AgenteBasadoEnConocimiento {
 	public String recomendar() {
 		String respuesta="";
 		String r = recomendacion.recomendar();
-		if(!r.isEmpty())
-			respuesta+=r;
-		else respuesta += "No tengo nada para recomendarte :(";
+		respuesta+=r;
 		this.setVariables();
 		return respuesta;
 		

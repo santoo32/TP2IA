@@ -54,7 +54,7 @@ public class Recomendacion {
 	}
 	
 	public String recomendar() {
-		String respuesta="Te puedo recomendar esto: \n";
+		String respuesta="";
 		if(tipo.equals("notebook")) {
 			for(Notebook n : this.resultadoN)
 				respuesta += n.toString() + "\n"; 
@@ -70,7 +70,7 @@ public class Recomendacion {
 		else if(tipo.equals("tv")) {
 			for(Tv n : this.resultadoV)
 				respuesta += n.toString() + "\n";
-		}else respuesta="No tengo nada para recomendarte aun";
+		}
 		return respuesta;
 	}
 	public void setVariables() {
@@ -99,16 +99,175 @@ public class Recomendacion {
 			break;
 		case RESPANTALLA: this.filtrarResolucion(filtrado);
 			break;
-		case RAM:
+		case RAM: this.filtrarRam(filtrado);
 			break;
-		case ROM:
+		case ROM: this.filtrarRom(filtrado);
 			break;
-		case CAMARA:
+		case CAMARA: this.filtrarCamara(filtrado);
 			break;
-		case SO:
+		case SO: this.filtrarSO(filtrado);
 			break;
 		}
 		
+	}
+
+	private void filtrarCamara(String filtrado) {
+		if(tipo.equals("smartphone")) this.filtrarCamaraSmartphone(13.0,filtrado);
+		else if(tipo.equals("tablet")) this.filtrarCamaraTablet(5.0,filtrado);
+		
+		//smartphone 13
+		//tablet 5
+		
+	}
+
+	private void filtrarCamaraTablet(double d, String filtrado) {
+		ArrayList aux = new ArrayList();
+		if(filtrado.equals("camarabuena")) {
+			for(Tablet n : this.resultadoT) {
+				if(n.getResolucionCamara()>d) aux.add(n);
+			}
+		}else if(filtrado.equals("camaranormal")) {
+			for(Tablet n : this.resultadoT) {
+				if(n.getResolucionCamara()<=d) aux.add(n);
+			}
+		}
+		this.resultadoT=aux;
+		
+	}
+
+	private void filtrarCamaraSmartphone(double d, String filtrado) {
+		ArrayList aux = new ArrayList();
+		if(filtrado.equals("camarabuena")) {
+			for(Smartphone n : this.resultadoS) {
+				if(n.getResolucionCamara()>d) aux.add(n);
+			}
+		}else if(filtrado.equals("camaranormal")) {
+			for(Smartphone n : this.resultadoS) {
+				if(n.getResolucionCamara()<=d) aux.add(n);
+			}
+		}
+		this.resultadoS=aux;
+		
+	}
+
+	private void filtrarRom(String filtrado) {
+		if(tipo.equals("notebook")) this.filtrarRomNotebook(500.0,filtrado);
+		else if(tipo.equals("smartphone")) this.filtrarRomSmartphone(16.0,filtrado);
+		else if(tipo.equals("tablet")) this.filtrarRomTablet(16.0,filtrado);
+		
+		//notebook 500
+		//smartphone 16
+		//tablet 16
+		
+	}
+
+	private void filtrarRomTablet(double d, String filtrado) {
+		ArrayList aux = new ArrayList();
+		if(filtrado.equals("mucharam")) {
+			for(Tablet n : this.resultadoT) {
+				if(n.getMemoriaRom()>d) aux.add(n);
+			}
+		}else if(filtrado.equals("pocaram")) {
+			for(Tablet n : this.resultadoT) {
+				if(n.getMemoriaRom()<=d) aux.add(n);
+			}
+		}
+		this.resultadoT=aux;
+		
+	}
+
+	private void filtrarRomSmartphone(double d, String filtrado) {
+		ArrayList aux = new ArrayList();
+		if(filtrado.equals("muchodisco")) {
+			for(Smartphone n : this.resultadoS) {
+				if(n.getMemoriaRom()>d) aux.add(n);
+			}
+		}else if(filtrado.equals("pocodisco")) {
+			for(Smartphone n : this.resultadoS) {
+				if(n.getMemoriaRom()<=d) aux.add(n);
+			}
+		}
+		this.resultadoS=aux;
+		
+	}
+
+	private void filtrarRomNotebook(double d, String filtrado) {
+		ArrayList aux = new ArrayList();
+		if(filtrado.equals("muchodisco")) {
+			for(Notebook n : this.resultadoN) {
+				if(n.getMemoriaRom()>d) aux.add(n);
+			}
+		}else if(filtrado.equals("pocodisco")) {
+			for(Notebook n : this.resultadoN) {
+				if(n.getMemoriaRom()<=d) aux.add(n);
+			}
+		}
+		this.resultadoN=aux;
+		
+	}
+
+	private void filtrarRam(String filtrado) {
+		if(tipo.equals("notebook")) this.filtrarRamNotebook(4.0,filtrado);
+		else if(tipo.equals("smartphone")) this.filtrarRamSmartphone(4.0,filtrado);
+		else if(tipo.equals("tablet")) this.filtrarRamTablet(2.0,filtrado);
+		
+		//notebook 4
+		//smartphone 4
+		//tablet 2
+		
+	}
+
+	private void filtrarRamTablet(double d, String filtrado) {
+		ArrayList aux = new ArrayList();
+		if(filtrado.equals("mucharam")) {
+			for(Tablet n : this.resultadoT) {
+				if(n.getMemoriaRam()>d) aux.add(n);
+			}
+		}else if(filtrado.equals("pocaram")) {
+			for(Tablet n : this.resultadoT) {
+				if(n.getMemoriaRam()<=d) aux.add(n);
+			}
+		}
+		this.resultadoT=aux;
+		
+	}
+
+	private void filtrarRamSmartphone(double d, String filtrado) {
+		ArrayList aux = new ArrayList();
+		if(filtrado.equals("mucharam")) {
+			for(Smartphone n : this.resultadoS) {
+				if(n.getMemoriaRam()>d) aux.add(n);
+			}
+		}else if(filtrado.equals("pocaram")) {
+			for(Smartphone n : this.resultadoS) {
+				if(n.getMemoriaRam()<=d) aux.add(n);
+			}
+		}
+		this.resultadoS=aux;
+		
+	}
+
+	private void filtrarRamNotebook(double d, String filtrado) {
+		ArrayList aux = new ArrayList();
+		if(filtrado.equals("mucharam")) {
+			for(Notebook n : this.resultadoN) {
+				if(n.getMemoriaRam()>d) aux.add(n);
+			}
+		}else if(filtrado.equals("pocaram")) {
+			for(Notebook n : this.resultadoN) {
+				if(n.getMemoriaRam()<=d) aux.add(n);
+			}
+		}
+		this.resultadoN=aux;
+		
+	}
+
+	private void filtrarSO(String filtrado) {
+		ArrayList aux = new ArrayList();
+		for(Smartphone s : this.resultadoS) {
+			if(s.getSO().equals(filtrado)) aux.add(s);
+		}
+		this.resultadoS=aux;
 	}
 
 	private void filtrarResolucion(String filtrado) {

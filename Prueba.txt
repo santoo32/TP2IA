@@ -456,3 +456,182 @@ Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
 Usuario>> gastar mucho
 Chatbot>> Tengo algunas de calidad que podrían interesarte.
 ¿De que tamaño?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer smartphone
+Chatbot>> Creo que no me respondiste :S
+Usuario>> querer celular
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Lo queres con Android o IOS?
+Usuario>> ios
+Chatbot>> Creo que no me respondiste :S
+Usuario>> ios
+Chatbot>> Creo que no me respondiste :S
+Usuario>> android
+Chatbot>> Buena elección, tengo celus con Android.
+¿Queres una buena camara o una normal?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer celular
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Lo queres con Android o IOS?
+Usuario>> ios
+Chatbot>> Creo que no me respondiste :S
+Usuario>> ios
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quere celular
+Chatbot>> Creo que no me respondiste :S
+Usuario>> querer celular
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Lo queres con Android o IOS?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> ios
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer celular
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Lo queres con Android o IOS?
+Usuario>> IOS
+Chatbot>> Creo que no me respondiste :S
+Usuario>> ios
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quere celular
+Chatbot>> Creo que no me respondiste :S
+Usuario>> querer celular
+Chatbot>> Genial, tengo celulares para ofrecerte
+¿Que sistema operativo?
+Usuario>> IOS
+Chatbot>> Buena eleccion, tengo iphones para ofrecerte
+¿Queres una buena camara o una normal?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer celular
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Lo queres con Android o IOS?
+Usuario>> android
+Chatbot>> Buena elección, tengo celus con Android.
+¿Queres una buena camara o una normal?
+Usuario>> buena camara
+Chatbot>> Fantastico!
+¿Cuanta RAM?
+Usuario>> mucha ram
+Chatbot>> Esta bien
+¿Que tamaño de disco?
+Usuario>> mucho disco
+Chatbot>> Perfecto!
+¿Cual es tu presupuesto?
+Usuario>> gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.Te puedo recomendar esto: 
+Samsung RAM: 3 DISCO: 32GB 6.0'' Camara: 16.0 SO:android $15280.0
+Samsung RAM: 8 DISCO: 128GB 6.0'' Camara: 16.0 SO:android $55000.0
+13:57 Asistente:           Hola!, ¿Que necesitas?
+- - - - - - - - - - - - - - - - - - - - -
+
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer celular
+Chatbot>> Genial, tengo celulares para ofrecerte
+¿Que sistema operativo?
+Usuario>> IOS
+Chatbot>> Buena eleccion, tengo iphones para ofrecerte
+¿Queres una buena camara o una normal?
+Usuario>> buena camara
+Chatbot>> Fantastico!
+¿Cuanta RAM?
+Usuario>> mucha ram
+Chatbot>> Esta bien
+¿Cuanta memoria ROM?
+Usuario>> mucho disco
+Chatbot>> Perfecto!
+¿Cual es tu presupuesto?
+Usuario>> gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.Te puedo recomendar esto: 
+- - - - - - - - - - - - - - - - - - - - -
+14:02 Asistente:           Hola!, ¿Que necesitas?
+
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer celular
+Chatbot>> Genial, tengo celulares para ofrecerte
+¿Que sistema operativo?
+Usuario>> IOS
+Chatbot>> Buena eleccion, tengo iphones para ofrecerte
+¿Queres una buena camara o una normal?
+Usuario>> camara decente
+Chatbot>> Fantastico!
+¿Cuanta RAM?
+Usuario>> poca ram
+Chatbot>> Esta bien
+¿Cuanta memoria ROM?
+Usuario>> mucho disco
+Chatbot>> Perfecto!
+¿Cual es tu presupuesto?
+Usuario>> gastar mucho
+Chatbot>> Tengo algunas de calidad que podrían interesarte.No tengo nada para recomendarte :(- - - - - - - - - - - - - - - - - - - - -
+14:07 Asistente:           Hola!, ¿Que necesitas?
+
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer celular
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Lo queres con Android o IOS?
+Usuario>> IOS
+Chatbot>> Tengo algunos iphone que te podrian gustar
+¿Con que tipo de camara?
+Usuario>> camara decente
+Chatbot>> Fantastico!
+¿Cuanta RAM?
+Usuario>> quere celular
+Chatbot>> Creo que no me respondiste :S
+Usuario>> querer celular
+Chatbot>> Creo que no me respondiste :S
+Usuario>> querer televisor
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer celular
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Lo queres con Android o IOS?
+Usuario>> IOS
+Chatbot>> Tengo algunos iphone que te podrian gustar
+¿Con que tipo de camara?
+Usuario>> camara decente
+Chatbot>> Fantastico!
+¿Cuanta RAM?
+Usuario>> poca ram
+Chatbot>> Esta bien
+¿Que tamaño de disco?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer celular
+Chatbot>> Genial, tengo celulares para ofrecerte
+¿Que sistema operativo?
+Usuario>> IOS
+Chatbot>> Buena eleccion, tengo iphones para ofrecerte
+¿Queres una buena camara o una normal?
+Usuario>> camara decente
+Chatbot>> Fantastico!
+¿Cuanta RAM?
+Usuario>> poca ram
+Chatbot>> Esta bien
+¿Cuanta memoria ROM?
+Usuario>> mucho disco
+Chatbot>> Perfecto!
+¿Cual es tu presupuesto?
+Usuario>> gastar mucho
+Chatbot>> Te puedo recomendar esto: 
+Iphone RAM: 3 DISCO: 32GB 5.5'' Camara: 12.0 SO:ios $45000.0
+Iphone RAM: 4 DISCO: 64GB 5.8'' Camara: 12.0 SO:ios $58500.0
+- - - - - - - - - - - - - - - - - - - - -
+14:19 Asistente:           Hola!, ¿Que necesitas?
+
+Usuario>> querer televisor
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Cual es su presupuesto?
+Usuario>> gastar poco
+Chatbot>> Tengo algo económico que podría interesarte. 
+¿De que tamaño?
+Usuario>> pantalla chica
+Chatbot>> Perfecto!
+¿De que resolucion?
+Usuario>> FULL HD
+Chatbot>> Te puedo recomendar esto: 
+LG Pulgadas: 32 Resolucion FULL HD Tipo: Smart $12000.0
+- - - - - - - - - - - - - - - - - - - - -
+14:20 Asistente:           Hola!, ¿Que necesitas?
+
