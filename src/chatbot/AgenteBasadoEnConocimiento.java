@@ -24,11 +24,7 @@ public class AgenteBasadoEnConocimiento {
     private ArrayList<Regla> reglasPreguntasUsadas;
     private ArrayList<ReglaRespuesta> reglasRespuestasDisponibles;
     private ArrayList<Regla> reglasRespuestasUsadas;
-    //productos disponibles
-    private ArrayList<Notebook> notebooks;
-    private ArrayList<Smartphone> smartphones;
-    private ArrayList<Tablet> tablets;
-    private ArrayList<Tv> tvs;
+    private Recomendacion recomendacion;
     
 	public AgenteBasadoEnConocimiento() {
 		this.preguntaActiva=TipoPregunta.TIPOPRODUCTO;
@@ -91,6 +87,12 @@ public class AgenteBasadoEnConocimiento {
 	}
 	
 	
+	public Recomendacion getRecomendacion() {
+		return recomendacion;
+	}
+	public void setRecomendacion(Recomendacion recomendacion) {
+		this.recomendacion = recomendacion;
+	}
 	private ArrayList<Regla> verificarReglasPreguntas() {
 		ArrayList<Regla> reglasPreguntasActivas = new ArrayList<Regla>();
 		for(ReglaPregunta r : this.reglasPreguntasDisponibles) {

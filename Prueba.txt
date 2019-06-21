@@ -203,3 +203,38 @@ Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
 Usuario>> asdas
 Chatbot>> Creo que no me respondiste :S
 Usuario>> asdads
+Usuario>> querer notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Usuario>> jh
+Chatbot>> Creo que no me respondiste :S
+Usuario>> dasda
+Chatbot>> Creo que no me respondiste :S
+Usuario>> asdas
+Usuario>> asfa
+Usuario>> asda
+Usuario>> querer notebook
+Usuario>> adssda
+Usuario>> lolo
+Usuario>> asdas
+Chatbot>> Creo que no me respondiste :S
+Usuario>> asdasd
+Usuario>> querer notebook
+Usuario>> asda
+Usuario>> hjg
+Usuario>> asdaf
+Chatbot>> Creo que no me respondiste :S
+Usuario>> querer notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+ï¿½Quï¿½ uso le piensa dar?
+Usuario>> querer notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Usuario>> lool
+Chatbot>> Creo que no me respondiste :S
+Usuario>> kkk
+Chatbot>> Creo que no me respondiste :S
+Usuario>> lll
+Chatbot>> Creo que no me respondiste :S
+Usuario>> lll
+Chatbot>> Creo que no me respondiste :S
