@@ -71,5 +71,8 @@ public class Notebook {
 		this.placaDeVideo = placaDeVideo;
 	}
 	
+	public String toString() {
+		return this.marca + " " + this.procesador +" Ram: "+this.memoriaRam + "GB DISCO: " + this.memoriaRom + "GB "+ this.tamPantalla + "'' " + this.resolucion + " $"+this.precio;  
+	}
 	
 }

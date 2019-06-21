@@ -48,21 +48,21 @@ codificar *Te puedo recomendar algunas notebooks con buen procesador.*51*4*USO*p
 codificar *Tengo algunas notebooks con buen desempeño en procesador. *52*4*USO*programar*
 desarrollar *Te puedo recomendar algunas notebooks con buen procesador.*53*4*USO*programar*
 desarrollar *Tengo algunas notebooks con buen desempeño en procesador. *54*4*USO*programar*
-gastar mucho *Tengo algunas de calidad que podrían interesarte.*55*5*PRECIO*gastarucho*
+gastar mucho *Tengo algunas de calidad que podrían interesarte.*55*5*PRECIO*gastarmucho*
 gastar mucho *Tengo algunas topes de gama que podrían interesarte.*56*5*PRECIO*gastarmucho*
 presupuesto alto *Tengo algo de calidad que podría interesarte.*57*5*PRECIO*gastarmucho*
 presupuesto alto *Tengo topes de gama que podrían interesarte.*58*5*PRECIO*gastarmucho*
-gastar poco *Tengo algo económico que podría interesarte. *59*5*PRECIO*gastarmucho*
-gastar poco *Tengo algo barato que podría interesarte. *60*5*PRECIO*gastarmucho*
+gastar poco *Tengo algo económico que podría interesarte. *59*5*PRECIO*gastarpoco*
+gastar poco *Tengo algo barato que podría interesarte. *60*5*PRECIO*gastarpoco*
 presupuesto bajo *Tengo algunas económicas que podrían interesarte. *61*5*PRECIO*gastarpoco*
 presupuesto bajo *Tengo algunas baratas que podrían interesarte. *62*5*PRECIO*gastarpoco*
 pantalla grande *Perfecto!*63*6*TAMPANTALLA*grande*
 tamano grande *Perfecto!*83*6*TAMPANTALLA*grande*
-pantalla mediana *Perfecto!*64*6*TAMPANTALLA*mediana*
+pantalla mediana *Perfecto!*64*6*TAMPANTALLA*grande*
 pantalla chica *Perfecto!*65*6*TAMPANTALLA*chica*
-hd *Bien!*66*7*RESPANTALLA*hd*
-full hd *Bien!*67*7*RESPANTALLA*fullhd*
-4k *Bien!*82*7*RESPANTALLA*4k*
+hd *Bien!*66*7*RESPANTALLA*HD*
+full hd *Bien!*67*7*RESPANTALLA*FULL HD*
+4k *Bien!*82*7*RESPANTALLA*4K*
 mucha ram *Esta bien*68*8*RAM*mucharam*
 poca ram *Esta bien*69*8*RAM*pocaram*
 mucho disco *Perfecto!*70*9*ROM*muchodisco*

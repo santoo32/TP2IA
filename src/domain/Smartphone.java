@@ -64,6 +64,8 @@ public class Smartphone {
 		SO = sO;
 	}
 	
-	
+	public String toString() {
+		return this.marca +" RAM: "+this.memoriaRam + " DISCO: " + this.memoriaRom + "GB "+ this.tamPantalla + "'' Camara: " +this.resolucionCamara +" SO:"+this.SO+ " $"+this.precio;  
+	}
 	
 }

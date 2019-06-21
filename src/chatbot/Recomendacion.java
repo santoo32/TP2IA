@@ -14,16 +14,11 @@ public class Recomendacion {
 	private ArrayList<Smartphone> resultadoS;
 	private ArrayList<Tablet> resultadoT;
 	private ArrayList<Tv> resultadoV;
+	private String tipo;
 	
 	public Recomendacion() {
-		this.notebooks = new ArrayList<Notebook>();
-		this.smartphones = new ArrayList<Smartphone>();
-		this.tablets = new ArrayList<Tablet>();
-		this.tvs = new ArrayList<Tv>();
-		this.resultadoN = new ArrayList<Notebook>();
-		this.resultadoS = new ArrayList<Smartphone>();
-		this.resultadoT = new ArrayList<Tablet>();
-		this.resultadoV = new ArrayList<Tv>();
+		this.cargarProductos();
+		this.setVariables();
 	}
 
 	public ArrayList<Notebook> getNotebooks() {
@@ -58,6 +53,40 @@ public class Recomendacion {
 		this.tvs = tvs;
 	}
 	
+	public String recomendar() {
+		String respuesta="Te puedo recomendar esto: \n";
+		if(tipo.equals("notebook")) {
+			for(Notebook n : this.resultadoN)
+				respuesta += n.toString() + "\n"; 
+		}
+		else if(tipo.equals("smartphone")) {
+			for(Smartphone n : this.resultadoS)
+				respuesta += n.toString() + "\n";
+		}
+		else if(tipo.equals("tablet")) {
+			for(Tablet n : this.resultadoT)
+				respuesta += n.toString() + "\n";
+		}
+		else if(tipo.equals("tv")) {
+			for(Tv n : this.resultadoV)
+				respuesta += n.toString() + "\n";
+		}else respuesta="No tengo nada para recomendarte aun";
+		return respuesta;
+	}
+	public void setVariables() {
+		this.resultadoN = new ArrayList<Notebook>();
+		this.resultadoS = new ArrayList<Smartphone>();
+		this.resultadoT = new ArrayList<Tablet>();
+		this.resultadoV = new ArrayList<Tv>();
+		this.resultadoN.addAll(this.notebooks);
+		this.resultadoS.addAll(this.smartphones);
+		this.resultadoT.addAll(this.tablets);
+		this.resultadoV.addAll(this.tvs);
+		this.tipo="";
+	}
+	
+	
+
 	public void filtrar(TipoPregunta tipo, String filtrado) {
 		switch(tipo) {
 		case TIPOPRODUCTO: this.filtrarTipo(filtrado);
@@ -65,9 +94,10 @@ public class Recomendacion {
 		case USO: this.filtrarUso(filtrado);
 			break;
 		case PRECIO: this.filtrarPrecio(filtrado);
-		case TAMPANTALLA:
 			break;
-		case RESPANTALLA:
+		case TAMPANTALLA: this.filtrarPantalla(filtrado);
+			break;
+		case RESPANTALLA: this.filtrarResolucion(filtrado);
 			break;
 		case RAM:
 			break;
@@ -81,8 +111,135 @@ public class Recomendacion {
 		
 	}
 
+	private void filtrarResolucion(String filtrado) {
+		ArrayList aux = new ArrayList();
+		if(tipo.equals("notebook")) {
+			for(Notebook n : this.resultadoN) {
+				if(n.getResolucion().equals(filtrado)) aux.add(n);
+			}
+			resultadoN=aux;
+		}
+		else if(tipo.equals("tv")) {
+			for(Tv n : this.resultadoV) {
+				if(n.getResolucion().equals(filtrado)) aux.add(n);
+			}
+			resultadoV=aux;
+		}
+		
+	}
+
+	private void filtrarPantalla(String filtrado) {
+		if(tipo.equals("notebook")) this.filtrarPantallaNotebook(14.0,filtrado);
+		else if(tipo.equals("tv"))this.filtrarPantallaTv(40.0,filtrado);
+		//notebook- 14
+		//tv 40
+		
+	}
+
+	private void filtrarPantallaTv(double d, String filtrado) {
+		ArrayList aux = new ArrayList();
+		if(filtrado.equals("grande")) {
+			for(Tv n : this.resultadoV) {
+				if(n.getPulgadas()>=d) aux.add(n);
+			}
+		}else if(filtrado.equals("chica")) {
+			for(Tv n : this.resultadoV) {
+				if(n.getPulgadas()<=d) aux.add(n);
+			}
+		}
+		this.resultadoV=aux;
+		
+	}
+
+	private void filtrarPantallaNotebook(double d, String filtrado) {
+		ArrayList aux = new ArrayList();
+		if(filtrado.equals("grande")) {
+			for(Notebook n : this.resultadoN) {
+				if(n.getTamPantalla()>=d) aux.add(n);
+			}
+		}else if(filtrado.equals("chica")) {
+			for(Notebook n : this.resultadoN) {
+				if(n.getTamPantalla()<=d) aux.add(n);
+			}
+		}
+		this.resultadoV=aux;
+		
+		
+	}
+
 	private void filtrarPrecio(String filtrado) {
 		
+		if(tipo.equals("notebook")) this.filtrarPrecioNotebook(40000.0,filtrado);
+		else if(tipo.equals("smartphone")) this.filtrarPrecioSmartphone(15000.0,filtrado);
+		else if(tipo.equals("tablet")) this.filtrarPrecioTablet(10000.0,filtrado);
+		else if(tipo.equals("tv"))this.filtrarPrecioTv(20000.0,filtrado);
+		//notebook- 40000
+		//smartphone 15000
+		//tablet 10000
+		//tv 20000
+		
+	}
+
+	
+
+	private void filtrarPrecioTv(double d, String filtrado) {
+		ArrayList aux = new ArrayList();
+		if(filtrado.equals("gastarmucho")) {	
+			for(Tv n : this.resultadoV) {
+				if(n.getPrecio()>=d) aux.add(n);
+			}
+		}else if(filtrado.equals("gastarpoco")) {
+			for(Tv n : this.resultadoV) {
+				if(n.getPrecio()<=d) aux.add(n);
+			}
+		}
+		
+		this.resultadoV=aux;
+	}
+
+	private void filtrarPrecioTablet(double d, String filtrado) {
+		ArrayList aux = new ArrayList();
+		if(filtrado.equals("gastarmucho")) {
+			for(Tablet n : this.resultadoT) {
+				if(n.getPrecio()>=d) aux.add(n);
+			}
+		}else if(filtrado.equals("gastarpoco")) {
+			for(Tablet n : this.resultadoT) {
+				if(n.getPrecio()<=d) aux.add(n);
+			}
+		}
+		this.resultadoT=aux;
+
+		
+	}
+
+	private void filtrarPrecioSmartphone(double d, String filtrado) {
+		ArrayList aux = new ArrayList();
+		if(filtrado.equals("gastarmucho")) {
+			for(Smartphone n : this.resultadoS) {
+				if(n.getPrecio()>=d) aux.add(n);
+			}
+		}else if(filtrado.equals("gastarpoco")) {
+			for(Smartphone n : this.resultadoS) {
+				if(n.getPrecio()<=d) aux.add(n);
+			}
+		}
+		this.resultadoS=aux;
+		
+	}
+
+	private void filtrarPrecioNotebook(double d, String filtrado) {
+		ArrayList aux = new ArrayList();
+		if(filtrado.equals("gastarmucho")) {
+			for(Notebook n : this.resultadoN) {
+				if(n.getPrecio()>=d) aux.add(n);
+			}
+		}else if(filtrado.equals("gastarpoco")) {
+			for(Notebook n : this.resultadoN) {
+				if(n.getPrecio()<=d) aux.add(n);
+			}
+		}
+		this.resultadoN=aux;
 		
 	}
 
@@ -108,9 +265,48 @@ public class Recomendacion {
 	}
 
 	private void filtrarTipo(String filtrado) {
-		if(filtrado.equals("notebook")) this.resultadoN.addAll(this.notebooks);
-		else if(filtrado.equals("smartphone")) this.resultadoS.addAll(this.smartphones);
-		else if(filtrado.equals("tablet")) this.resultadoT.addAll(this.tablets);
-		else if(filtrado.equals("tv")) this.resultadoV.addAll(this.tvs);
+		if(filtrado.equals("notebook")) tipo="notebook";
+		else if(filtrado.equals("smartphone")) tipo="smartphone";
+		else if(filtrado.equals("tablet")) tipo="tablet";
+		else if(filtrado.equals("tv"))tipo="tv";
+	}
+	private void cargarProductos() {
+		//Notebooks
+	       this.notebooks = new ArrayList<Notebook>();
+	       
+	       notebooks.add(new Notebook(17999.0, "LENOVO", "Intel Celeron", 13, "HD", 120, 2, false));
+	       notebooks.add(new Notebook(3600.0, "Acer", "Intel core i5", 15, "HD", 1000, 4, false));
+	       notebooks.add(new Notebook(50000.0, "Acer", "Intel core i7", 15, "HD", 1000, 8, false));
+	       notebooks.add(new Notebook(57985.0, "Asus", "Intel core i5", 15, "FULL HD", 1000, 8, true));
+	       notebooks.add(new Notebook(65000.0, "HP", "Intel core i7", 15, "FULL HD", 256, 8, false));
+	       notebooks.add(new Notebook(80000.0, "MacBook Air", "Intel core i5", 13, "FULL HD", 128, 8, false));
+	       
+	       //Smartphones
+	       this.smartphones = new ArrayList<Smartphone>();
+	       
+	       smartphones.add(new Smartphone("Moto", 10000.0, 5.7, 13.0, 16, 2, "android"));
+	       smartphones.add(new Smartphone("LG", 14000.0, 5.3, 13.0, 32, 3, "android"));
+	       smartphones.add(new Smartphone("Samsung", 15280.0, 6.0, 16.0, 32, 3, "android"));
+	       smartphones.add(new Smartphone("Samsung", 55000.0, 6.0, 16.0, 128, 8, "android"));
+	       smartphones.add(new Smartphone("Iphone", 45000.0, 5.5, 12.0, 32, 3, "ios"));
+	       smartphones.add(new Smartphone("Iphone", 58500.0, 5.8, 12.0, 64, 4, "ios"));
+	       
+	       //Tablets
+	        this.tablets = new ArrayList<Tablet>();
+	        
+	        tablets.add(new Tablet("Samsung", 11000.0, 9.6, 1.5, 8.0, 5.0));
+	        tablets.add(new Tablet("Huawei", 6000.0, 7.0, 1.0, 16.0, 2.0));
+	        tablets.add(new Tablet("Nexus", 15500.0, 8.9, 2.0, 32.0, 8.0));
+	        tablets.add(new Tablet("Apple", 34000.0, 10.5, 3.0, 64.0, 8.0));
+	        
+	        //TVs
+	        this.tvs = new ArrayList<Tv>();
+	        
+	        tvs.add(new Tv("Noblex", 19500.0, 50, "Smart", "FULL HD"));
+	        tvs.add(new Tv("BGH", 26000.0, 50, "Smart", "4K"));
+	        tvs.add(new Tv("LG", 12000.0, 32, "Smart", "FULL HD"));
+	        tvs.add(new Tv("Sony", 57494.0, 60, "Smart", "4K"));
+	        tvs.add(new Tv("Samsung", 30000.0, 55, "Smart", "FULL HD"));
+		
 	}
 }

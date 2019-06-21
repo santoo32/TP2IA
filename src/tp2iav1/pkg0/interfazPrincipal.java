@@ -160,7 +160,11 @@ public class interfazPrincipal extends javax.swing.JFrame {
         jRadioButtonVendedor.setText("Modo vendedor");
 
         jButton3.setText("Recomendar");
-
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            	jButton3ActionPerformed(evt);
+            }
+        });
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -260,6 +264,13 @@ public class interfazPrincipal extends javax.swing.JFrame {
         return this.userText;
     }
     
+    
+	private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
+    	this.setBotText(this.agent.recomendar(), true);
+    	this.agent.setVariables();
+    	this.setBotText("Hola!, ¿Que necesitas?", true);
+    }
+    
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         
     	if(pressed){
@@ -313,8 +324,9 @@ public class interfazPrincipal extends javax.swing.JFrame {
     	respuesta = agent.start(this.jTextField1.getText(), isUserMode);
     	this.jTextField1.setText("");
     	this.setBotText(respuesta, true);
-    	habla.leer(respuesta);
+    	
         moverImagen();
+        habla.leer(respuesta);
         /*try {
             sleep(2000);
         } catch (InterruptedException ex) {

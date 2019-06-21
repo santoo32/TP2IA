@@ -56,7 +56,9 @@ public class Tablet {
 		this.resolucionCamara = resolucionCamara;
 	}
 	
-	
+	public String toString() {
+		return this.marca +" RAM: "+this.memoriaRam + " DISCO: " + this.memoriaRom + "GB "+ this.tamPantalla + "'' Camara: " + this.resolucionCamara + " $"+this.precio;  
+	}
 	
 
 }

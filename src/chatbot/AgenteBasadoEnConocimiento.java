@@ -25,17 +25,26 @@ public class AgenteBasadoEnConocimiento {
     private ArrayList<ReglaRespuesta> reglasRespuestasDisponibles;
     private ArrayList<Regla> reglasRespuestasUsadas;
     private Recomendacion recomendacion;
+    private StanfordDemo sd = new StanfordDemo();
     
 	public AgenteBasadoEnConocimiento() {
+		this.setVariables();
+		this.cargarReglas();
+		this.recomendacion = new Recomendacion();
+		sd.normalizarPalabras("hola");
+	}
+	
+
+	public void setVariables() {
 		this.preguntaActiva=TipoPregunta.TIPOPRODUCTO;
 		this.preguntasHechas = new ArrayList<TipoPregunta>();
 		this.reglasRespuestasDisponibles = new ArrayList<ReglaRespuesta>();
 		this.reglasRespuestasUsadas = new ArrayList<Regla>();
 		this.reglasPreguntasDisponibles = new ArrayList<ReglaPregunta>();
 		this.reglasPreguntasUsadas = new ArrayList<Regla>();
-		this.cargarReglas();
+			
 	}
-	
+
 
 	public String start(String oracion, boolean mode){
 		String respuesta="";
@@ -43,7 +52,7 @@ public class AgenteBasadoEnConocimiento {
 		Estrategia e = new Estrategia();
 		
 		//pasar el string a una clase que lo divida en palabras
-		StanfordDemo sd = new StanfordDemo();
+		
 		ArrayList<String> palabras = sd.normalizarPalabras(oracion);
 		//pasar las palabras a un metodo que chequee con que reglas matchea esas palabras
 		ArrayList<Regla> reglasRespuestaActivas = this.verificarReglasRespuestas(reglasRespuestasDisponibles, palabras, preguntaActiva);
@@ -65,6 +74,8 @@ public class AgenteBasadoEnConocimiento {
 			else if(respuestaEjecutar.getFiltrado().equals("tv")) this.preguntasHechas.add(TipoPregunta.TV);
 			else if(respuestaEjecutar.getFiltrado().equals("tablet")) this.preguntasHechas.add(TipoPregunta.TABLET);
 			
+			recomendacion.filtrar(respuestaEjecutar.getTipoPregunta(), respuestaEjecutar.getFiltrado());
+			
 			//elegir una pregunta
 			//buscar preguntas activas
 			ArrayList<Regla> reglasPreguntasActivas = this.verificarReglasPreguntas();
@@ -76,9 +87,17 @@ public class AgenteBasadoEnConocimiento {
 				this.preguntaActiva=preguntaEjecutar.getTipoPregunta();
 				respuesta+="\n"+preguntaEjecutar.getSalida();
 			}else { //recomendar
-				respuesta="Te recomiendo esto:";
+				String r = recomendacion.recomendar();
+				if(!r.isEmpty())
+					respuesta+=r;
+				else respuesta += "No tengo nada para recomendarte :(";
+				
+				
 				
 				//vaciar todas las variables
+				recomendacion.setVariables();
+				this.setVariables();
+				
 			}
 			
 			
@@ -86,6 +105,16 @@ public class AgenteBasadoEnConocimiento {
 		}else return "Creo que no me respondiste :S";
 	}
 	
+	public String recomendar() {
+		String respuesta="";
+		String r = recomendacion.recomendar();
+		if(!r.isEmpty())
+			respuesta+=r;
+		else respuesta += "No tengo nada para recomendarte :(";
+		this.setVariables();
+		return respuesta;
+		
+	}
 	
 	public Recomendacion getRecomendacion() {
 		return recomendacion;

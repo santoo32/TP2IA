@@ -47,6 +47,8 @@ public class Tv {
 		this.resolucion = resolucion;
 	}
 	
-	
+	public String toString() {
+		return this.marca +" Pulgadas: "+this.pulgadas + " Resolucion "+ this.resolucion + " Tipo: " + this.tipo   + " $"+this.precio;  
+	}
 
 }
