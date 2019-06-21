@@ -163,11 +163,11 @@ public class Recomendacion {
 
 	private void filtrarRomTablet(double d, String filtrado) {
 		ArrayList aux = new ArrayList();
-		if(filtrado.equals("mucharam")) {
+		if(filtrado.equals("muchodisco")) {
 			for(Tablet n : this.resultadoT) {
 				if(n.getMemoriaRom()>d) aux.add(n);
 			}
-		}else if(filtrado.equals("pocaram")) {
+		}else if(filtrado.equals("pocodisco")) {
 			for(Tablet n : this.resultadoT) {
 				if(n.getMemoriaRom()<=d) aux.add(n);
 			}

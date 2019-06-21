@@ -635,3 +635,93 @@ LG Pulgadas: 32 Resolucion FULL HD Tipo: Smart $12000.0
 - - - - - - - - - - - - - - - - - - - - -
 14:20 Asistente:           Hola!, ¿Que necesitas?
 
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer tablet
+Chatbot>> Genial, tengo tablets para ofrecerte
+¿Con que tipo de camara?
+Usuario>> camara decente
+Chatbot>> Fantastico!
+¿Cuanta memoria RAM?
+Usuario>> poca ram
+Chatbot>> Esta bien
+¿Cuanta memoria ROM?
+Usuario>> poco disco
+Chatbot>> Perfecto!
+¿Cuanto piensas gastar?
+Usuario>> gastar poco
+Chatbot>> Tengo algo económico que podría interesarte. No tengo nada para recomendarte :(
+- - - - - - - - - - - - - - - - - - - - -
+14:27 Asistente:           Hola!, ¿Que necesitas?
+
+Usuario>> querer tablet
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Queres una buena camara o una normal?
+Usuario>> camara decente
+Chatbot>> Fantastico!
+¿Cuanta memoria RAM?
+Usuario>> poca ram
+Chatbot>> Esta bien
+¿Que tamaño de disco?
+Usuario>> querer tablet
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Queres una buena camara o una normal?
+Usuario>> camara decente
+Chatbot>> Fantastico!
+¿Cuanta memoria RAM?
+Usuario>> poca ram
+Chatbot>> Esta bien
+¿Que tamaño de disco?
+Usuario>> poco disco
+Chatbot>> Perfecto!
+¿Cual es tu presupuesto?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer tablet
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Queres una buena camara o una normal?
+Usuario>> camara decente
+Chatbot>> Fantastico!
+¿Cuanta memoria RAM?
+Usuario>> poca ram
+Chatbot>> Esta bien
+¿Que tamaño de disco?
+Usuario>> poco disco
+Chatbot>> Perfecto!
+¿Cual es tu presupuesto?
+Usuario>> presupuesto bajo
+Chatbot>> Te puedo recomendar esto: 
+Huawei RAM: 1.0 DISCO: 16.0GB 7.0'' Camara: 2.0 $6000.0
+- - - - - - - - - - - - - - - - - - - - -
+14:32 Asistente:           Hola!, ¿Que necesitas?
+
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer televisor
+Chatbot>> Genial, tengo televisores para ofrecerte
+¿Cuanto piensa gastar?
+Usuario>> gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Grande o chico?
+Usuario>> pantalla grande
+Chatbot>> Perfecto!
+¿Hd, Full hd o 4K?
+Usuario>> 4K
+Chatbot>> Creo que no me respondiste :S
+Usuario>> 4k
+Chatbot>> Te puedo recomendar esto: 
+BGH Pulgadas: 50 Resolucion 4K Tipo: Smart $26000.0
+Sony Pulgadas: 60 Resolucion 4K Tipo: Smart $57494.0
+- - - - - - - - - - - - - - - - - - - - -
+14:38 Asistente:           Hola!, ¿Que necesitas?
+
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer televisor
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Cual es su presupuesto?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?

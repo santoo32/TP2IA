@@ -61,6 +61,7 @@ public class interfazPrincipal extends javax.swing.JFrame {
         this.agent = agent;
         initComponents();
         this.setBotText("Hola!, ¿Que necesitas?", true);
+        this.jTextField1.grabFocus();
         habla.leer("Hola!, ¿Que necesitas?");
     }
     public interfazPrincipal(){
@@ -257,6 +258,7 @@ public class interfazPrincipal extends javax.swing.JFrame {
     		this.JlabelBotText.append(dateFormat.format(date)+ " Yo:                      " + entrada + "\n" );
             this.JlabelBotText.append("- - - - - - - - - - - - - - - - - - - - -" + "\n" );
     	}
+    	this.JlabelBotText.setCaretPosition(this.JlabelBotText.getDocument().getLength());
     	 
     }
     
@@ -309,6 +311,7 @@ public class interfazPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2MouseClicked    
     
     private void jButtonEnviarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEnviarActionPerformed
+    	 
     	//Por si aprieta enviar y el microfono está prendido. Dejo de escuchar         
     	if(pressed){
     		e.terminarEscucha();
@@ -331,12 +334,13 @@ public class interfazPrincipal extends javax.swing.JFrame {
     	
         moverImagen();
         habla.leer(respuesta);
+        pararImagen();
         /*try {
             sleep(2000);
         } catch (InterruptedException ex) {
             Logger.getLogger(interfazPrincipal.class.getName()).log(Level.SEVERE, null, ex);
         }*/
-        pararImagen();
+        
         
         if(pressed){
         	//Cuando termina de responder vuelvo a escuchar
