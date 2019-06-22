@@ -50,7 +50,6 @@ public class ReglaVendedor extends Regla{
 				if(s1.equals(s2)) contador++;
 			}
 		}
-		this.setNovedad(contador);
 		if(contador==cantPalabras)
 			return true;
 		else return false;

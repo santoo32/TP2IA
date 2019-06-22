@@ -10,10 +10,10 @@ public class Prioridad {
 	}
 	
 	public ArrayList<Regla> priority(List<Regla> list) {
-		int max = 0;
+		int max = 100;
 		ArrayList<Regla> reglasActivas = new ArrayList<Regla>();
 		for(Regla r : list) {
-			if(r.getPrioridad() > max )
+			if(r.getPrioridad() < max )
 				max = r.getPrioridad();
 		}
 		for(Regla r : list) {

@@ -17,6 +17,7 @@ import productionsystem.ReglaRespuesta;
 import productionsystem.ReglaVendedor;
 import productionsystem.TipoPregunta;
 import stanfordCoreNLP.StanfordDemo;
+import sttYtts.EscribirArchivo;
 import sttYtts.LeerArchivo;
 import tp2iav1.pkg0.interfazPrincipal;
 
@@ -57,7 +58,7 @@ public class AgenteBasadoEnConocimiento {
 	public String start(String oracion, boolean mode){
 		String respuesta="";
 		Estrategia e = new Estrategia();
-		
+		EscribirArchivo ea = new EscribirArchivo();
 		//pasar el string a una clase que lo divida en palabras
 		ArrayList<String> palabras = sd.normalizarPalabras(oracion);
 		
@@ -67,6 +68,9 @@ public class AgenteBasadoEnConocimiento {
 			
 			//pasar las palabras a un metodo que chequee con que reglas matchea esas palabras
 			ArrayList<Regla> reglasRespuestaActivas = this.verificarReglasRespuestas(reglasRespuestasDisponibles, palabras, preguntaActiva);
+			if(!reglasRespuestaActivas.isEmpty())
+				ea.escribirActivasRespuesta(reglasRespuestaActivas, palabras, this.preguntaActiva, this.preguntasHechas, this.reglasRespuestasUsadas);
+			this.cargarNovedad();
 			
 			if(!reglasRespuestaActivas.isEmpty()){
 			//quiere decir que lo que ingreso el usuario corresponde a la pregunta hecha
@@ -78,6 +82,7 @@ public class AgenteBasadoEnConocimiento {
 				this.preguntasHechas.add(this.preguntaActiva);
 				this.reglasPreguntasUsadas=this.filtrarPreguntas();
 				respuesta+=respuestaEjecutar.getSalida();
+				ea.escribirFaseDeEjecucionR(preguntasHechas, respuestaEjecutar);
 				
 				//refinar los productos
 				if(respuestaEjecutar.getFiltrado().equals("notebook")) this.preguntasHechas.add(TipoPregunta.NOTEBOOK);
@@ -91,10 +96,12 @@ public class AgenteBasadoEnConocimiento {
 				//buscar preguntas activas
 				ArrayList<Regla> reglasPreguntasActivas = this.verificarReglasPreguntas();
 				if(!reglasPreguntasActivas.isEmpty()) {
+					ea.escribirActivasPregunta(palabras,reglasPreguntasActivas, this.preguntaActiva, this.preguntasHechas, this.reglasRespuestasUsadas);
 					//elijo una segun estrategia
 					e.setReglasActivas(reglasPreguntasActivas);
 					e.setReglasUsadas(reglasPreguntasUsadas);
 					ReglaPregunta preguntaEjecutar = (ReglaPregunta) e.buscarRegla();
+					ea.escribirFaseDeEjecucionP(preguntaEjecutar);
 					this.preguntaActiva=preguntaEjecutar.getTipoPregunta();
 					respuesta+="\n"+preguntaEjecutar.getSalida();
 				}else { //recomendar
@@ -143,6 +150,17 @@ public class AgenteBasadoEnConocimiento {
 		
 	}
 	
+	private void cargarNovedad() {
+		for(ReglaRespuesta r : reglasRespuestasDisponibles) {
+			r.cargarNovedad(this.preguntaActiva);
+		}
+		for(ReglaPregunta r : reglasPreguntasDisponibles) {
+			r.cargarNovedad(this.preguntaActiva);
+		}
+		
+	}
+
+
 	private ArrayList<Regla> verificarReglasVendedor(ArrayList<ReglaVendedor> reglasVendedorDisponibles,
 			ArrayList<String> palabras) {
 		
@@ -221,6 +239,10 @@ public class AgenteBasadoEnConocimiento {
 		
 		return reglasUsadas;
 	}
+	
+	
+	
+	
 	/*public ArrayList<String> dividirEnPalabras(String oracion){
 		ArrayList<String> palabras = new ArrayList<String>();
 		int i=0;

@@ -56,10 +56,14 @@ public class ReglaRespuesta extends Regla{
 				if(s1.equals(s2)) contador++;
 			}
 		}
-		this.setNovedad(contador);
 		if(contador==cantPalabras && preguntaActiva.equals(tipoPregunta))
 			return true;
 		else return false;
+	}
+	
+	public void cargarNovedad(TipoPregunta tipo) {
+		if(tipo.equals(this.tipoPregunta)) this.setNovedad(true);
+		else this.setNovedad(false);
 	}
 	
 	

@@ -5,18 +5,18 @@ import java.util.List;
 
 public class Regla {
 	private int id; //para la no duplicacion
-	private int novedad;
+	private boolean novedad;
 	private int prioridad;
 	private int especificidad;
 	
 	
 	public Regla() {
-		novedad=0;
+		novedad=false;
 		prioridad=0;
 		especificidad=0;
 	}
 
-	public Regla(int id, int novedad, int prioridad, int especificidad) {
+	public Regla(int id, boolean novedad, int prioridad, int especificidad) {
 		super();
 		this.id = id;
 		this.novedad = novedad;
@@ -29,10 +29,10 @@ public class Regla {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public int getNovedad() {
+	public boolean getNovedad() {
 		return novedad;
 	}
-	public void setNovedad(int novedad) {
+	public void setNovedad(boolean novedad) {
 		this.novedad = novedad;
 	}
 	public int getPrioridad() {

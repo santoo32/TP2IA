@@ -757,3 +757,111 @@ Samsung RAM: 1.5 DISCO: 8.0GB 9.6'' Camara: 5.0 $11000.0
 Nexus RAM: 2.0 DISCO: 32.0GB 8.9'' Camara: 8.0 $15500.0
 Apple RAM: 3.0 DISCO: 64.0GB 10.5'' Camara: 8.0 $34000.0
 
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> yo necesitar una notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer tablet
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Queres una buena camara o una normal?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer televisor
+Chatbot>> Genial, tengo televisores para ofrecerte
+¿Cuanto piensa gastar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer tablet
+Chatbot>> Genial, tengo tablets para ofrecerte
+¿Con que tipo de camara?
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer tablet
+Chatbot>> Genial, tengo tablets para ofrecerte
+¿Con que tipo de camara?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> para jugar
+Chatbot>> Tengo algunas notebooks con buen desempeño en video.
+¿Que tamaño de disco?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> para oficina
+Chatbot>> Tengo algunas notebooks con buen desempeño diario.
+¿Cuanta memoria ROM?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Usuario>> para oficina
+Chatbot>> Te puedo recomendar algunas notebooks que tenemos.
+¿Cuanta memoria ROM?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> para oficina
+Chatbot>> Te puedo recomendar algunas notebooks que tenemos.
+¿Cuanta memoria ROM?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> oficina
+Chatbot>> Tengo algunas notebooks con buen desempeño diario.
+¿Cual es tu presupuesto?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Usuario>> oficina
+Chatbot>> Te puedo recomendar algunas notebooks que tenemos.
+¿Cuanto piensas gastar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Usuario>> para oficina
+Chatbot>> Te puedo recomendar algunas notebooks que tenemos.
+¿Cuanto piensas gastar?

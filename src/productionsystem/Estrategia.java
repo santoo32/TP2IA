@@ -3,10 +3,12 @@ package productionsystem;
 import java.util.ArrayList;
 import java.util.List;
 
+import sttYtts.EscribirArchivo;
+
 public class Estrategia {
 	private List<Regla> reglasActivas;
 	private List<Regla> reglasUsadas;
-	
+	private String resolucion;
 
 	public Estrategia() {
 		super();
@@ -32,7 +34,8 @@ public class Estrategia {
 	public Regla buscarRegla() {
 		Regla r = new Regla();
 		ArrayList<Regla> aux = new ArrayList<Regla>();
-		
+		EscribirArchivo ea = new EscribirArchivo();
+		resolucion="";
 		//Orden a seguir: NO DUPLICACION - NOVEDAD - ESPECIFICIDAD - PRIORIDAD - ALEATORIO
 		
 		//probar con no duplicacion
@@ -44,7 +47,7 @@ public class Estrategia {
 			this.reglasActivas=aux;
 			aux=this.novedad();
 			if(aux.size()==1) {
-				r=aux.get(0);System.out.println("Se uso la estrategia Novedad ");
+				r=aux.get(0);System.out.println("Se uso la estrategia Novedad "); 
 			}else {
 				//probar con especificidad
 				this.reglasActivas = aux;
@@ -61,14 +64,14 @@ public class Estrategia {
 						//probar con novedad
 						this.reglasActivas = aux;
 						Aleatorio a = new Aleatorio();
-						r = a.random(this.reglasActivas); System.out.println("Se uso la estrategia Aleatorio ");
+						r = a.random(this.reglasActivas); System.out.println("Se uso la estrategia Aleatorio ");resolucion+=" Aleatorio ";
 					}
 					
 				}
 			}
 			
 		}
-		
+		ea.escribirFaseResolucion(resolucion, r);
 		
 		return r;
 	}
@@ -77,8 +80,9 @@ public class Estrategia {
 		ArrayList<Regla> rtdo = new ArrayList<Regla>();
 		NoDuplicacion np = new NoDuplicacion();
 		rtdo = np.noDuplication(reglasActivas, reglasUsadas);
-		if(rtdo.size() > 1)
-			return rtdo;
+		if(rtdo.size()!=reglasActivas.size()) this.resolucion+="No duplicacion";
+		if(rtdo.size() > 1) {
+			return rtdo;} 
 		else if (rtdo.size()==0)
 			return (ArrayList<Regla>) this.reglasActivas;
 		else return rtdo;
@@ -89,9 +93,9 @@ public class Estrategia {
 		ArrayList<Regla> rtdo = new ArrayList<Regla>();
 		Especificidad e = new Especificidad();
 		rtdo = e.specificity(this.reglasActivas);
-		
-		if(rtdo.size() > 1)
-			return rtdo;
+		if(rtdo.size()!=reglasActivas.size())resolucion+=" Especificidad ";
+		if(rtdo.size() > 1) {
+			return rtdo;}
 		else if (rtdo.size()==0)
 			return (ArrayList<Regla>) this.reglasActivas;
 		else return rtdo;
@@ -101,8 +105,9 @@ public class Estrategia {
 		ArrayList<Regla> rtdo = new ArrayList<Regla>();
 		Prioridad p = new Prioridad();
 		rtdo = p.priority(this.reglasActivas);
-		if(rtdo.size() > 1)
-			return rtdo;
+		if(rtdo.size()!=reglasActivas.size())resolucion+=" Prioridad ";
+		if(rtdo.size() > 1) {
+			return rtdo;}
 		else if (rtdo.size()==0)
 			return (ArrayList<Regla>) this.reglasActivas;
 		else return rtdo;
@@ -111,11 +116,14 @@ public class Estrategia {
 		ArrayList<Regla> rtdo = new ArrayList<Regla>();
 		Novedad n = new Novedad();
 		rtdo = n.novelty(this.reglasActivas);
-		if(rtdo.size() > 1)
-			return rtdo;
+		if(rtdo.size()!=reglasActivas.size()) resolucion+=" Novedad ";
+		if(rtdo.size() > 1) {
+			 return rtdo;}
 		else if (rtdo.size()==0)
 			return (ArrayList<Regla>) this.reglasActivas;
 		else return rtdo;
 	}
+	
+	
 	
 }

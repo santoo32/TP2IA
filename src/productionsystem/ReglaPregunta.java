@@ -45,8 +45,14 @@ public class ReglaPregunta extends Regla{
 				if(t1.equals(t2)) contador++;
 			}
 		}
-		this.setNovedad(contador);
 		if(contador==cantTipos) return true;
 		else return false;
+	}
+	public void cargarNovedad(TipoPregunta preguntaActiva) {
+		boolean encontrado=false;
+		for(TipoPregunta tipo : this.condicion) {
+			if(tipo.equals(preguntaActiva)) encontrado=true;
+		}
+		this.setNovedad(encontrado);
 	}
 }
