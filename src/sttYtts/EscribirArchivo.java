@@ -222,5 +222,104 @@ public class EscribirArchivo {
         }
 	}
 	
+	public void escribirActivasVendedor(ArrayList<String> palabras , ArrayList<Regla> reglasVendedor, ArrayList<Regla> reglasUsadasVendedor) {
+		try{
+        	//Creo el fichero
+        	nombre = "logVendedor.txt";
+        	//Creo el txt. el parametro true es para que agregue al final del archivo (si es que ya está creado)
+            fichero = new FileWriter(nombre,true);
+            
+            pw = new PrintWriter(fichero);
+            String filtrarPor="";
+            for(Regla r : reglasUsadasVendedor) {
+            	filtrarPor+=" FiltrarPor("+((ReglaVendedor) r).getFiltrado()+")  ";
+            }
+            //Escribo en el archivo
+            pw.println("					BUSCANDO UNA RESPUESTA...");
+            pw.println(" ");
+            pw.println("MEMORIA DE TRABAJO:");
+            pw.println(palabras);
+            pw.println(" ");
+            pw.println("FASE DE COTEJO:");
+            pw.println("REGLAS ACTIVAS DE VENDEDOR:");
+            for(Regla r : reglasVendedor) {
+            	pw.println(r.getId()+") P:"+r.getPrioridad()+" - "+((ReglaVendedor) r).getCondicion()+")===>"+
+            			((ReglaVendedor) r).getSalida()+" ^ FiltrarPor("+((ReglaVendedor) r).getTipoProducto()+") FiltrarPor("+((ReglaVendedor) r).getFiltrado()+")");
+            }
+            pw.println(" ");
+
+        }catch (Exception e){
+            e.printStackTrace();
+        } finally {
+           try {
+        	   // finally para asegurarnos que se cierra el fichero.
+        	   if (fichero != null) {
+        		   fichero.close();
+        	   }
+           } catch (Exception e2) {
+              e2.printStackTrace();
+           }
+        }
+	}
+
+	public void escribirFaseResolucionV(String resolucion, Regla reglaEjecutada) {
+		try{
+        	//Creo el fichero
+        	nombre = "logVendedor.txt";
+        	//Creo el txt. el parametro true es para que agregue al final del archivo (si es que ya está creado)
+            fichero = new FileWriter(nombre,true);
+            
+            pw = new PrintWriter(fichero);
+            //Escribo en el archivo
+            pw.println("FASE DE RESOLUCION:");
+            pw.println("SE EJECUTA LA REGLA:"+reglaEjecutada.getId()+" UTILIZANDO: "+resolucion);
+            pw.println(" ");
+            
+
+        }catch (Exception e){
+            e.printStackTrace();
+        } finally {
+           try {
+        	   // finally para asegurarnos que se cierra el fichero.
+        	   if (fichero != null) {
+        		   fichero.close();
+        	   }
+           } catch (Exception e2) {
+              e2.printStackTrace();
+           }
+        }
+		
+	}
+
+	public void escribirFaseDeEjecucionV(ReglaVendedor reglaEjecutar) {
+		try{
+        	//Creo el fichero
+        	nombre = "logVendedor.txt";
+        	//Creo el txt. el parametro true es para que agregue al final del archivo (si es que ya está creado)
+            fichero = new FileWriter(nombre,true);
+            
+            pw = new PrintWriter(fichero);
+            
+            //Escribo en el archivo
+            pw.println("FASE DE EJECUCION:");
+            pw.println("FiltrarPor("+((ReglaVendedor) reglaEjecutar).getTipoProducto()+") FiltrarPor("+((ReglaVendedor) reglaEjecutar).getFiltrado()+")");
+            pw.println(" ");
+            pw.println("--------------------------------------------------------------------------------------------------------");
+            pw.println(" ");
+        }catch (Exception e){
+            e.printStackTrace();
+        } finally {
+           try {
+        	   // finally para asegurarnos que se cierra el fichero.
+        	   if (fichero != null) {
+        		   fichero.close();
+        	   }
+           } catch (Exception e2) {
+              e2.printStackTrace();
+           }
+        }
+		
+	}
+	
 
 }

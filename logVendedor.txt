@@ -1,0 +1,34 @@
+					BUSCANDO UNA RESPUESTA...
+ 
+MEMORIA DE TRABAJO:
+[notebook, para, jugar]
+ 
+FASE DE COTEJO:
+REGLAS ACTIVAS DE VENDEDOR:
+3) P:1 - [jugar, notebook])===>Las notebooks con placa de video que tenemos son las siguientes: ^ FiltrarPor(notebook) FiltrarPor(diseno)
+ 
+FASE DE RESOLUCION:
+SE EJECUTA LA REGLA:3 UTILIZANDO: 
+ 
+FASE DE EJECUCION:
+FiltrarPor(notebook) FiltrarPor(diseno)
+ 
+--------------------------------------------------------------------------------------------------------
+ 
+					BUSCANDO UNA RESPUESTA...
+ 
+MEMORIA DE TRABAJO:
+[tablet, mucha, ram]
+ 
+FASE DE COTEJO:
+REGLAS ACTIVAS DE VENDEDOR:
+25) P:11 - [tablet, mucha, ram])===>Tablets con mucha ram: ^ FiltrarPor(tablet) FiltrarPor(mucharam)
+ 
+FASE DE RESOLUCION:
+SE EJECUTA LA REGLA:25 UTILIZANDO: 
+ 
+FASE DE EJECUCION:
+FiltrarPor(tablet) FiltrarPor(mucharam)
+ 
+--------------------------------------------------------------------------------------------------------
+ 

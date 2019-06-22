@@ -31,7 +31,7 @@ public class Estrategia {
 	}
 
 
-	public Regla buscarRegla() {
+	public Regla buscarRegla(boolean mode) {
 		Regla r = new Regla();
 		ArrayList<Regla> aux = new ArrayList<Regla>();
 		EscribirArchivo ea = new EscribirArchivo();
@@ -71,8 +71,10 @@ public class Estrategia {
 			}
 			
 		}
-		ea.escribirFaseResolucion(resolucion, r);
-		
+		if(mode)
+			ea.escribirFaseResolucion(resolucion, r);
+		else 
+			ea.escribirFaseResolucionV(resolucion, r);
 		return r;
 	}
 	

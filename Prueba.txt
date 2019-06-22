@@ -865,3 +865,12 @@ Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
 Usuario>> para oficina
 Chatbot>> Te puedo recomendar algunas notebooks que tenemos.
 ¿Cuanto piensas gastar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> notebook para jugar
+Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
+Asus Intel core i5 Ram: 8GB DISCO: 1000GB 15'' FULL HD $57985.0
+
+Usuario>> tablet mucha ram
+Chatbot>> Tablets con mucha ram:
+Apple RAM: 3.0 DISCO: 64.0GB 10.5'' Camara: 8.0 $34000.0
+

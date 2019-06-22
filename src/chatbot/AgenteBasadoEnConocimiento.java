@@ -77,7 +77,7 @@ public class AgenteBasadoEnConocimiento {
 				//se elige una y el chatbot responde
 				e.setReglasActivas(reglasRespuestaActivas);
 				e.setReglasUsadas(reglasRespuestasUsadas);
-				ReglaRespuesta respuestaEjecutar = (ReglaRespuesta) e.buscarRegla();
+				ReglaRespuesta respuestaEjecutar = (ReglaRespuesta) e.buscarRegla(mode);
 				reglasRespuestasUsadas.add(respuestaEjecutar);
 				this.preguntasHechas.add(this.preguntaActiva);
 				this.reglasPreguntasUsadas=this.filtrarPreguntas();
@@ -100,7 +100,7 @@ public class AgenteBasadoEnConocimiento {
 					//elijo una segun estrategia
 					e.setReglasActivas(reglasPreguntasActivas);
 					e.setReglasUsadas(reglasPreguntasUsadas);
-					ReglaPregunta preguntaEjecutar = (ReglaPregunta) e.buscarRegla();
+					ReglaPregunta preguntaEjecutar = (ReglaPregunta) e.buscarRegla(mode);
 					ea.escribirFaseDeEjecucionP(preguntaEjecutar);
 					this.preguntaActiva=preguntaEjecutar.getTipoPregunta();
 					respuesta+="\n"+preguntaEjecutar.getSalida();
@@ -130,11 +130,12 @@ public class AgenteBasadoEnConocimiento {
 			
 			//ver las reglas activas
 			ArrayList<Regla> reglasVendedorActivas = this.verificarReglasVendedor(this.reglasVendedorDisponibles, palabras);
-			
+			ea.escribirActivasVendedor(palabras, reglasVendedorActivas, this.reglasVendedorUsadas);
 			if(!reglasVendedorActivas.isEmpty()) {
 				e.setReglasActivas(reglasVendedorActivas);
 				e.setReglasUsadas(reglasVendedorUsadas);
-				ReglaVendedor reglaEjecutar = (ReglaVendedor) e.buscarRegla();
+				ReglaVendedor reglaEjecutar = (ReglaVendedor) e.buscarRegla(mode);
+				ea.escribirFaseDeEjecucionV(reglaEjecutar);
 				
 				//filtrar los productos
 				Recomendacion reco = new Recomendacion();
