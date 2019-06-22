@@ -725,3 +725,35 @@ Chatbot>> Hola!, ¿Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
 ¿Qué uso le piensa dar?
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> diseno notebook
+Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
+
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> jugar notebook
+Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
+
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> jugar notebook
+Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
+
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> jugar notebook
+Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:notebook
+
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> jugar notebook
+Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
+
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> jugar notebook
+Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
+Asus Intel core i5 Ram: 8GB DISCO: 1000GB 15'' FULL HD $57985.0
+
+Usuario>> tablet cara
+Chatbot>> Tablets caras:
+Samsung RAM: 1.5 DISCO: 8.0GB 9.6'' Camara: 5.0 $11000.0
+Nexus RAM: 2.0 DISCO: 32.0GB 8.9'' Camara: 8.0 $15500.0
+Apple RAM: 3.0 DISCO: 64.0GB 10.5'' Camara: 8.0 $34000.0
+

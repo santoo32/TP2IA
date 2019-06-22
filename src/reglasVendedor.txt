@@ -1,0 +1,47 @@
+diseno notebook *Las notebooks con placa de video que tenemos son las siguientes:*1*1*notebook*USO*diseno*
+gaming notebook *Las notebooks con placa de video que tenemos son las siguientes:*2*1*notebook*USO*diseno*
+jugar notebook *Las notebooks con placa de video que tenemos son las siguientes:*3*1*notebook*USO*diseno*
+oficina notebook *Notebooks con desempeño diario son:*4*2*notebook*USO*oficina*
+diario notebook *Notebooks con desempeño diario son:*5*2*notebook*USO*oficina*
+documento notebook *Notebooks con desempeño diario son:*5*2*notebook*USO*oficina*
+programar notebook *Las notebooks con buen procesador son:*6*3*notebook*USO*programar*
+codificar notebook *Las notebooks con buen procesador son:*7*3*notebook*USO*programar*
+desarrollar notebook *Las notebooks con buen procesador son:*8*3*notebook*USO*programar*
+cara notebook *Notebook caras:*9*4*notebook*PRECIO*gastarmucho*
+barata notebook *Notebook baratas:*10*4*notebook*PRECIO*gastarpoco*
+economica notebook *Notebook baratas:*11*4*notebook*PRECIO*gastarpoco*
+pantalla grande notebook *Notebooks con pantalla grande:*12*5*notebook*TAMPANTALLA*grande*
+pantalla chica notebook *Notebooks con pantalla chica:*13*5*notebook*TAMPANTALLA*chica*
+hd notebook *Notebooks con resolución hd:*14*6*notebook*RESPANTALLA*HD*
+full hd notebook *Notebooks con resolución full hd:*15*6*notebook*RESPANTALLA*FULL HD*
+mucha ram notebook *Notebooks con mucha ram:*16*7*notebook*RESPANTALLA*4K*
+poca ram notebook *Notebooks con poca ram:*17*7*notebook*RAM*pocaram*
+disco grande notebook *Notebooks con mucho disco:*18*8*notebook*RAM*mucharam*
+disco chico notebook *Notebooks con poco disco:*19*8*notebook*ROM*pocaram*
+tablet cara *Tablets caras:*20*9*tablet*PRECIO*gastarmucho*
+tablet barata *Tablets economicas:*21*9*tablet*PRECIO*gastarpoco*
+tablet economica *Tablets economicas:*22*9*tablet*PRECIO*gastarpoco*
+tablet camara buena *Tablets con buena camara:*23*10*tablet*CAMARA*camarabuena*
+tablet camara decente *Tablets con camara decente:*24*10*tablet*CAMARA*camaranormal*
+tablet mucha ram *Tablets con mucha ram:*25*11*tablet*RAM*mucharam*
+tablet poca ram *Tablets con poca ram:*26*11*tablet*RAM*pocaram*
+tablet disco grande *Tablets con disco grande:*27*12*tablet*ROM*muchodisco*
+tablet disco chico *Tablets con disco chico:*28*12*tablet*ROM*pocodisco*
+celular caro *Celulares caros:*29*13*smartphone*PRECIO*gastarmucho*
+celular barato *Celulares baratos:*30*14*smartphone*PRECIO*gastarpoco*
+celular camara buena *Celulares con camara buena:*31*15*smartphone*CAMARA*camarabuena*
+celular camara decente *Celulares con camara decente:*32*15*smartphone*CAMARA*camaranormal*
+celular android *Celulares con android: *33*16*smartphone*SO*android*
+celular ios *Celulares con IOS: *34*16*smartphone*SO*ios*
+celular poca ram *Celulares con poca ram:*35*17*smartphone*RAM*pocaram*
+celular mucha ram *Celulares con mucha ram:*36*17*smartphone*RAM*mucharam*
+celular disco grande *Celulares con disco grande:*37*18*smartphone*ROM*muchodisco*
+celular disco chico *Celulares con disco chico:*38*18*smartphone*ROM*pocodisco*
+televisor pantalla grande *Televisores con pantalla grande:*39*19*tv*TAMPANTALLA*grande*
+televisor pantalla chica *Televisores con pantalla chica:*40*19*tv*TAMPANTALLA*chica*
+televisor caro *Televisores caros:*41*20*tv*PRECIO*gastarmucho*
+televisor barato *Televisores baratos:*42*21*tv*PRECIO*gastarpoco*
+televisor economico *Televisores economicos*43*21*tv*PRECIO*gastarpoco*
+televisor hd *Televisores hd:*44*22*tv*RESPANTALLA*HD*
+televisor full hd *Televisores full hd*45*22*tv*RESPANTALLA*FULL HD*
+televisor 4k *Televisores 4k*46*22*tv*RESPANTALLA*4K*

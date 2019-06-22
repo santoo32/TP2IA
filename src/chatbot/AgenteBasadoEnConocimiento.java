@@ -14,6 +14,7 @@ import productionsystem.NoDuplicacion;
 import productionsystem.Regla;
 import productionsystem.ReglaPregunta;
 import productionsystem.ReglaRespuesta;
+import productionsystem.ReglaVendedor;
 import productionsystem.TipoPregunta;
 import stanfordCoreNLP.StanfordDemo;
 import sttYtts.LeerArchivo;
@@ -27,12 +28,15 @@ public class AgenteBasadoEnConocimiento {
     private ArrayList<Regla> reglasPreguntasUsadas;
     private ArrayList<ReglaRespuesta> reglasRespuestasDisponibles;
     private ArrayList<Regla> reglasRespuestasUsadas;
+    private ArrayList<ReglaVendedor> reglasVendedorDisponibles;
+    private ArrayList<Regla> reglasVendedorUsadas;
     private Recomendacion recomendacion;
     private StanfordDemo sd = new StanfordDemo();
     
 	public AgenteBasadoEnConocimiento() {
 		this.reglasRespuestasDisponibles = new ArrayList<ReglaRespuesta>();
 		this.reglasPreguntasDisponibles = new ArrayList<ReglaPregunta>();
+		this.reglasVendedorDisponibles = new ArrayList<ReglaVendedor>();
 		this.setVariables();
 		this.cargarReglas();
 		this.recomendacion = new Recomendacion();
@@ -45,75 +49,112 @@ public class AgenteBasadoEnConocimiento {
 		this.preguntasHechas = new ArrayList<TipoPregunta>();
 		this.reglasRespuestasUsadas = new ArrayList<Regla>();
 		this.reglasPreguntasUsadas = new ArrayList<Regla>();
+		this.reglasVendedorUsadas = new ArrayList<Regla>();
 			
 	}
 
 
 	public String start(String oracion, boolean mode){
 		String respuesta="";
-		TipoPregunta productoActual;
 		Estrategia e = new Estrategia();
 		
 		//pasar el string a una clase que lo divida en palabras
-		
 		ArrayList<String> palabras = sd.normalizarPalabras(oracion);
-		System.out.println(palabras);
-		//pasar las palabras a un metodo que chequee con que reglas matchea esas palabras
-		ArrayList<Regla> reglasRespuestaActivas = this.verificarReglasRespuestas(reglasRespuestasDisponibles, palabras, preguntaActiva);
 		
-		if(!reglasRespuestaActivas.isEmpty()){
-		//quiere decir que lo que ingreso el usuario corresponde a la pregunta hecha
-			//se elige una y el chatbot responde
-			e.setReglasActivas(reglasRespuestaActivas);
-			e.setReglasUsadas(reglasRespuestasUsadas);
-			ReglaRespuesta respuestaEjecutar = (ReglaRespuesta) e.buscarRegla();
-			reglasRespuestasUsadas.add(respuestaEjecutar);
-			this.preguntasHechas.add(this.preguntaActiva);
-			this.reglasPreguntasUsadas=this.filtrarPreguntas();
-			respuesta+=respuestaEjecutar.getSalida();
+		if(mode) {//cliente
 			
-			//refinar los productos
-			if(respuestaEjecutar.getFiltrado().equals("notebook")) this.preguntasHechas.add(TipoPregunta.NOTEBOOK);
-			else if(respuestaEjecutar.getFiltrado().equals("smartphone")) this.preguntasHechas.add(TipoPregunta.SMARTPHONE);
-			else if(respuestaEjecutar.getFiltrado().equals("tv")) this.preguntasHechas.add(TipoPregunta.TV);
-			else if(respuestaEjecutar.getFiltrado().equals("tablet")) this.preguntasHechas.add(TipoPregunta.TABLET);
+			TipoPregunta productoActual;
 			
-			recomendacion.filtrar(respuestaEjecutar.getTipoPregunta(), respuestaEjecutar.getFiltrado());
+			//pasar las palabras a un metodo que chequee con que reglas matchea esas palabras
+			ArrayList<Regla> reglasRespuestaActivas = this.verificarReglasRespuestas(reglasRespuestasDisponibles, palabras, preguntaActiva);
 			
-			//elegir una pregunta
-			//buscar preguntas activas
-			ArrayList<Regla> reglasPreguntasActivas = this.verificarReglasPreguntas();
-			if(!reglasPreguntasActivas.isEmpty()) {
-				//elijo una segun estrategia
-				e.setReglasActivas(reglasPreguntasActivas);
-				e.setReglasUsadas(reglasPreguntasUsadas);
-				ReglaPregunta preguntaEjecutar = (ReglaPregunta) e.buscarRegla();
-				this.preguntaActiva=preguntaEjecutar.getTipoPregunta();
-				respuesta+="\n"+preguntaEjecutar.getSalida();
-			}else { //recomendar
+			if(!reglasRespuestaActivas.isEmpty()){
+			//quiere decir que lo que ingreso el usuario corresponde a la pregunta hecha
+				//se elige una y el chatbot responde
+				e.setReglasActivas(reglasRespuestaActivas);
+				e.setReglasUsadas(reglasRespuestasUsadas);
+				ReglaRespuesta respuestaEjecutar = (ReglaRespuesta) e.buscarRegla();
+				reglasRespuestasUsadas.add(respuestaEjecutar);
+				this.preguntasHechas.add(this.preguntaActiva);
+				this.reglasPreguntasUsadas=this.filtrarPreguntas();
+				respuesta+=respuestaEjecutar.getSalida();
 				
-				String r = recomendacion.recomendar();
-				if(!r.isEmpty()) {
-					respuesta="Te puedo recomendar esto: \n";
-					respuesta+=r;
-				}else respuesta += "No tengo nada para recomendarte :(\n";
-				DateFormat dateFormat = new SimpleDateFormat("HH:mm");
-				Date date = new Date();
-				respuesta+="- - - - - - - - - - - - - - - - - - - - -" + "\n";
-				respuesta+=dateFormat.format(date)+ " Asistente:           " + "Hola!, ¿Que necesitas?" + "\n";
+				//refinar los productos
+				if(respuestaEjecutar.getFiltrado().equals("notebook")) this.preguntasHechas.add(TipoPregunta.NOTEBOOK);
+				else if(respuestaEjecutar.getFiltrado().equals("smartphone")) this.preguntasHechas.add(TipoPregunta.SMARTPHONE);
+				else if(respuestaEjecutar.getFiltrado().equals("tv")) this.preguntasHechas.add(TipoPregunta.TV);
+				else if(respuestaEjecutar.getFiltrado().equals("tablet")) this.preguntasHechas.add(TipoPregunta.TABLET);
+				
+				recomendacion.filtrar(respuestaEjecutar.getTipoPregunta(), respuestaEjecutar.getFiltrado());
+				
+				//elegir una pregunta
+				//buscar preguntas activas
+				ArrayList<Regla> reglasPreguntasActivas = this.verificarReglasPreguntas();
+				if(!reglasPreguntasActivas.isEmpty()) {
+					//elijo una segun estrategia
+					e.setReglasActivas(reglasPreguntasActivas);
+					e.setReglasUsadas(reglasPreguntasUsadas);
+					ReglaPregunta preguntaEjecutar = (ReglaPregunta) e.buscarRegla();
+					this.preguntaActiva=preguntaEjecutar.getTipoPregunta();
+					respuesta+="\n"+preguntaEjecutar.getSalida();
+				}else { //recomendar
+					
+					String r = recomendacion.recomendar();
+					if(!r.isEmpty()) {
+						respuesta="Te puedo recomendar esto: \n";
+						respuesta+=r;
+					}else respuesta += "No tengo nada para recomendarte :(\n";
+					DateFormat dateFormat = new SimpleDateFormat("HH:mm");
+					Date date = new Date();
+					respuesta+="- - - - - - - - - - - - - - - - - - - - -" + "\n";
+					respuesta+=dateFormat.format(date)+ " Asistente:           " + "Hola!, ¿Que necesitas?" + "\n";
+					
+					
+					//vaciar todas las variables
+					recomendacion.setVariables();
+					this.setVariables();
+					
+				}
 				
 				
-				//vaciar todas las variables
-				recomendacion.setVariables();
-				this.setVariables();
-				
-			}
+				return respuesta;
+			}else return "Creo que no me respondiste :S";
+		}else {//vendedor
 			
+			//ver las reglas activas
+			ArrayList<Regla> reglasVendedorActivas = this.verificarReglasVendedor(this.reglasVendedorDisponibles, palabras);
 			
-			return respuesta;
-		}else return "Creo que no me respondiste :S";
+			if(!reglasVendedorActivas.isEmpty()) {
+				e.setReglasActivas(reglasVendedorActivas);
+				e.setReglasUsadas(reglasVendedorUsadas);
+				ReglaVendedor reglaEjecutar = (ReglaVendedor) e.buscarRegla();
+				
+				//filtrar los productos
+				Recomendacion reco = new Recomendacion();
+				reco.filtrar(TipoPregunta.TIPOPRODUCTO, reglaEjecutar.getTipoProducto());
+				reco.filtrar(reglaEjecutar.getTipoPregunta(), reglaEjecutar.getFiltrado());
+				
+				
+				return reglaEjecutar.getSalida()+"\n" + reco.recomendar();
+				
+			}else return "No te entendi";
+			
+		}
+		
 	}
 	
+	private ArrayList<Regla> verificarReglasVendedor(ArrayList<ReglaVendedor> reglasVendedorDisponibles,
+			ArrayList<String> palabras) {
+		
+		ArrayList<Regla> aux = new ArrayList<Regla>();
+		for(ReglaVendedor r : reglasVendedorDisponibles) {
+			if(r.verificarCondicion(palabras)) aux.add(r);
+		}
+		
+		return aux;
+	}
+
+
 	public String recomendar() {
 		String respuesta="";
 		String r = recomendacion.recomendar();
@@ -167,6 +208,7 @@ public class AgenteBasadoEnConocimiento {
 		LeerArchivo a = new LeerArchivo();
 		this.reglasRespuestasDisponibles = a.leerReglasClienteRespuesta();
 		this.reglasPreguntasDisponibles = a.leerReglasClientePregunta();
+		this.reglasVendedorDisponibles = a.leerReglasVendedor();
 	}
 	public ArrayList<Regla> filtrarPreguntas(){
 		ArrayList<Regla> reglasUsadas = new ArrayList<Regla>();
