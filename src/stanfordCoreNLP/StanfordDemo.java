@@ -2,6 +2,7 @@ package stanfordCoreNLP;
 
 import java.text.Normalizer;
 import java.util.*;
+
 import edu.stanford.nlp.ling.*;
 import edu.stanford.nlp.pipeline.*;
 import edu.stanford.nlp.util.*;
@@ -27,12 +28,10 @@ public class StanfordDemo {
 		// Una anotación es un mapa con claves de clase para los tipos de análisis lingüístico.
 		// Puedes obtener y usar los distintos análisis individualmente.
 		List<CoreMap> sentences = spanishAnnotation.get(CoreAnnotations.SentencesAnnotation.class);	
-		//Verifico que haya sentencia y que la misma no esté vacía. 
-		if (sentences != null && ! sentences.isEmpty()) {
-			//Obtengo la primera sentencia/oración 
-		    CoreMap sentence = sentences.get(0);
-		    //Por cada palabra identificada la agrego  
-		    for (CoreMap token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {	    	  
+		//Por cada sentencia identificada...
+		for(CoreMap sent : sentences) {
+			//y por cada palabra identificada la agrego  
+		    for (CoreMap token : sent.get(CoreAnnotations.TokensAnnotation.class)) {	    	  
 		      palabras.add(new Palabra(token.get(CoreAnnotations.TextAnnotation.class) , token.get(CoreAnnotations.PartOfSpeechAnnotation.class)));
 		    }
 		}
@@ -46,19 +45,80 @@ public class StanfordDemo {
 		for (Palabra p : palabras) {
 			//Elimino a minúscula
 			pasarAMinuscula(p);
+			//Si es adjetivo o sustantivo lo paso a singular //X es para la tablet que no se porque no me la clasifica
+			if(p.getParte().equalsIgnoreCase("ADJ")|| p.getParte().equalsIgnoreCase("X") || p.getParte().equalsIgnoreCase("PROPN") || p.getParte().equalsIgnoreCase("NOUN")) {
+				pluralASingular(p);
+			}
 			//Elimino acentos
 			eliminarAcentos(p);
 			//Si la palabra es un verbo...
-			/*if(p.getParte().equalsIgnoreCase("VERB")) {
+			if(p.getParte().equalsIgnoreCase("VERB")) {
 				//... lo paso a infinitivo
 				pasarAInfinitivo(p);
-			}*/
+			}
 		}
 		
 	}
 
 	private void pasarAInfinitivo(Palabra p) {
-		
+		String s = p.getPalabra();
+		//Comparo los prefijos para pasarlo a infinitivo
+		if (s.startsWith("necesit")) {
+			p.setPalabra("necesitar");
+		}
+		if (s.startsWith("quer") || s.startsWith("quier")) {
+			p.setPalabra("querer");
+		}
+		if (s.startsWith("busc")) {
+			p.setPalabra("buscar");
+		}
+		if (s.startsWith("pregunt")) {
+			p.setPalabra("preguntar");
+		}
+		if (s.startsWith("jug")) {
+			p.setPalabra("jugar");
+		}
+		if (s.startsWith("program")) {
+			p.setPalabra("programar");
+		}
+		if (s.startsWith("codific")) {
+			p.setPalabra("codificar");
+		}
+		if (s.startsWith("desarroll")) {
+			p.setPalabra("desarrollar");
+		}
+		if (s.startsWith("gast")) {
+			p.setPalabra("gastar");
+		}
+	}
+	
+	private void pluralASingular(Palabra p) {
+		String s = p.getPalabra();		
+		String aux;
+		//Si termina en -is -> -y
+		if(s.endsWith("is")) {
+			aux = s.substring(0, s.length()-2); //length -1 me retorna el string sin la última letra, -2 me retorna el string sin las últimas 2 letras
+			p.setPalabra(aux.concat("y"));
+		}else {
+			//Si termina en -ces -> -z
+			if(s.endsWith("ces")) {
+				//Método substring(índice de inicio, índice de fin sin incluirlo)
+				aux = s.substring(0, s.length()-3); //length -1 me retorna el string sin la última letra, -3 me retorna el string sin las últimas 3 letras
+				p.setPalabra(aux.concat("z"));
+			}else {
+				//Si termina en -es -> sacar es 
+				if(s.endsWith("es")) {
+					aux = s.substring(0, s.length()-2); //length -1 me retorna el string sin la última letra, -2 me retorna el string sin las últimas 2 letras
+					p.setPalabra(aux);
+				}else {
+					//Si termina en -s -> sacar s
+					if(s.endsWith("s")) {
+						aux = s.substring(0, s.length()-1); //length -1 me retorna el string sin la última letra
+						p.setPalabra(aux);
+					}
+				}
+			}
+		}		
 	}
 
 	private void eliminarAcentos(Palabra p) {

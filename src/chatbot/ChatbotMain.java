@@ -19,11 +19,7 @@ public class ChatbotMain {
         //LLAMAR A LA INTERFAZ
        interfazPrincipal ventana = new interfazPrincipal(a);
        ventana.setLocationRelativeTo(null);
-       ventana.setVisible(true);
-       
-       
-      
-       
+       ventana.setVisible(true);     
  
     }
 }

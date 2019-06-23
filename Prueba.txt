@@ -874,3 +874,14 @@ Usuario>> tablet mucha ram
 Chatbot>> Tablets con mucha ram:
 Apple RAM: 3.0 DISCO: 64.0GB 10.5'' Camara: 8.0 $34000.0
 
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> Necesito dos notebooks 
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Usuario>> Para gamming
+Chatbot>> Creo que no me respondiste :S
+Usuario>> para jugar
+Chatbot>> Te puedo recomendar una notebook con placa de video.
+¿Cuanto piensas gastar?
+Usuario>> mucho
+Chatbot>> Creo que no me respondiste :S
