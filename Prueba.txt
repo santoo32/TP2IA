@@ -1075,3 +1075,194 @@ Acer Intel core i7 Ram: 8GB DISCO: 1000GB 15'' HD $50000.0
 - - - - - - - - - - - - - - - - - - - - -
 15:36 Asistente:           Hola!, ï¿½Que necesitas?
 
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero una notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Usuario>> para jugar
+Chatbot>> Tengo algunas notebooks con buen desempeño en video.
+¿Cual es tu presupuesto?
+Usuario>> quiero una tablet
+Chatbot>> Genial, tengo tablets para ofrecerte
+¿Cuanto piensas gastar?
+Usuario>> gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Queres una buena camara o una normal?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Quiero notebook 
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>>  para jugar juegos 
+Chatbot>> Tengo algunas notebooks con buen desempeño en video.
+¿Cual es tu presupuesto?
+Usuario>>  Pienso gastar mucho 
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Que tan grande queres la pantalla?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Quiero celular 
+Chatbot>> Genial, tengo celulares para ofrecerte
+¿Cuanto piensa gastar?
+Usuario>>  Pienso gastar mucho 
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Con que tipo de camara?
+Usuario>>  Con buena cámara 
+Chatbot>> Fantastico!
+¿Que sistema operativo?
+Usuario>>  Con Android 
+Chatbot>> Tengo unos Android que podrían interesarte.
+¿Cuanta RAM?
+Usuario>>  mucho RAM 
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Quiero celular 
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Cual es tu presupuesto?
+Usuario>>  Pienso gastar mucho 
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Queres una buena camara o una normal?
+Usuario>>  Con una cámara excelente 
+Chatbot>> Fantastico!
+¿Lo queres con Android o IOS?
+Usuario>>   Con Android 
+Chatbot>> Tengo unos Android que podrían interesarte.
+¿Cuanta RAM?
+Usuario>>  mucha RAM 
+Chatbot>> Dale
+¿Que tamaño de disco?
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Necesito televisor 
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Grande o chico?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Necesito televisor 
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Grande o chico?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Necesito notebook 
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Necesito celular 
+Chatbot>> Genial, tengo celulares para ofrecerte
+¿Cuanto piensa gastar?
+Usuario>>  Pienso gastar mucho 
+Chatbot>> Tengo algunas de calidad que podrían interesarte.
+¿Con que tipo de camara?
+Usuario>>  Con cámara decente 
+Chatbot>> Fantastico!
+¿Lo queres con Android o IOS?
+Usuario>>  Con Android 
+Chatbot>> Tengo unos Android que podrían interesarte.
+¿Cuanta RAM?
+Usuario>>  mucha RAM 
+Chatbot>> Esta bien
+¿Cuanta memoria ROM?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Necesito celular 
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Cual es tu presupuesto?
+Usuario>>  Pienso gastar mucho 
+Chatbot>> Tengo algunas de calidad que podrían interesarte.
+¿Con que tipo de camara?
+Usuario>>  Con buena cámara 
+Chatbot>> Fantastico!
+¿Que sistema operativo?
+Usuario>>  Con Android 
+Chatbot>> Tengo unos Android que podrían interesarte.
+¿Cuanta RAM?
+Usuario>>  mucha RAM 
+Chatbot>> Dale
+¿Que tamaño de disco?
+Usuario>>  Enviar Con Android  Enviar Con buena cámara 
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> que notebooks para jugar tengo?
+Chatbot>> No te entendi
+Usuario>> que notebook para jugar tenenemos?
+Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
+Asus Intel core i5 Ram: 8GB DISCO: 1000GB 15'' FULL HD $57985.0
+
+Usuario>> que celulares con IOS tenemos?
+Chatbot>> No te entendi
+Usuario>> que celular con IOS tenemos?
+Chatbot>> No te entendi
+Usuario>> que celular con ios tenemos?
+Chatbot>> No te entendi
+Usuario>> que celular con IOS tenemos?
+Chatbot>> No te entendi
+Usuario>> que celular con android tenemos?
+Chatbot>> Celulares con android: 
+Moto RAM: 2 DISCO: 16GB 5.7'' Camara: 13.0 SO:android $10000.0
+LG RAM: 3 DISCO: 32GB 5.3'' Camara: 13.0 SO:android $14000.0
+Samsung RAM: 3 DISCO: 32GB 6.0'' Camara: 16.0 SO:android $15280.0
+Samsung RAM: 8 DISCO: 128GB 6.0'' Camara: 16.0 SO:android $55000.0
+
+Usuario>> Que notebook para jugar hay?
+Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
+Asus Intel core i5 Ram: 8GB DISCO: 1000GB 15'' FULL HD $57985.0
+
+Usuario>> que televisores full hd tenemos?
+Chatbot>> Televisores hd:
+
+Usuario>> que televisores 4k tenemos?
+Chatbot>> Televisores 4k
+BGH Pulgadas: 50 Resolucion 4K Tipo: Smart $26000.0
+Sony Pulgadas: 60 Resolucion 4K Tipo: Smart $57494.0
+
+Usuario>> que notebook para jugar tenemos?
+Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
+Asus Intel core i5 Ram: 8GB DISCO: 1000GB 15'' FULL HD $57985.0
+
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Quiero celular 
+Chatbot>> Genial, tengo celulares para ofrecerte
+¿Cuanto piensa gastar?
+Usuario>>  Pienso gastar mucho 
+Chatbot>> Tengo algunas de calidad que podrían interesarte.
+¿Con que tipo de camara?
+Usuario>>  Con buena cámara 
+Chatbot>> Fantastico!
+¿Lo queres con Android o IOS?
+Usuario>>  Con Android 
+Chatbot>> Tengo unos Android que podrían interesarte.
+¿Cuanta RAM?
+Usuario>>  mucha RAM 
+Chatbot>> Esta bien
+¿Cuanta memoria ROM?
+Usuario>>  Quiero un disco grande 
+Chatbot>> Te puedo recomendar esto: 
+Samsung RAM: 8 DISCO: 128GB 6.0'' Camara: 16.0 SO:android $55000.0
+- - - - - - - - - - - - - - - - - - - - -
+18:55 Asistente:           Hola!, ¿Que necesitas?
+
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> que celulares con android tenemos?
+Chatbot>> Celulares con android: 
+Moto RAM: 2 DISCO: 16GB 5.7'' Camara: 13.0 SO:android $10000.0
+LG RAM: 3 DISCO: 32GB 5.3'' Camara: 13.0 SO:android $14000.0
+Samsung RAM: 3 DISCO: 32GB 6.0'' Camara: 16.0 SO:android $15280.0
+Samsung RAM: 8 DISCO: 128GB 6.0'' Camara: 16.0 SO:android $55000.0
+
+Usuario>> que notebooks para jugar tenemos?
+Chatbot>> No te entendi
+Usuario>> que televisores con pantalla grande tenemos?
+Chatbot>> Televisores con pantalla grande:
+Noblex Pulgadas: 50 Resolucion FULL HD Tipo: Smart $19500.0
+BGH Pulgadas: 50 Resolucion 4K Tipo: Smart $26000.0
+Sony Pulgadas: 60 Resolucion 4K Tipo: Smart $57494.0
+Samsung Pulgadas: 55 Resolucion FULL HD Tipo: Smart $30000.0
+
+Usuario>> cuales notebooks para jugar tenemos?
+Chatbot>> No te entendi
+Usuario>> que tablets con mucha ram hay?
+Chatbot>> Tablets con mucha ram:
+Apple RAM: 3.0 DISCO: 64.0GB 10.5'' Camara: 8.0 $34000.0
+
+Usuario>> que notebooks con mucha ram hay?
+Chatbot>> No te entendi
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> que notebooks para jugar hay?
+Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
+Asus Intel core i5 Ram: 8GB DISCO: 1000GB 15'' FULL HD $57985.0
+

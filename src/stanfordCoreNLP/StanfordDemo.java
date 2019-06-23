@@ -46,7 +46,7 @@ public class StanfordDemo {
 			//Elimino a minúscula
 			pasarAMinuscula(p);
 			//Si es adjetivo o sustantivo lo paso a singular //X es para la tablet que no se porque no me la clasifica
-			if(p.getParte().equalsIgnoreCase("ADJ")|| p.getParte().equalsIgnoreCase("X") || p.getParte().equalsIgnoreCase("PROPN") || p.getParte().equalsIgnoreCase("NOUN")) {
+			if(p.getParte().equalsIgnoreCase("ADJ")|| p.getParte().equalsIgnoreCase("X") || p.getParte().equalsIgnoreCase("PROPN") || p.getParte().equalsIgnoreCase("NOUN") || p.getPalabra().startsWith("notebook")) {
 				pluralASingular(p);
 			}
 			//Elimino acentos
