@@ -11,8 +11,10 @@ public class Escucha extends ResultAdapter{
 	private static Recognizer recognizer;
 	private String respuesta = "";
 	private interfazPrincipal intUI;
-	private Habla lee = new Habla();
-	private EscribirArchivo escribir = new EscribirArchivo();
+	private FileReader grammarCliente;
+	private FileReader grammarVendedor;
+	RuleGrammar rgCliente;
+	RuleGrammar rgVendedor;
 	
 	public Escucha() {
 	}
@@ -22,7 +24,8 @@ public class Escucha extends ResultAdapter{
 	// Recibe el evento RESULT_ACCEPTED: imprímelo, limpie, salga
  	public void resultAccepted(ResultEvent re) {
 	 	try {
-	 		respuesta = "";
+	 		respuesta = ""; 			
+ 			
 	 		Result res = (Result)(re.getSource());
 	 		//Obtiene palabra por palabra (también guarda los espacios)
 	 		ResultToken tokens[] = res.getBestTokens(); 
@@ -45,7 +48,7 @@ public class Escucha extends ResultAdapter{
  	 				if(respuesta.trim().equals("Enviar")) {
  	 					intUI.enviar();
  	 				}else {
- 	 					intUI.actualizarTexto(respuesta,false);
+ 	 	 				intUI.actualizarTexto(respuesta,false); 	 					
  	 				}
  	 		 		
  	 			}
@@ -91,8 +94,24 @@ public class Escucha extends ResultAdapter{
 		}
 	}
 		
-	public void empezarEscucha(interfazPrincipal i) {
+	public void empezarEscucha(interfazPrincipal i, boolean esCliente) {
+		System.out.println("Vendedor: "+ !esCliente+"	Cliente: "+ esCliente);
+		
 		if(recognizer != null) {
+			/*if(esCliente) {
+				if (!rgCliente.isActive()) {
+					rgCliente.setEnabled(true);
+					rgVendedor.setEnabled(false);
+					System.out.println("Seteo gramática cliente");
+				}
+			}else {
+				if (!rgVendedor.isActive()) {
+					rgCliente.setEnabled(false);
+					rgVendedor.setEnabled(true);
+					System.out.println("Seteo gramática vendedor");
+				}
+				
+			}*/
 			try {
 				recognizer.resume();
 				
@@ -103,11 +122,11 @@ public class Escucha extends ResultAdapter{
 			}
 		}else {
 			this.intUI = i;
-			escucha();
+			escucha(esCliente);
 		}
 	}
  
- 	private void escucha(){
+ 	private void escucha(boolean esCliente){
  		try{
  			//Crea el reconocedor para el Lcoale por defecto
  			recognizer = Central.createRecognizer(new EngineModeDesc(Locale.ROOT));
@@ -116,14 +135,24 @@ public class Escucha extends ResultAdapter{
  			recognizer.allocate();
  			
  			//Lee el archivo donde se encuentra el diccionario (Misma ubicación del proyecto)
- 			FileReader grammar1 =new FileReader("SimpleGrammarES2.txt"); 
+ 			grammarCliente =new FileReader("GramaticaCliente.txt"); 
+ 			grammarVendedor = new FileReader("GramaticaVendedor.txt");
  			
  			//Carga la gramática disponible.
- 			RuleGrammar rg = recognizer.loadJSGF(grammar1);
+ 			rgCliente = recognizer.loadJSGF(grammarCliente);
+ 			//rgVendedor = recognizer.loadJSGF(grammarVendedor);
  			
- 			//Habilito la gramática
- 			rg.setEnabled(true);
- 			
+ 			//if(esCliente) {
+ 				//Habilito la gramática
+ 				rgCliente.setEnabled(true);
+				/*rgVendedor.setEnabled(false);
+				System.out.println("Seteo gramática cliente al inicio");
+ 			}else {
+ 				rgCliente.setEnabled(false);
+				rgVendedor.setEnabled(true);
+				System.out.println("Seteo gramática vendedor al inicio");
+ 			}*/
+ 			 			
  			//Agrega un listener al reconocedor para obtener los resultados
  			recognizer.addResultListener(this/*new Escucha(this.intUI)*/);
  			

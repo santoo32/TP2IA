@@ -210,88 +210,88 @@ Chatbot>> Genial, tengo tablets para ofrecerte
 ï¿½Con que tipo de camara?
 Chatbot>> Hola!, ï¿½Que necesitas?
 Chatbot>> Hola!, ï¿½Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> aadsa
 Chatbot>> Creo que no me respondiste :S
 Usuario>> l
 Chatbot>> Creo que no me respondiste :S
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
+ï¿½Para que la vas a usar?
 Usuario>> para jugar
-Chatbot>> Tengo algunas notebooks con buen desempeño en video.
-¿Que tamaño de disco?
+Chatbot>> Tengo algunas notebooks con buen desempeï¿½o en video.
+ï¿½Que tamaï¿½o de disco?
 Usuario>> disco grande
 Chatbot>> Perfecto!
-¿Cuanta RAM?
+ï¿½Cuanta RAM?
 Usuario>> mucha ram
 Chatbot>> Esta bien
-¿Que tan grande queres la pantalla?
+ï¿½Que tan grande queres la pantalla?
 Usuario>> pantalla grande
 Chatbot>> Perfecto!
-¿De que resolucion?
+ï¿½De que resolucion?
 Usuario>> hd
 Chatbot>> Bien!
-¿Cual es tu presupuesto?
+ï¿½Cual es tu presupuesto?
 Usuario>> mucho presupuesto
 Chatbot>> Creo que no me respondiste :S
 Usuario>> gastar mucho
 Chatbot>> Te recomiendo esto:
 
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
+ï¿½Quï¿½ uso le piensa dar?
 Usuario>> para jugar
 Chatbot>> Te puedo recomendar una notebook con placa de video.
-¿Cuanta memoria ROM?
+ï¿½Cuanta memoria ROM?
 Usuario>> mucha ram
 Chatbot>> Creo que no me respondiste :S
 Usuario>> disco grande
 Chatbot>> Perfecto!
-¿Cuanta memoria RAM?
+ï¿½Cuanta memoria RAM?
 Usuario>> mucha ram
 Chatbot>> Esta bien
-¿Que tamaño de pantalla queres?
+ï¿½Que tamaï¿½o de pantalla queres?
 Usuario>> pantalla grande
 Chatbot>> Perfecto!
-¿De que resolucion?
+ï¿½De que resolucion?
 Usuario>> full hd
 Chatbot>> Bien!
-¿Cual es tu presupuesto?
+ï¿½Cual es tu presupuesto?
 Usuario>> gastar mucho
 Chatbot>> Te recomiendo esto:
 Asus Intel core i5 RAM: 8 DISCO: 1000GB 15'' Full HD $57985.0
 
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
+ï¿½Quï¿½ uso le piensa dar?
 Usuario>> para oficina
-Chatbot>> Tengo algunas notebooks con buen desempeño diario.
-¿Que tamaño de disco?
+Chatbot>> Tengo algunas notebooks con buen desempeï¿½o diario.
+ï¿½Que tamaï¿½o de disco?
 Usuario>> disco grande
 Chatbot>> Perfecto!
-¿Cuanta memoria RAM?
+ï¿½Cuanta memoria RAM?
 Usuario>> mucha ram
 Chatbot>> Esta bien
-¿Que tan grande queres la pantalla?
+ï¿½Que tan grande queres la pantalla?
 Usuario>> pantalla grande
 Chatbot>> Perfecto!
-¿De que calidad?
+ï¿½De que calidad?
 Usuario>> full hd
 Chatbot>> Bien!
-¿Cual es tu presupuesto?
+ï¿½Cual es tu presupuesto?
 Usuario>> gastar mucho
 Chatbot>> Te recomiendo esto:
 Acer Intel core i7 RAM: 8 DISCO: 1000GB 15'' HD $50000.0
@@ -300,26 +300,26 @@ MacBook Air Intel core i5 RAM: 8 DISCO: 128GB 13'' Full HD $80000.0
 
 Usuario>> ll
 Chatbot>> Creo que no me respondiste :S
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Quï¿½ uso le piensa dar?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Para que la vas a usar?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer tv
 Chatbot>> Creo que no me respondiste :S
 Usuario>> querer television
 Chatbot>> Creo que no me respondiste :S
 Usuario>> querer televisor
 Chatbot>> Genial, tengo televisores para ofrecerte
-¿Cuanto piensa gastar?
+ï¿½Cuanto piensa gastar?
 Usuario>> querer celular
 Chatbot>> Creo que no me respondiste :S
 Usuario>> querer smartphone
@@ -328,382 +328,382 @@ Usuario>> gastar mucho
 Chatbot>> Creo que no me respondiste :S
 Usuario>> presupuesto alto
 Chatbot>> Creo que no me respondiste :S
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer tablet
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Queres una buena camara o una normal?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Queres una buena camara o una normal?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Genial, tengo televisores para ofrecerte
-¿Cuanto piensa gastar?
+ï¿½Cuanto piensa gastar?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas de calidad que podrían interesarte.
-¿De que tamaño?
+Chatbot>> Tengo algunas de calidad que podrï¿½an interesarte.
+ï¿½De que tamaï¿½o?
 Usuario>> pantalla grande
 Chatbot>> Perfecto!
-¿De que resolucion?
+ï¿½De que resolucion?
 Usuario>> 4k
 Chatbot>> Bien!Te puedo recomendar esto: 
 
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Genial, tengo televisores para ofrecerte
-¿Cuanto piensa gastar?
+ï¿½Cuanto piensa gastar?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.
-¿Grande o chico?
+Chatbot>> Tengo algunas topes de gama que podrï¿½an interesarte.
+ï¿½Grande o chico?
 Usuario>> pantalla grande
 Chatbot>> Perfecto!
-¿Hd, Full hd o 4K?
+ï¿½Hd, Full hd o 4K?
 Usuario>> 4k
 Chatbot>> Bien!Te puedo recomendar esto: 
 
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Cual es su presupuesto?
+ï¿½Cual es su presupuesto?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas de calidad que podrían interesarte.
-¿De que tamaño?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Tengo algunas de calidad que podrï¿½an interesarte.
+ï¿½De que tamaï¿½o?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Cual es su presupuesto?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Cual es su presupuesto?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Genial, tengo televisores para ofrecerte
-¿Cuanto piensa gastar?
+ï¿½Cuanto piensa gastar?
 Usuario>> querer televisor
 Chatbot>> Creo que no me respondiste :S
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.
-¿Grande o chico?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Tengo algunas topes de gama que podrï¿½an interesarte.
+ï¿½Grande o chico?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Cual es su presupuesto?
+ï¿½Cual es su presupuesto?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.
-¿Grande o chico?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Tengo algunas topes de gama que podrï¿½an interesarte.
+ï¿½Grande o chico?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Genial, tengo televisores para ofrecerte
-¿Cuanto piensa gastar?
+ï¿½Cuanto piensa gastar?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas de calidad que podrían interesarte.
-¿De que tamaño?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Tengo algunas de calidad que podrï¿½an interesarte.
+ï¿½De que tamaï¿½o?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Cual es su presupuesto?
+ï¿½Cual es su presupuesto?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas de calidad que podrían interesarte.
-¿De que tamaño?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Tengo algunas de calidad que podrï¿½an interesarte.
+ï¿½De que tamaï¿½o?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Genial, tengo televisores para ofrecerte
-¿Cuanto piensa gastar?
+ï¿½Cuanto piensa gastar?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.
-¿Grande o chico?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Tengo algunas topes de gama que podrï¿½an interesarte.
+ï¿½Grande o chico?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Genial, tengo televisores para ofrecerte
-¿Cuanto piensa gastar?
+ï¿½Cuanto piensa gastar?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas de calidad que podrían interesarte.
-¿De que tamaño?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Tengo algunas de calidad que podrï¿½an interesarte.
+ï¿½De que tamaï¿½o?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Cual es su presupuesto?
+ï¿½Cual es su presupuesto?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas de calidad que podrían interesarte.
-¿De que tamaño?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Tengo algunas de calidad que podrï¿½an interesarte.
+ï¿½De que tamaï¿½o?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Genial, tengo televisores para ofrecerte
-¿Cuanto piensa gastar?
+ï¿½Cuanto piensa gastar?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas de calidad que podrían interesarte.
-¿De que tamaño?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Tengo algunas de calidad que podrï¿½an interesarte.
+ï¿½De que tamaï¿½o?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Genial, tengo televisores para ofrecerte
-¿Cuanto piensa gastar?
+ï¿½Cuanto piensa gastar?
 Usuario>> gastar poco
-Chatbot>> Tengo algo económico que podría interesarte. 
-¿De que tamaño?
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Tengo algo econï¿½mico que podrï¿½a interesarte. 
+ï¿½De que tamaï¿½o?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Cual es su presupuesto?
+ï¿½Cual es su presupuesto?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas de calidad que podrían interesarte.
-¿De que tamaño?
+Chatbot>> Tengo algunas de calidad que podrï¿½an interesarte.
+ï¿½De que tamaï¿½o?
 Usuario>> pantalla grande
 Chatbot>> Perfecto!
-¿De que resolucion?
+ï¿½De que resolucion?
 Usuario>> full hd
 Chatbot>> Bien!Te puedo recomendar esto: 
 
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Cual es su presupuesto?
+ï¿½Cual es su presupuesto?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas de calidad que podrían interesarte.
-¿De que tamaño?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Tengo algunas de calidad que podrï¿½an interesarte.
+ï¿½De que tamaï¿½o?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer smartphone
 Chatbot>> Creo que no me respondiste :S
 Usuario>> querer celular
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Lo queres con Android o IOS?
+ï¿½Lo queres con Android o IOS?
 Usuario>> ios
 Chatbot>> Creo que no me respondiste :S
 Usuario>> ios
 Chatbot>> Creo que no me respondiste :S
 Usuario>> android
-Chatbot>> Buena elección, tengo celus con Android.
-¿Queres una buena camara o una normal?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Buena elecciï¿½n, tengo celus con Android.
+ï¿½Queres una buena camara o una normal?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer celular
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Lo queres con Android o IOS?
+ï¿½Lo queres con Android o IOS?
 Usuario>> ios
 Chatbot>> Creo que no me respondiste :S
 Usuario>> ios
 Chatbot>> Creo que no me respondiste :S
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> quere celular
 Chatbot>> Creo que no me respondiste :S
 Usuario>> querer celular
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Lo queres con Android o IOS?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Lo queres con Android o IOS?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> ios
 Chatbot>> Creo que no me respondiste :S
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer celular
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Lo queres con Android o IOS?
+ï¿½Lo queres con Android o IOS?
 Usuario>> IOS
 Chatbot>> Creo que no me respondiste :S
 Usuario>> ios
 Chatbot>> Creo que no me respondiste :S
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> quere celular
 Chatbot>> Creo que no me respondiste :S
 Usuario>> querer celular
 Chatbot>> Genial, tengo celulares para ofrecerte
-¿Que sistema operativo?
+ï¿½Que sistema operativo?
 Usuario>> IOS
 Chatbot>> Buena eleccion, tengo iphones para ofrecerte
-¿Queres una buena camara o una normal?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Queres una buena camara o una normal?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer celular
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Lo queres con Android o IOS?
+ï¿½Lo queres con Android o IOS?
 Usuario>> android
-Chatbot>> Buena elección, tengo celus con Android.
-¿Queres una buena camara o una normal?
+Chatbot>> Buena elecciï¿½n, tengo celus con Android.
+ï¿½Queres una buena camara o una normal?
 Usuario>> buena camara
 Chatbot>> Fantastico!
-¿Cuanta RAM?
+ï¿½Cuanta RAM?
 Usuario>> mucha ram
 Chatbot>> Esta bien
-¿Que tamaño de disco?
+ï¿½Que tamaï¿½o de disco?
 Usuario>> mucho disco
 Chatbot>> Perfecto!
-¿Cual es tu presupuesto?
+ï¿½Cual es tu presupuesto?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.Te puedo recomendar esto: 
+Chatbot>> Tengo algunas topes de gama que podrï¿½an interesarte.Te puedo recomendar esto: 
 Samsung RAM: 3 DISCO: 32GB 6.0'' Camara: 16.0 SO:android $15280.0
 Samsung RAM: 8 DISCO: 128GB 6.0'' Camara: 16.0 SO:android $55000.0
-13:57 Asistente:           Hola!, ¿Que necesitas?
+13:57 Asistente:           Hola!, ï¿½Que necesitas?
 - - - - - - - - - - - - - - - - - - - - -
 
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer celular
 Chatbot>> Genial, tengo celulares para ofrecerte
-¿Que sistema operativo?
+ï¿½Que sistema operativo?
 Usuario>> IOS
 Chatbot>> Buena eleccion, tengo iphones para ofrecerte
-¿Queres una buena camara o una normal?
+ï¿½Queres una buena camara o una normal?
 Usuario>> buena camara
 Chatbot>> Fantastico!
-¿Cuanta RAM?
+ï¿½Cuanta RAM?
 Usuario>> mucha ram
 Chatbot>> Esta bien
-¿Cuanta memoria ROM?
+ï¿½Cuanta memoria ROM?
 Usuario>> mucho disco
 Chatbot>> Perfecto!
-¿Cual es tu presupuesto?
+ï¿½Cual es tu presupuesto?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.Te puedo recomendar esto: 
+Chatbot>> Tengo algunas topes de gama que podrï¿½an interesarte.Te puedo recomendar esto: 
 - - - - - - - - - - - - - - - - - - - - -
-14:02 Asistente:           Hola!, ¿Que necesitas?
+14:02 Asistente:           Hola!, ï¿½Que necesitas?
 
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer celular
 Chatbot>> Genial, tengo celulares para ofrecerte
-¿Que sistema operativo?
+ï¿½Que sistema operativo?
 Usuario>> IOS
 Chatbot>> Buena eleccion, tengo iphones para ofrecerte
-¿Queres una buena camara o una normal?
+ï¿½Queres una buena camara o una normal?
 Usuario>> camara decente
 Chatbot>> Fantastico!
-¿Cuanta RAM?
+ï¿½Cuanta RAM?
 Usuario>> poca ram
 Chatbot>> Esta bien
-¿Cuanta memoria ROM?
+ï¿½Cuanta memoria ROM?
 Usuario>> mucho disco
 Chatbot>> Perfecto!
-¿Cual es tu presupuesto?
+ï¿½Cual es tu presupuesto?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas de calidad que podrían interesarte.No tengo nada para recomendarte :(- - - - - - - - - - - - - - - - - - - - -
-14:07 Asistente:           Hola!, ¿Que necesitas?
+Chatbot>> Tengo algunas de calidad que podrï¿½an interesarte.No tengo nada para recomendarte :(- - - - - - - - - - - - - - - - - - - - -
+14:07 Asistente:           Hola!, ï¿½Que necesitas?
 
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer celular
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Lo queres con Android o IOS?
+ï¿½Lo queres con Android o IOS?
 Usuario>> IOS
 Chatbot>> Tengo algunos iphone que te podrian gustar
-¿Con que tipo de camara?
+ï¿½Con que tipo de camara?
 Usuario>> camara decente
 Chatbot>> Fantastico!
-¿Cuanta RAM?
+ï¿½Cuanta RAM?
 Usuario>> quere celular
 Chatbot>> Creo que no me respondiste :S
 Usuario>> querer celular
 Chatbot>> Creo que no me respondiste :S
 Usuario>> querer televisor
 Chatbot>> Creo que no me respondiste :S
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer celular
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Lo queres con Android o IOS?
+ï¿½Lo queres con Android o IOS?
 Usuario>> IOS
 Chatbot>> Tengo algunos iphone que te podrian gustar
-¿Con que tipo de camara?
+ï¿½Con que tipo de camara?
 Usuario>> camara decente
 Chatbot>> Fantastico!
-¿Cuanta RAM?
+ï¿½Cuanta RAM?
 Usuario>> poca ram
 Chatbot>> Esta bien
-¿Que tamaño de disco?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Que tamaï¿½o de disco?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer celular
 Chatbot>> Genial, tengo celulares para ofrecerte
-¿Que sistema operativo?
+ï¿½Que sistema operativo?
 Usuario>> IOS
 Chatbot>> Buena eleccion, tengo iphones para ofrecerte
-¿Queres una buena camara o una normal?
+ï¿½Queres una buena camara o una normal?
 Usuario>> camara decente
 Chatbot>> Fantastico!
-¿Cuanta RAM?
+ï¿½Cuanta RAM?
 Usuario>> poca ram
 Chatbot>> Esta bien
-¿Cuanta memoria ROM?
+ï¿½Cuanta memoria ROM?
 Usuario>> mucho disco
 Chatbot>> Perfecto!
-¿Cual es tu presupuesto?
+ï¿½Cual es tu presupuesto?
 Usuario>> gastar mucho
 Chatbot>> Te puedo recomendar esto: 
 Iphone RAM: 3 DISCO: 32GB 5.5'' Camara: 12.0 SO:ios $45000.0
 Iphone RAM: 4 DISCO: 64GB 5.8'' Camara: 12.0 SO:ios $58500.0
 - - - - - - - - - - - - - - - - - - - - -
-14:19 Asistente:           Hola!, ¿Que necesitas?
+14:19 Asistente:           Hola!, ï¿½Que necesitas?
 
 Usuario>> querer televisor
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Cual es su presupuesto?
+ï¿½Cual es su presupuesto?
 Usuario>> gastar poco
-Chatbot>> Tengo algo económico que podría interesarte. 
-¿De que tamaño?
+Chatbot>> Tengo algo econï¿½mico que podrï¿½a interesarte. 
+ï¿½De que tamaï¿½o?
 Usuario>> pantalla chica
 Chatbot>> Perfecto!
-¿De que resolucion?
+ï¿½De que resolucion?
 Usuario>> FULL HD
 Chatbot>> Te puedo recomendar esto: 
 LG Pulgadas: 32 Resolucion FULL HD Tipo: Smart $12000.0
 - - - - - - - - - - - - - - - - - - - - -
-14:20 Asistente:           Hola!, ¿Que necesitas?
+14:20 Asistente:           Hola!, ï¿½Que necesitas?
 
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer tablet
 Chatbot>> Genial, tengo tablets para ofrecerte
-¿Con que tipo de camara?
+ï¿½Con que tipo de camara?
 Usuario>> camara decente
 Chatbot>> Fantastico!
-¿Cuanta memoria RAM?
+ï¿½Cuanta memoria RAM?
 Usuario>> poca ram
 Chatbot>> Esta bien
-¿Cuanta memoria ROM?
+ï¿½Cuanta memoria ROM?
 Usuario>> poco disco
 Chatbot>> Perfecto!
-¿Cuanto piensas gastar?
+ï¿½Cuanto piensas gastar?
 Usuario>> gastar poco
-Chatbot>> Tengo algo económico que podría interesarte. No tengo nada para recomendarte :(
+Chatbot>> Tengo algo econï¿½mico que podrï¿½a interesarte. No tengo nada para recomendarte :(
 - - - - - - - - - - - - - - - - - - - - -
-14:27 Asistente:           Hola!, ¿Que necesitas?
+14:27 Asistente:           Hola!, ï¿½Que necesitas?
 
 Usuario>> querer tablet
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Queres una buena camara o una normal?
+ï¿½Queres una buena camara o una normal?
 Usuario>> camara decente
 Chatbot>> Fantastico!
-¿Cuanta memoria RAM?
+ï¿½Cuanta memoria RAM?
 Usuario>> poca ram
 Chatbot>> Esta bien
-¿Que tamaño de disco?
+ï¿½Que tamaï¿½o de disco?
 Usuario>> querer tablet
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Queres una buena camara o una normal?
+ï¿½Queres una buena camara o una normal?
 Usuario>> camara decente
 Chatbot>> Fantastico!
-¿Cuanta memoria RAM?
+ï¿½Cuanta memoria RAM?
 Usuario>> poca ram
 Chatbot>> Esta bien
-¿Que tamaño de disco?
+ï¿½Que tamaï¿½o de disco?
 Usuario>> poco disco
 Chatbot>> Perfecto!
-¿Cual es tu presupuesto?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Cual es tu presupuesto?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer tablet
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Queres una buena camara o una normal?
+ï¿½Queres una buena camara o una normal?
 Usuario>> camara decente
 Chatbot>> Fantastico!
-¿Cuanta memoria RAM?
+ï¿½Cuanta memoria RAM?
 Usuario>> poca ram
 Chatbot>> Esta bien
-¿Que tamaño de disco?
+ï¿½Que tamaï¿½o de disco?
 Usuario>> poco disco
 Chatbot>> Perfecto!
-¿Cual es tu presupuesto?
+ï¿½Cual es tu presupuesto?
 Usuario>> presupuesto bajo
 Chatbot>> Te puedo recomendar esto: 
 Huawei RAM: 1.0 DISCO: 16.0GB 7.0'' Camara: 2.0 $6000.0
 - - - - - - - - - - - - - - - - - - - - -
-14:32 Asistente:           Hola!, ¿Que necesitas?
+14:32 Asistente:           Hola!, ï¿½Que necesitas?
 
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Genial, tengo televisores para ofrecerte
-¿Cuanto piensa gastar?
+ï¿½Cuanto piensa gastar?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.
-¿Grande o chico?
+Chatbot>> Tengo algunas topes de gama que podrï¿½an interesarte.
+ï¿½Grande o chico?
 Usuario>> pantalla grande
 Chatbot>> Perfecto!
-¿Hd, Full hd o 4K?
+ï¿½Hd, Full hd o 4K?
 Usuario>> 4K
 Chatbot>> Creo que no me respondiste :S
 Usuario>> 4k
@@ -711,42 +711,42 @@ Chatbot>> Te puedo recomendar esto:
 BGH Pulgadas: 50 Resolucion 4K Tipo: Smart $26000.0
 Sony Pulgadas: 60 Resolucion 4K Tipo: Smart $57494.0
 - - - - - - - - - - - - - - - - - - - - -
-14:38 Asistente:           Hola!, ¿Que necesitas?
+14:38 Asistente:           Hola!, ï¿½Que necesitas?
 
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Quï¿½ uso le piensa dar?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Cual es su presupuesto?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Cual es su presupuesto?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Quï¿½ uso le piensa dar?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> diseno notebook
 Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
 
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> jugar notebook
 Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
 
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> jugar notebook
 Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
 
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> jugar notebook
 Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:notebook
 
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> jugar notebook
 Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
 
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> jugar notebook
 Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
 Asus Intel core i5 Ram: 8GB DISCO: 1000GB 15'' FULL HD $57985.0
@@ -757,115 +757,115 @@ Samsung RAM: 1.5 DISCO: 8.0GB 9.6'' Camara: 5.0 $11000.0
 Nexus RAM: 2.0 DISCO: 32.0GB 8.9'' Camara: 8.0 $15500.0
 Apple RAM: 3.0 DISCO: 64.0GB 10.5'' Camara: 8.0 $34000.0
 
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> yo necesitar una notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Quï¿½ uso le piensa dar?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Quï¿½ uso le piensa dar?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer tablet
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Queres una buena camara o una normal?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Queres una buena camara o una normal?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer televisor
 Chatbot>> Genial, tengo televisores para ofrecerte
-¿Cuanto piensa gastar?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Cuanto piensa gastar?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Para que la vas a usar?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Quï¿½ uso le piensa dar?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer tablet
 Chatbot>> Genial, tengo tablets para ofrecerte
-¿Con que tipo de camara?
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Con que tipo de camara?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Quï¿½ uso le piensa dar?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Para que la vas a usar?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer tablet
 Chatbot>> Genial, tengo tablets para ofrecerte
-¿Con que tipo de camara?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Con que tipo de camara?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Para que la vas a usar?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Quï¿½ uso le piensa dar?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Para que la vas a usar?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Para que la vas a usar?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
+ï¿½Quï¿½ uso le piensa dar?
 Usuario>> para jugar
-Chatbot>> Tengo algunas notebooks con buen desempeño en video.
-¿Que tamaño de disco?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Tengo algunas notebooks con buen desempeï¿½o en video.
+ï¿½Que tamaï¿½o de disco?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
+ï¿½Quï¿½ uso le piensa dar?
 Usuario>> para oficina
-Chatbot>> Tengo algunas notebooks con buen desempeño diario.
-¿Cuanta memoria ROM?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Tengo algunas notebooks con buen desempeï¿½o diario.
+ï¿½Cuanta memoria ROM?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
+ï¿½Para que la vas a usar?
 Usuario>> para oficina
 Chatbot>> Te puedo recomendar algunas notebooks que tenemos.
-¿Cuanta memoria ROM?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Cuanta memoria ROM?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
+ï¿½Quï¿½ uso le piensa dar?
 Usuario>> para oficina
 Chatbot>> Te puedo recomendar algunas notebooks que tenemos.
-¿Cuanta memoria ROM?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Cuanta memoria ROM?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
+ï¿½Quï¿½ uso le piensa dar?
 Usuario>> oficina
-Chatbot>> Tengo algunas notebooks con buen desempeño diario.
-¿Cual es tu presupuesto?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Tengo algunas notebooks con buen desempeï¿½o diario.
+ï¿½Cual es tu presupuesto?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
+ï¿½Para que la vas a usar?
 Usuario>> oficina
 Chatbot>> Te puedo recomendar algunas notebooks que tenemos.
-¿Cuanto piensas gastar?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Cuanto piensas gastar?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> querer notebook
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
+ï¿½Para que la vas a usar?
 Usuario>> para oficina
 Chatbot>> Te puedo recomendar algunas notebooks que tenemos.
-¿Cuanto piensas gastar?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Cuanto piensas gastar?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> notebook para jugar
 Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
 Asus Intel core i5 Ram: 8GB DISCO: 1000GB 15'' FULL HD $57985.0
@@ -874,293 +874,204 @@ Usuario>> tablet mucha ram
 Chatbot>> Tablets con mucha ram:
 Apple RAM: 3.0 DISCO: 64.0GB 10.5'' Camara: 8.0 $34000.0
 
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> Necesito dos notebooks 
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
+ï¿½Para que la vas a usar?
 Usuario>> Para gamming
 Chatbot>> Creo que no me respondiste :S
 Usuario>> para jugar
 Chatbot>> Te puedo recomendar una notebook con placa de video.
-¿Cuanto piensas gastar?
+ï¿½Cuanto piensas gastar?
 Usuario>> mucho
 Chatbot>> Creo que no me respondiste :S
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> Quiero una notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
+ï¿½Quï¿½ uso le piensa dar?
 Usuario>> Para jugar
-Chatbot>> Tengo algunas notebooks con buen desempeño en video.
-¿Cual es tu presupuesto?
+Chatbot>> Tengo algunas notebooks con buen desempeï¿½o en video.
+ï¿½Cual es tu presupuesto?
 Usuario>> pienso gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.
-¿Que tan grande queres la pantalla?
+Chatbot>> Tengo algunas topes de gama que podrï¿½an interesarte.
+ï¿½Que tan grande queres la pantalla?
 Usuario>> pantalla grande
 Chatbot>> Perfecto!
-¿De que resolucion?
+ï¿½De que resolucion?
 Usuario>> full hd
 Chatbot>> Bien!
-¿Cuanta RAM?
+ï¿½Cuanta RAM?
 Usuario>> mucha ram
 Chatbot>> Esta bien
-¿Que tamaño de disco?
+ï¿½Que tamaï¿½o de disco?
 Usuario>> Estoy buscando un disco grande
 Chatbot>> Te puedo recomendar esto: 
 Asus Intel core i5 Ram: 8GB DISCO: 1000GB 15'' FULL HD $57985.0
 - - - - - - - - - - - - - - - - - - - - -
-22:33 Asistente:           Hola!, ¿Que necesitas?
+22:33 Asistente:           Hola!, ï¿½Que necesitas?
 
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> quiero una notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
+ï¿½Quï¿½ uso le piensa dar?
 Usuario>> para jugar
-Chatbot>> Tengo algunas notebooks con buen desempeño en video.
-¿Cual es tu presupuesto?
+Chatbot>> Tengo algunas notebooks con buen desempeï¿½o en video.
+ï¿½Cual es tu presupuesto?
 Usuario>> pienso gastar mucho
-Chatbot>> Tengo algunas de calidad que podrían interesarte.
-¿Que tamaño de pantalla queres?
+Chatbot>> Tengo algunas de calidad que podrï¿½an interesarte.
+ï¿½Que tamaï¿½o de pantalla queres?
 Usuario>> pantalla grande
 Chatbot>> Perfecto!
-¿De que calidad?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½De que calidad?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> quiero una notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
+ï¿½Quï¿½ uso le piensa dar?
 Usuario>> para jugar
-Chatbot>> Tengo algunas notebooks con buen desempeño en video.
-¿Cual es tu presupuesto?
+Chatbot>> Tengo algunas notebooks con buen desempeï¿½o en video.
+ï¿½Cual es tu presupuesto?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.
-¿Que tan grande queres la pantalla?
+Chatbot>> Tengo algunas topes de gama que podrï¿½an interesarte.
+ï¿½Que tan grande queres la pantalla?
 Usuario>> pantalla grande
 Chatbot>> Perfecto!
-¿De que calidad?
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½De que calidad?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> quiero una notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
+ï¿½Quï¿½ uso le piensa dar?
 Usuario>> para jugar
 Chatbot>> Te puedo recomendar una notebook con placa de video.
-¿Cuanto piensas gastar?
+ï¿½Cuanto piensas gastar?
 Usuario>> pienso gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.
-¿Que tan grande queres la pantalla?
+Chatbot>> Tengo algunas topes de gama que podrï¿½an interesarte.
+ï¿½Que tan grande queres la pantalla?
 Usuario>> pantalla grande
 Chatbot>> Perfecto!
-¿De que calidad?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½De que calidad?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> quiero una notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
+ï¿½Quï¿½ uso le piensa dar?
 Usuario>> para jugar
 Chatbot>> Te puedo recomendar una notebook con placa de video.
-¿Cuanto piensas gastar?
+ï¿½Cuanto piensas gastar?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.
-¿Que tan grande queres la pantalla?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Tengo algunas topes de gama que podrï¿½an interesarte.
+ï¿½Que tan grande queres la pantalla?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> quiero una notebook
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> quiero una notebook
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
+ï¿½Para que la vas a usar?
 Usuario>> para jugar
-Chatbot>> Tengo algunas notebooks con buen desempeño en video.
-¿Cual es tu presupuesto?
+Chatbot>> Tengo algunas notebooks con buen desempeï¿½o en video.
+ï¿½Cual es tu presupuesto?
 Usuario>> pienso gastar mucho
-Chatbot>> Tengo algunas de calidad que podrían interesarte.
-¿Que tamaño de pantalla queres?
+Chatbot>> Tengo algunas de calidad que podrï¿½an interesarte.
+ï¿½Que tamaï¿½o de pantalla queres?
 Usuario>> pantalla grande
 Chatbot>> Perfecto!
-¿De que calidad?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½De que calidad?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> quiero una notebook
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
+ï¿½Para que la vas a usar?
 Usuario>> para jugar
-Chatbot>> Tengo algunas notebooks con buen desempeño en video.
-¿Cual es tu presupuesto?
+Chatbot>> Tengo algunas notebooks con buen desempeï¿½o en video.
+ï¿½Cual es tu presupuesto?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.
-¿Que tan grande queres la pantalla?
-Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Tengo algunas topes de gama que podrï¿½an interesarte.
+ï¿½Que tan grande queres la pantalla?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>> quiero una notebook
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
+ï¿½Quï¿½ uso le piensa dar?
 Usuario>> para jugar
-Chatbot>> Tengo algunas notebooks con buen desempeño en video.
-¿Cual es tu presupuesto?
+Chatbot>> Tengo algunas notebooks con buen desempeï¿½o en video.
+ï¿½Cual es tu presupuesto?
 Usuario>> gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.
-¿Que tan grande queres la pantalla?
+Chatbot>> Tengo algunas topes de gama que podrï¿½an interesarte.
+ï¿½Que tan grande queres la pantalla?
 Usuario>> pantalla grande
 Chatbot>> Perfecto!
-¿De que resolucion?
+ï¿½De que resolucion?
 Usuario>> hd
 Chatbot>> Bien!
-¿Cuanta memoria RAM?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Cuanta memoria RAM?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>>  Necesito una notebook 
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
-Chatbot>> Hola!, ¿Que necesitas?
+ï¿½Quï¿½ uso le piensa dar?
+Chatbot>> Hola!, ï¿½Que necesitas?
 Usuario>>  Quiero una notebook 
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
+ï¿½Para que la vas a usar?
 Usuario>>  Para gaming 
-Chatbot>> Tengo algunas notebooks con buen desempeño en video.
-¿Cual es tu presupuesto?
+Chatbot>> Tengo algunas notebooks con buen desempeï¿½o en video.
+ï¿½Cual es tu presupuesto?
 Usuario>>  Pienso gastar poco
-Chatbot>> Tengo algo económico que podría interesarte. 
-¿Que tamaño de pantalla queres?
+Chatbot>> Tengo algo econï¿½mico que podrï¿½a interesarte. 
+ï¿½Que tamaï¿½o de pantalla queres?
 Usuario>> Quiero una pantalla grande
 Chatbot>> Perfecto!
-¿De que resolucion?
+ï¿½De que resolucion?
 Usuario>> 4k
 Chatbot>> Bien!
-¿Cuanta RAM?
+ï¿½Cuanta RAM?
 Usuario>> Mucha
 Chatbot>> Creo que no me respondiste :S
 Usuario>> mucha ram
 Chatbot>> Esta bien
-¿Que tamaño de disco?
+ï¿½Que tamaï¿½o de disco?
 Usuario>> quiero un disco grande
 Chatbot>> Perfecto!No tengo nada para recomendarte :(
 - - - - - - - - - - - - - - - - - - - - -
-00:29 Asistente:           Hola!, ¿Que necesitas?
+00:29 Asistente:           Hola!, ï¿½Que necesitas?
 
 Usuario>>  Necesito un celular 
 Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Cual es tu presupuesto?
+ï¿½Cual es tu presupuesto?
 Usuario>>  Quiero una tablet 
 Chatbot>> Creo que no me respondiste :S
 Usuario>>  Quiero una notebook 
 Chatbot>> Creo que no me respondiste :S
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
-Usuario>>  Necesito una notebook 
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Chatbot>> Hola!, ï¿½Que necesitas?
+Usuario>>  Necesito notebook 
 Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
-Usuario>> 
-Chatbot>> Creo que no me respondiste :S
-Usuario>>  Para oficina 
-Chatbot>> Te puedo recomendar algunas notebooks que tenemos.
-¿Cuanto piensas gastar?
-Usuario>> pienso gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.
-¿Que tan grande queres la pantalla?
-Usuario>> Quiero una pantalla grande
+ï¿½Quï¿½ uso le piensa dar?
+Usuario>>  para programar 
+Chatbot>> Te puedo recomendar algunas notebooks con buen procesador.
+ï¿½Cuanto piensas gastar?
+Usuario>>  Tengo un presupuesto alto 
+Chatbot>> Tengo topes de gama que podrï¿½an interesarte.
+ï¿½Que tan grande queres la pantalla?
+Usuario>>  Quiero una pantalla grande 
 Chatbot>> Perfecto!
-¿De que calidad?
-Usuario>> full hd
+ï¿½De que resolucion?
+Usuario>>  HD 
 Chatbot>> Bien!
-¿Cuanta RAM?
-Usuario>> 
+ï¿½Cuanta RAM?
+Usuario>>  mucho RAM 
 Chatbot>> Creo que no me respondiste :S
-Chatbot>> Hola!, ¿Que necesitas?
-Usuario>>  Quiero un celular 
-Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Cual es tu presupuesto?
-Usuario>> pienso gastar mucho
-Chatbot>> Tengo algunas de calidad que podrían interesarte.
-¿Con que tipo de camara?
-Chatbot>> Hola!, ¿Que necesitas?
-Usuario>> quiero una notebook
-Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
-Usuario>> para jugar
-Chatbot>> Tengo algunas notebooks con buen desempeño en video.
-¿Cual es tu presupuesto?
-Usuario>> pienso gastar mucho
-Chatbot>> Tengo algunas de calidad que podrían interesarte.
-¿Que tamaño de pantalla queres?
-Usuario>> pantalla grande
-Chatbot>> Perfecto!
-¿De que calidad?
-Chatbot>> Hola!, ¿Que necesitas?
-Usuario>> quiero una notebook
-Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
-Usuario>> para jugar
-Chatbot>> Tengo algunas notebooks con buen desempeño en video.
-¿Cual es tu presupuesto?
-Usuario>> gastar mucho
-Chatbot>> Tengo algunas de calidad que podrían interesarte.
-¿Que tamaño de pantalla queres?
-Usuario>> pantalla grande
-Chatbot>> Buenisimo!
-¿De que resolucion?
-Usuario>> hd
-Chatbot>> Dale
-¿Cuanta RAM?
-Usuario>> quiero un televisor
-Chatbot>> Genial, tengo televisores para ofrecerte
-¿De que tamaño?
-Usuario>> pantalla grande
-Chatbot>> Hola!, ¿Que necesitas?
-Usuario>> querer notebook
-Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
-Usuario>> para jugar
-Chatbot>> Tengo algunas notebooks con buen desempeño en video.
-¿Cual es tu presupuesto?
-Usuario>> gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.
-¿Que tan grande queres la pantalla?
-Usuario>> pantalla grande
-Chatbot>> Perfecto!
-¿De que resolucion?
-Usuario>> quiero un televisor
-Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Grande o chico?
-Usuario>> pantalla grande
-Chatbot>> Perfecto!
-¿De que resolucion?
-Chatbot>> Hola!, ¿Que necesitas?
-Usuario>> quiero una notebook
-Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
-¿Para que la vas a usar?
-Usuario>> para jugar
-Chatbot>> Te puedo recomendar una notebook con placa de video.
-¿Cuanto piensas gastar?
-Usuario>> gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.
-¿Que tan grande queres la pantalla?
-Chatbot>> Hola!, ¿Que necesitas?
-Usuario>> quiero una notebook
-Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
-Usuario>> para jugar
-Chatbot>> Tengo algunas notebooks con buen desempeño en video.
-¿Cual es tu presupuesto?
-Usuario>> pienso gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.
-¿Que tan grande queres la pantalla?
-Chatbot>> Hola!, ¿Que necesitas?
-Usuario>> quiero una notebook
-Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
-Usuario>> para jugar
-Chatbot>> Tengo algunas notebooks con buen desempeño en video.
-¿Cual es tu presupuesto?
-Chatbot>> Hola!, ¿Que necesitas?
-Chatbot>> Hola!, ¿Que necesitas?
-Usuario>> quiero una notebook
-Chatbot>> Genial, tengo notebooks para ofrecerte
-¿Qué uso le piensa dar?
-Usuario>> para jugar
-Chatbot>> Tengo algunas notebooks con buen desempeño en video.
-¿Cual es tu presupuesto?
-Usuario>> gastar mucho
-Chatbot>> Tengo algunas topes de gama que podrían interesarte.
-¿Que tan grande queres la pantalla?
-Usuario>> quiero un televisor
-Chatbot>> Genial, tengo televisores para ofrecerte
-¿De que tamaño?
-Usuario>> pantalla grande
-Chatbot>> Buenisimo!
-¿Hd, Full hd o 4K?
+Usuario>>  mucha RAM 
+Chatbot>> Esta bien
+ï¿½Cuanta memoria ROM?
+Usuario>>  Quiero que tenga mucho disco 
+Chatbot>> Te puedo recomendar esto: 
+Acer Intel core i7 Ram: 8GB DISCO: 1000GB 15'' HD $50000.0
+- - - - - - - - - - - - - - - - - - - - -
+15:36 Asistente:           Hola!, ï¿½Que necesitas?
+

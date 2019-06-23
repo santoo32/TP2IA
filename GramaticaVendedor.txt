@@ -2,20 +2,7 @@
 grammar sentence;
  
 public <sentence> =
-[<dato0>]
-[<dato1><dato2>]
-[<dato3><dato4>]
-[<dato5><dato24><dato6>]
-[<dato7><dato8>]
-[<dato9><dato10>]
-[<dato11><dato10>]
-[<dato11><dato12>]
-[<dato13><dato7>]
-[<dato14>]
-[<dato15><dato14>]
-[<dato16><dato18><dato6>]
-[<dato17><dato7><dato18>]
-[<dato19><dato20>]
+[dato0]
 [<dato21><dato2><dato3><dato4><dato22>]
 [<dato21><dato2><dato23><dato22>]
 [<dato21><dato2><dato22><dato14>]
@@ -28,23 +15,21 @@ public <sentence> =
 [<dato21><dato2><dato11><dato18><dato6><dato22>]
 [<dato21><dato2><dato11><dato12><dato22>]
 [<dato21><dato2><dato11><dato10><dato22>] 
-[<dato25>]
-[<dato26>]
 ;
 
-<dato0>=Desactivar|Cambiar;
+<dato0>=Desactivar|Enviar | Borrar;
 <dato1>=Necesito una| Quiero una| Busco una| Queria preguntar por una |Necesito un| Quiero un| Busco un| Queria preguntar por un;
 <dato2>= notebook | tablet | celular | televisor;
 <dato3>=para;
-<dato4>=diseï¿½o grï¿½fico | gamming | jugar juegos | oficina | uso diaro | documentos | programar| codificar | desarrollar;
+<dato4>=diseño gráfico | gamming | jugar juegos | oficina | uso diaro | documentos | programar| codificar | desarrollar;
 <dato5>=Quiero una;
-<dato6>=  grande | mediana |pequeï¿½a |chico;
+<dato6>=  grande | mediana |pequeña |chico;
 <dato7>= mucho | poco;
 <dato8>= RAM;
 <dato9>= Sistema operativo;
 <dato10>= Android | IOS;
 <dato11>=Con;
-<dato12>=buena cï¿½mara | una cï¿½mara excelente | cï¿½mara normal | cï¿½mara decente;
+<dato12>=buena cámara | una cámara excelente | cámara normal | cámara decente;
 <dato13>=Pienso gastar;
 <dato14>=HD | Full HD | 4K;
 <dato15>=Calidad;
@@ -53,10 +38,7 @@ public <sentence> =
 <dato18>=disco;
 <dato19>=Tengo un presupuesto;
 <dato20>=alto | bajo;
-<dato21>= ï¿½Quï¿½ | ï¿½Cuï¿½les son las | ï¿½Cuï¿½les son los;
+<dato21>= Qué | Cuáles son las | Cuáles son los;
 <dato22>=tenemos? | tengo | hay? | que tenemos?;
-<dato23>=mï¿½s caras | mï¿½s econï¿½micas | mï¿½s baratas | caras | econï¿½micas | baratas;
+<dato23>=más caras | más económicas | más baratas | caras | económicas | baratas;
 <dato24>= pantalla;
-<dato25>=Enviar;
-<dato26>=Borrar;
-
