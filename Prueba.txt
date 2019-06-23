@@ -1041,3 +1041,37 @@ Usuario>>  Quiero una notebook
 Chatbot>> Creo que no me respondiste :S
 Chatbot>> Hola!, ¿Que necesitas?
 Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Necesito notebook 
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>>  para programar 
+Chatbot>> Te puedo recomendar algunas notebooks con buen procesador.
+¿Cuanto piensas gastar?
+Usuario>>  Tengo un presupuesto alto 
+Chatbot>> Tengo topes de gama que podrían interesarte.
+¿Que tan grande queres la pantalla?
+Usuario>>  Quiero una pantalla grande 
+Chatbot>> Perfecto!
+¿De que resolucion?
+Usuario>>  HD 
+Chatbot>> Bien!
+¿Cuanta RAM?
+Usuario>>  mucho RAM 
+Chatbot>> Creo que no me respondiste :S
+Usuario>>  mucha RAM 
+Chatbot>> Esta bien
+¿Cuanta memoria ROM?
+Usuario>>  Quiero que tenga mucho disco 
+Chatbot>> Te puedo recomendar esto: 
+Acer Intel core i7 Ram: 8GB DISCO: 1000GB 15'' HD $50000.0
+- - - - - - - - - - - - - - - - - - - - -
+15:36 Asistente:           Hola!, ¿Que necesitas?
+

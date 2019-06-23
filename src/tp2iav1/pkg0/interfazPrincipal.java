@@ -34,7 +34,7 @@ public class interfazPrincipal extends javax.swing.JFrame {
     private Escucha e = new Escucha();
 	private Habla habla = new Habla();
 	private EscribirArchivo escribe = new EscribirArchivo();
-    private String escribirEnElChat = "";    
+    private String escribirEnElChat = ""; 
     public static String userText;
     public AgenteBasadoEnConocimiento agent;
 	
@@ -288,7 +288,8 @@ public class interfazPrincipal extends javax.swing.JFrame {
         }else{
 
             this.jButton2.setBackground(Color.red);
-            e.empezarEscucha(this);
+            //Le paso la interfaz si es cliente o si es vendedor
+            e.empezarEscucha(this,this.jRadioButtonCliente.isSelected());
             pressed = true;
         }
     }//GEN-LAST:event_jButton2ActionPerformed
@@ -348,7 +349,7 @@ public class interfazPrincipal extends javax.swing.JFrame {
         
         if(pressed){
         	//Cuando termina de responder vuelvo a escuchar
-        	e.empezarEscucha(this);
+        	e.empezarEscucha(this, this.jRadioButtonCliente.isSelected());
         }
     }//GEN-LAST:event_jButtonEnviarActionPerformed
 

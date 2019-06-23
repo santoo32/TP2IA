@@ -16,23 +16,10 @@ public <sentence> =
 [<dato16><dato18><dato6>]
 [<dato17><dato7><dato18>]
 [<dato19><dato20>]
-[<dato21><dato2><dato3><dato4><dato22>]
-[<dato21><dato2><dato23><dato22>]
-[<dato21><dato2><dato22><dato14>]
-[<dato21><dato2><dato14><dato22>]
-[<dato21><dato2><dato22><dato11><dato7><dato8>]
-[<dato21><dato2><dato11><dato7><dato8><dato22>]
-[<dato21><dato2><dato22><dato11><dato24><dato6>]
-[<dato21><dato2><dato11><dato24><dato6><dato22>]
-[<dato21><dato2><dato22><dato11><dato18><dato6>]
-[<dato21><dato2><dato11><dato18><dato6><dato22>]
-[<dato21><dato2><dato11><dato12><dato22>]
-[<dato21><dato2><dato11><dato10><dato22>] 
-[<dato25>]
-[<dato26>]
 ;
 
-<dato0>=Desactivar|Cambiar;
+
+<dato0>=Desactivar|Enviar | Borrar;
 <dato1>=Necesito una| Quiero una| Busco una| Queria preguntar por una |Necesito un| Quiero un| Busco un| Queria preguntar por un;
 <dato2>= notebook | tablet | celular | televisor;
 <dato3>=para;
@@ -57,6 +44,3 @@ public <sentence> =
 <dato22>=tenemos? | tengo | hay? | que tenemos?;
 <dato23>=más caras | más económicas | más baratas | caras | económicas | baratas;
 <dato24>= pantalla;
-<dato25>=Enviar;
-<dato26>=Borrar;
-
