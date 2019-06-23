@@ -180,6 +180,7 @@ public class AgenteBasadoEnConocimiento {
 		String r = recomendacion.recomendar();
 		respuesta+=r;
 		this.setVariables();
+		this.recomendacion.setVariables();
 		return respuesta;
 		
 	}

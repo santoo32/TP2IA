@@ -60,11 +60,20 @@ pantalla grande *Perfecto!*63*6*TAMPANTALLA*grande*
 tamano grande *Perfecto!*83*6*TAMPANTALLA*grande*
 pantalla mediana *Perfecto!*64*6*TAMPANTALLA*grande*
 pantalla chica *Perfecto!*65*6*TAMPANTALLA*chica*
+pantalla grande *Buenisimo!*84*6*TAMPANTALLA*grande*
+tamano grande *Buenisimo!*85*6*TAMPANTALLA*grande*
+pantalla mediana *Buenisimo!*86*6*TAMPANTALLA*grande*
+pantalla chica *Perfecto!*65*6*TAMPANTALLA*chica*
 hd *Bien!*66*7*RESPANTALLA*HD*
 full hd *Bien!*67*7*RESPANTALLA*FULL HD*
 4k *Bien!*82*7*RESPANTALLA*4K*
+hd *Dale*87*7*RESPANTALLA*HD*
+full hd *Dale*88*7*RESPANTALLA*FULL HD*
+4k *Dale*89*7*RESPANTALLA*4K*
 mucha ram *Esta bien*68*8*RAM*mucharam*
 poca ram *Esta bien*69*8*RAM*pocaram*
+mucha ram *Dale*90*8*RAM*mucharam*
+poca ram *Dale*91*8*RAM*pocaram*
 mucho disco *Perfecto!*70*9*ROM*muchodisco*
 grande disco *Perfecto!*71*9*ROM*muchodisco*
 poco disco *Perfecto!*72*9*ROM*pocodisco*

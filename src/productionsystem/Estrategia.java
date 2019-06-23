@@ -118,7 +118,6 @@ public class Estrategia {
 		ArrayList<Regla> rtdo = new ArrayList<Regla>();
 		Novedad n = new Novedad();
 		rtdo = n.novelty(this.reglasActivas);
-		System.out.println("RA"+reglasActivas.size()+" N: "+rtdo.size());
 		if(rtdo.size()!=reglasActivas.size()) resolucion+=" Novedad ";
 		if(rtdo.size() > 1) {
 			 return rtdo;}

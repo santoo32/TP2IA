@@ -1041,3 +1041,126 @@ Usuario>>  Quiero una notebook
 Chatbot>> Creo que no me respondiste :S
 Chatbot>> Hola!, ¿Que necesitas?
 Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Necesito una notebook 
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> 
+Chatbot>> Creo que no me respondiste :S
+Usuario>>  Para oficina 
+Chatbot>> Te puedo recomendar algunas notebooks que tenemos.
+¿Cuanto piensas gastar?
+Usuario>> pienso gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Que tan grande queres la pantalla?
+Usuario>> Quiero una pantalla grande
+Chatbot>> Perfecto!
+¿De que calidad?
+Usuario>> full hd
+Chatbot>> Bien!
+¿Cuanta RAM?
+Usuario>> 
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Quiero un celular 
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Cual es tu presupuesto?
+Usuario>> pienso gastar mucho
+Chatbot>> Tengo algunas de calidad que podrían interesarte.
+¿Con que tipo de camara?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero una notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> para jugar
+Chatbot>> Tengo algunas notebooks con buen desempeño en video.
+¿Cual es tu presupuesto?
+Usuario>> pienso gastar mucho
+Chatbot>> Tengo algunas de calidad que podrían interesarte.
+¿Que tamaño de pantalla queres?
+Usuario>> pantalla grande
+Chatbot>> Perfecto!
+¿De que calidad?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero una notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Usuario>> para jugar
+Chatbot>> Tengo algunas notebooks con buen desempeño en video.
+¿Cual es tu presupuesto?
+Usuario>> gastar mucho
+Chatbot>> Tengo algunas de calidad que podrían interesarte.
+¿Que tamaño de pantalla queres?
+Usuario>> pantalla grande
+Chatbot>> Buenisimo!
+¿De que resolucion?
+Usuario>> hd
+Chatbot>> Dale
+¿Cuanta RAM?
+Usuario>> quiero un televisor
+Chatbot>> Genial, tengo televisores para ofrecerte
+¿De que tamaño?
+Usuario>> pantalla grande
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> querer notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> para jugar
+Chatbot>> Tengo algunas notebooks con buen desempeño en video.
+¿Cual es tu presupuesto?
+Usuario>> gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Que tan grande queres la pantalla?
+Usuario>> pantalla grande
+Chatbot>> Perfecto!
+¿De que resolucion?
+Usuario>> quiero un televisor
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Grande o chico?
+Usuario>> pantalla grande
+Chatbot>> Perfecto!
+¿De que resolucion?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero una notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Usuario>> para jugar
+Chatbot>> Te puedo recomendar una notebook con placa de video.
+¿Cuanto piensas gastar?
+Usuario>> gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Que tan grande queres la pantalla?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero una notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> para jugar
+Chatbot>> Tengo algunas notebooks con buen desempeño en video.
+¿Cual es tu presupuesto?
+Usuario>> pienso gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Que tan grande queres la pantalla?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero una notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> para jugar
+Chatbot>> Tengo algunas notebooks con buen desempeño en video.
+¿Cual es tu presupuesto?
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero una notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> para jugar
+Chatbot>> Tengo algunas notebooks con buen desempeño en video.
+¿Cual es tu presupuesto?
+Usuario>> gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Que tan grande queres la pantalla?
+Usuario>> quiero un televisor
+Chatbot>> Genial, tengo televisores para ofrecerte
+¿De que tamaño?
+Usuario>> pantalla grande
+Chatbot>> Buenisimo!
+¿Hd, Full hd o 4K?
