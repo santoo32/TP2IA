@@ -42,7 +42,12 @@ public class Escucha extends ResultAdapter{
  				if(respuesta.trim().equals("Borrar")) {
  			 		intUI.actualizarTexto("",true);
  	 			}else {
- 	 		 		intUI.actualizarTexto(respuesta,false);
+ 	 				if(respuesta.trim().equals("Enviar")) {
+ 	 					intUI.enviar();
+ 	 				}else {
+ 	 					intUI.actualizarTexto(respuesta,false);
+ 	 				}
+ 	 		 		
  	 			}
  			}
 	 		
@@ -81,7 +86,8 @@ public class Escucha extends ResultAdapter{
 		
 	public void terminarEscucha() {
 		if(recognizer != null) {
-			recognizer.suspend();
+			//recognizer.suspend();
+			recognizer.pause();
 		}
 	}
 		

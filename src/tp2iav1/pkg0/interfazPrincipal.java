@@ -310,6 +310,10 @@ public class interfazPrincipal extends javax.swing.JFrame {
             
     }//GEN-LAST:event_jButton2MouseClicked    
     
+    public void enviar() {
+    	this.jButtonEnviar.doClick();
+    }
+    
     private void jButtonEnviarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEnviarActionPerformed
     	 
     	//Por si aprieta enviar y el microfono está prendido. Dejo de escuchar         

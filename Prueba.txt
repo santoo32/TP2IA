@@ -1002,3 +1002,42 @@ Chatbot>> Perfecto!
 Usuario>> hd
 Chatbot>> Bien!
 ¿Cuanta memoria RAM?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Necesito una notebook 
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Quiero una notebook 
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Usuario>>  Para gaming 
+Chatbot>> Tengo algunas notebooks con buen desempeño en video.
+¿Cual es tu presupuesto?
+Usuario>>  Pienso gastar poco
+Chatbot>> Tengo algo económico que podría interesarte. 
+¿Que tamaño de pantalla queres?
+Usuario>> Quiero una pantalla grande
+Chatbot>> Perfecto!
+¿De que resolucion?
+Usuario>> 4k
+Chatbot>> Bien!
+¿Cuanta RAM?
+Usuario>> Mucha
+Chatbot>> Creo que no me respondiste :S
+Usuario>> mucha ram
+Chatbot>> Esta bien
+¿Que tamaño de disco?
+Usuario>> quiero un disco grande
+Chatbot>> Perfecto!No tengo nada para recomendarte :(
+- - - - - - - - - - - - - - - - - - - - -
+00:29 Asistente:           Hola!, ¿Que necesitas?
+
+Usuario>>  Necesito un celular 
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Cual es tu presupuesto?
+Usuario>>  Quiero una tablet 
+Chatbot>> Creo que no me respondiste :S
+Usuario>>  Quiero una notebook 
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?

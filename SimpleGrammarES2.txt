@@ -2,35 +2,117 @@
 grammar sentence;
  
 public <sentence> =
-[<dato0>]
-[<dato1>]
-[<dato2>]
-[<dato3>]
-[<dato4>]
-[<dato1><dato2><dato3><dato4>]
-[<dato5>][<dato6>][<dato7>][<dato8>][<dato9>][<dato10>][<dato11>][<dato12>][<dato13>][<dato14>]
-[<dato15>]
-[<dato16>]
-[<dato17>]
-[<dato18>]
-;
+[<dato0>][<dato1>][<dato2>][<dato3>][<dato4>][<dato5>]
+[<dato6>][<dato7>][<dato8>][<dato9>][<dato10>][<dato11>]
+[<dato12>][<dato13>][<dato14>][<dato15>][<dato16>][<dato17>]
+[<dato18>][<dato19>][<dato20>][<dato21>][<dato22>][<dato23>]
+[<dato24>][<dato25>][<dato26>][<dato27>][<dato28>][<dato29>]
+[<dato30>][<dato31>][<dato32>][<dato33>][<dato34>][<dato35>]
+[<dato36>][<dato37>][<dato38>][<dato39>][<dato40>][<dato41>]
+[<dato42>][<dato43>][<dato44>][<dato45>][<dato46>][<dato47>]
+[<dato48>][<dato49>][<dato50>][<dato51>][<dato52>][<dato53>]
+[<dato54>][<dato55>][<dato56>][<dato57>][<dato58>][<dato59>]
+[<dato60>][<dato61>][<dato62>][<dato63>][<dato64>][<dato65>]
+[<dato66>][<dato67>][<dato68>][<dato69>][<dato70>][<dato71>]
+[<dato72>][<dato73>][<dato74>][<dato75>][<dato76>][<dato77>]
+[<dato78>][<dato79>][<dato80>][<dato81>][<dato82>][<dato83>]
+[<dato84>][<dato85>][<dato86>][<dato87>][<dato88>][<dato89>]
+[<dato90>][<dato91>][<dato92>][<dato93>][<dato94>][<dato95>];
  
-<dato0>=Metodologia de la Investigacion Cientifica;
+<dato0>=Necesito una notebook;
 <dato1>=Desactivar;
-<dato2>=Faltan 5 pe;
-<dato3>=Orientada;
-<dato4>=Objetos;
-<dato5>=fin;
-<dato6>=Clases;
-<dato7>=Borrar;
-<dato8>=Canario;
-<dato9>=Radio;
-<dato10>=Television;
-<dato11>=Ingenieria;
-<dato12>=Industrial;
-<dato13>=Hola;
-<dato14>=Muy buenas;
-<dato15>=1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ;
-<dato16>=Union de Santa Fe;
-<dato17>=Cual es tu nombre?;
-<dato18>=yo necesitar una notebook;
+<dato2>=Quiero una notebook;
+<dato3>=Busco una notebook;
+<dato4>=Quería preguntar por una notebook;
+<dato5>=Necesito una tablet;
+<dato6>=Quiero una tablet;
+<dato7>=Busco una tablet;
+<dato8>=Quería preguntar por una tablet;
+<dato9>=Necesito un celular;
+<dato10>=Quiero un celular;
+<dato11>=Busco un celular;
+<dato12>=Quería preguntar por un celular;
+<dato13>=Quiero un televisor;
+<dato14>=Enviar;
+<dato15>=Borrar;
+<dato16>=Busco un televisor;
+<dato17>=Quería preguntar por un televisor;
+<dato18>=Para diseño gráfico;
+<dato19>=Para gaming;
+<dato20>=Para jugar juegos;
+<dato21>=Para oficina;
+<dato22>=Para uso diario;
+<dato23>=Para documentos;
+<dato24>=Para programar;
+<dato25>=Para codificar;
+<dato26>=Para desarrollar;
+<dato27>=Pienso gastar mucho;
+<dato28>=Tengo un presupuesto alto;
+<dato29>=Pienso gastar poco;
+<dato30>=Tengo un presupuesto bajo;
+<dato31>=Quiero una pantalla grande;
+<dato32>=Quiero una pantalla mediana ;
+<dato33>=Quiero una pantalla pequeña ;
+<dato34>=Calidad HD ;
+<dato35>=Calidad Full HD;
+<dato36>=Mucha ram;
+<dato37>=Poca ram ;
+<dato38>=Quiero un disco grande;
+<dato39>=Quiero que tenga mucho disco;
+<dato40>=Quiero un disco chico;
+<dato41>=Quiero que tenga poco disco;
+<dato42>=Con buena cámara;
+<dato43>=Con una cámara excelente;
+<dato44>=Con cámara normal;
+<dato45>=Con cámara decente;
+<dato46>=Sistema operativo Android;
+<dato47>=Con android;
+<dato48>=Sistema operativo IOS;
+<dato49>=Con IOS;
+<dato50>=HD;
+<dato51>=Full HD;
+<dato52>=4K;
+<dato53>=¿Qué notebooks para diseño tengo?;
+<dato54>=¿Qué notebooks para jugar tengo?;
+<dato55>=¿Qué notebooks de gaming tengo?;
+<dato56>=¿Qué notebooks para oficina tengo?;
+<dato57>=¿Qué notebooks para uso diario tengo?;
+<dato58>=¿Qué notebooks para codificar tenemos?;
+<dato59>=¿Cuáles son las notebooks mas caras?;
+<dato60>=¿Cuales son las notebooks mas económicas?;
+<dato61>=¿Cuales son las notebooks mas baratas?;
+<dato62>=¿Qué notebooks tengo con pantalla grande?;
+<dato63>=¿Que notebooks tengo con pantalla chica?;
+<dato64>=¿Qué notebooks tengo full hd?;
+<dato65>=¿Qué notebooks tengo hd?;
+<dato66>=¿Qué notebooks tengo con mucha ram?;
+<dato67>=¿Qué notebooks tengo con poca ram?;
+<dato68>=¿Qué notebooks tengo con disco grande?;
+<dato69>=¿Qué notebooks tengo con disco chico?;
+<dato70>=¿Qué tablets caras tenemos?;
+<dato71>=¿Qué tablets economicas/baratas tenemos?;
+<dato72>=¿Qué tablets con buena cámara hay?;
+<dato73>=¿Qué tablets con cámara decente hay?;
+<dato74>=¿Qué tablets con mucha ram tenemos?;
+<dato75>=¿Qué tablets con poca ram tenemos?;
+<dato76>=¿Qué tablets con disco grande tenemos?;
+<dato77>=¿Qué tablets con disco chico tenemos?;
+<dato78>=¿Qué celulares caros tenemos?;
+<dato79>=¿Qué celulares baratos tenemos?;
+<dato80>=¿Qué celulares con buena cámara hay?;
+<dato81>=¿Qué celulares con cámara decente hay?;
+<dato82>=¿Cuáles son los celulares con Android que tenemos?;
+<dato83>=¿Cuáles son los celulares con IOS que tenemos?;
+<dato84>=¿Qué celulares con mucha ram tenemos?;
+<dato85>=¿Qué celulares con poca ram tenemos?;
+<dato86>=¿Qué celulares con disco grande tenemos?;
+<dato87>=¿Qué celulares con disco chico tenemos?;
+<dato88>=¿Qué televisores con pantalla grande tenemos?;
+<dato89>=¿Qué televisores con pantalla chica tenemos?;
+<dato90>=¿Qué televisores caros tenemos?;
+<dato91>=¿Qué televisores baratos/económicos tenemos?;
+<dato92>=¿Qué televisores hd tenemos?;
+<dato93>=¿Qué televisores full hd tenemos?;
+<dato94>=¿Qué televisores 4k tenemos?;
+<dato95>=Necesito un televisor;
+
