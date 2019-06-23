@@ -70,7 +70,7 @@ public class AgenteBasadoEnConocimiento {
 			ArrayList<Regla> reglasRespuestaActivas = this.verificarReglasRespuestas(reglasRespuestasDisponibles, palabras, preguntaActiva);
 			if(!reglasRespuestaActivas.isEmpty())
 				ea.escribirActivasRespuesta(reglasRespuestaActivas, palabras, this.preguntaActiva, this.preguntasHechas, this.reglasRespuestasUsadas);
-			this.cargarNovedad();
+			
 			
 			if(!reglasRespuestaActivas.isEmpty()){
 			//quiere decir que lo que ingreso el usuario corresponde a la pregunta hecha
@@ -95,6 +95,7 @@ public class AgenteBasadoEnConocimiento {
 				//elegir una pregunta
 				//buscar preguntas activas
 				ArrayList<Regla> reglasPreguntasActivas = this.verificarReglasPreguntas();
+				this.cargarNovedad(reglasRespuestaActivas,reglasPreguntasActivas);
 				if(!reglasPreguntasActivas.isEmpty()) {
 					ea.escribirActivasPregunta(palabras,reglasPreguntasActivas, this.preguntaActiva, this.preguntasHechas, this.reglasRespuestasUsadas);
 					//elijo una segun estrategia
@@ -151,12 +152,12 @@ public class AgenteBasadoEnConocimiento {
 		
 	}
 	
-	private void cargarNovedad() {
-		for(ReglaRespuesta r : reglasRespuestasDisponibles) {
-			r.cargarNovedad(this.preguntaActiva);
+	private void cargarNovedad(ArrayList<Regla> reglasRespuestaActivas, ArrayList<Regla> reglasPreguntasActivas) {
+		for(Regla r : reglasRespuestaActivas) {
+			((ReglaRespuesta) r).cargarNovedad(this.preguntaActiva);
 		}
-		for(ReglaPregunta r : reglasPreguntasDisponibles) {
-			r.cargarNovedad(this.preguntaActiva);
+		for(Regla r : reglasPreguntasActivas) {
+			((ReglaPregunta) r).cargarNovedad(this.preguntaActiva);
 		}
 		
 	}

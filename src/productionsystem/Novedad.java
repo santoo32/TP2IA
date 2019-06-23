@@ -13,8 +13,8 @@ public class Novedad {
 		for(Regla r: reglasActivas) {
 			if(r.getNovedad()) resultado.add(r);
 		}
-		
-		return resultado;
+		if(resultado.isEmpty()) return (ArrayList<Regla>) reglasActivas;
+		else return resultado;
 	}
 	
 	public String toString() {

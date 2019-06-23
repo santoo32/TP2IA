@@ -885,3 +885,120 @@ Chatbot>> Te puedo recomendar una notebook con placa de video.
 ¿Cuanto piensas gastar?
 Usuario>> mucho
 Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> Quiero una notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> Para jugar
+Chatbot>> Tengo algunas notebooks con buen desempeño en video.
+¿Cual es tu presupuesto?
+Usuario>> pienso gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Que tan grande queres la pantalla?
+Usuario>> pantalla grande
+Chatbot>> Perfecto!
+¿De que resolucion?
+Usuario>> full hd
+Chatbot>> Bien!
+¿Cuanta RAM?
+Usuario>> mucha ram
+Chatbot>> Esta bien
+¿Que tamaño de disco?
+Usuario>> Estoy buscando un disco grande
+Chatbot>> Te puedo recomendar esto: 
+Asus Intel core i5 Ram: 8GB DISCO: 1000GB 15'' FULL HD $57985.0
+- - - - - - - - - - - - - - - - - - - - -
+22:33 Asistente:           Hola!, ¿Que necesitas?
+
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero una notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> para jugar
+Chatbot>> Tengo algunas notebooks con buen desempeño en video.
+¿Cual es tu presupuesto?
+Usuario>> pienso gastar mucho
+Chatbot>> Tengo algunas de calidad que podrían interesarte.
+¿Que tamaño de pantalla queres?
+Usuario>> pantalla grande
+Chatbot>> Perfecto!
+¿De que calidad?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero una notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> para jugar
+Chatbot>> Tengo algunas notebooks con buen desempeño en video.
+¿Cual es tu presupuesto?
+Usuario>> gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Que tan grande queres la pantalla?
+Usuario>> pantalla grande
+Chatbot>> Perfecto!
+¿De que calidad?
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero una notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> para jugar
+Chatbot>> Te puedo recomendar una notebook con placa de video.
+¿Cuanto piensas gastar?
+Usuario>> pienso gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Que tan grande queres la pantalla?
+Usuario>> pantalla grande
+Chatbot>> Perfecto!
+¿De que calidad?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero una notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> para jugar
+Chatbot>> Te puedo recomendar una notebook con placa de video.
+¿Cuanto piensas gastar?
+Usuario>> gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Que tan grande queres la pantalla?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero una notebook
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero una notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Usuario>> para jugar
+Chatbot>> Tengo algunas notebooks con buen desempeño en video.
+¿Cual es tu presupuesto?
+Usuario>> pienso gastar mucho
+Chatbot>> Tengo algunas de calidad que podrían interesarte.
+¿Que tamaño de pantalla queres?
+Usuario>> pantalla grande
+Chatbot>> Perfecto!
+¿De que calidad?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero una notebook
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Para que la vas a usar?
+Usuario>> para jugar
+Chatbot>> Tengo algunas notebooks con buen desempeño en video.
+¿Cual es tu presupuesto?
+Usuario>> gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Que tan grande queres la pantalla?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero una notebook
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>> para jugar
+Chatbot>> Tengo algunas notebooks con buen desempeño en video.
+¿Cual es tu presupuesto?
+Usuario>> gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Que tan grande queres la pantalla?
+Usuario>> pantalla grande
+Chatbot>> Perfecto!
+¿De que resolucion?
+Usuario>> hd
+Chatbot>> Bien!
+¿Cuanta memoria RAM?

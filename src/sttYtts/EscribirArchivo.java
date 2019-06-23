@@ -175,8 +175,13 @@ public class EscribirArchivo {
             pw.println(" ");
             pw.println("FASE DE COTEJO:");
             pw.println("REGLAS ACTIVAS DE PREGUNTA:");
+            String regla="";
             for(Regla r : reglasPregunta) {
-            	pw.println(r.getId()+") P:"+r.getPrioridad()+" - PreguntasHechas("+pregHechas+") ^ FiltrarPor("+tipoProducto+")===>"+((ReglaPregunta) r).getSalida()+" ^ PreguntaActiva("+((ReglaPregunta) r).getTipoPregunta()+")");
+            	regla=r.getId()+") P:"+r.getPrioridad()+" - PreguntasHechas(";
+            	for(TipoPregunta tipo : ((ReglaPregunta) r).getCondicion()) 
+            		if(!(tipo.equals(TipoPregunta.NOTEBOOK) || tipo.equals(TipoPregunta.TABLET) || tipo.equals(TipoPregunta.SMARTPHONE) || tipo.equals(TipoPregunta.TV)))
+            			regla+=" "+tipo+" ";
+            	pw.println(regla+") ^ FiltrarPor("+tipoProducto+")===>"+((ReglaPregunta) r).getSalida()+" ^ PreguntaActiva("+((ReglaPregunta) r).getTipoPregunta()+")");
             }
             pw.println(" ");
 
@@ -244,7 +249,7 @@ public class EscribirArchivo {
             pw.println("REGLAS ACTIVAS DE VENDEDOR:");
             for(Regla r : reglasVendedor) {
             	pw.println(r.getId()+") P:"+r.getPrioridad()+" - "+((ReglaVendedor) r).getCondicion()+")===>"+
-            			((ReglaVendedor) r).getSalida()+" ^ FiltrarPor("+((ReglaVendedor) r).getTipoProducto()+") FiltrarPor("+((ReglaVendedor) r).getFiltrado()+")");
+            			((ReglaVendedor) r).getSalida()+" ^ FiltrarPor("+((ReglaVendedor) r).getTipoProducto()+") ^ FiltrarPor("+((ReglaVendedor) r).getFiltrado()+")");
             }
             pw.println(" ");
 
