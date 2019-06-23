@@ -21,12 +21,16 @@ public <sentence> =
 
 <dato0>=Desactivar|Enviar | Borrar;
 <dato1>=Necesito una| Quiero una| Busco una| Queria preguntar por una |Necesito un| Quiero un| Busco un| Queria preguntar por un;
-<dato2>= notebook | tablet | celular | televisor;
+<dato2>= notebook | tablet | celular | televisor | notebooks | tablets | celulares | televisores;
 <dato3>=para;
 <dato4>=diseño gráfico | gamming | jugar juegos | oficina | uso diaro | documentos | programar| codificar | desarrollar;
 <dato5>=Quiero una;
 <dato6>=  grande | mediana |pequeña |chico;
+<<<<<<< Updated upstream
 <dato7>= mucho | poco | mucha | poca;
+=======
+<dato7>= mucha | poca | mucho | poco;
+>>>>>>> Stashed changes
 <dato8>= RAM;
 <dato9>= Sistema operativo;
 <dato10>= Android | IOS;

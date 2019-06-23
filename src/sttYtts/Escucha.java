@@ -3,7 +3,10 @@ package sttYtts;
 import javax.speech.*;
 import javax.speech.recognition.*;
 import tp2iav1.pkg0.interfazPrincipal;
+
+import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Locale;
  
@@ -13,8 +16,9 @@ public class Escucha extends ResultAdapter{
 	private interfazPrincipal intUI;
 	private FileReader grammarCliente;
 	private FileReader grammarVendedor;
-	RuleGrammar rgCliente;
-	RuleGrammar rgVendedor;
+	private RuleGrammar rgCliente;
+	private RuleGrammar rgVendedor;
+	private boolean cliente = true;
 	
 	public Escucha() {
 	}
@@ -53,35 +57,6 @@ public class Escucha extends ResultAdapter{
  	 		 		
  	 			}
  			}
-	 		
-	 		//Escribo en el txt
-	 		//escribir.escribir("Usuario",respuesta, "Prueba");
-	 		
-	 		//trim() elimina los espacios en blanco antes y después de cada palabra
-	 		/*if(respuesta.trim().equals("fin")){
-	 			//Libera el recurso
-	 			recognizer.deallocate(); 			
-	 			lee.leer("Hasta la vista baby!");
-	 			return;
-	 		}else{
-	 			if(respuesta.trim().equals("Faltan 5 pe")) {
-	 				recognizer.suspend();
-	 				lee.leer("pa comprar ese vi");
-	 				recognizer.resume();
-	 			}else {		 
-	 				if(respuesta.trim().contentEquals("Union de Santa Fe")) {
-	 					recognizer.suspend();
-		 				lee.leer("El dueño de la ciudad");
-		 				recognizer.resume();
-	 				}else {
-	 					//Suspende el reconocedor
-		 				recognizer.suspend();	
-		 				lee.leer(respuesta);
-		 				//Activa el reconocedor
-		 				recognizer.resume();
-	 				}	 				
-	 			}
-	 		}*/
 	 	}catch(Exception ex){
 	 		System.out.println("Ha ocurrido algo inesperado " + ex);
 	 	}
@@ -89,39 +64,34 @@ public class Escucha extends ResultAdapter{
 		
 	public void terminarEscucha() {
 		if(recognizer != null) {
-			//recognizer.suspend();
 			recognizer.pause();
 		}
 	}
 		
 	public void empezarEscucha(interfazPrincipal i, boolean esCliente) {
-		System.out.println("Vendedor: "+ !esCliente+"	Cliente: "+ esCliente);
-		
-		if(recognizer != null) {
-			/*if(esCliente) {
-				if (!rgCliente.isActive()) {
-					rgCliente.setEnabled(true);
-					rgVendedor.setEnabled(false);
-					System.out.println("Seteo gramática cliente");
-				}
-			}else {
-				if (!rgVendedor.isActive()) {
-					rgCliente.setEnabled(false);
-					rgVendedor.setEnabled(true);
-					System.out.println("Seteo gramática vendedor");
-				}
-				
-			}*/
+		System.out.println("cliente: "+cliente+"	esCliente: "+esCliente);
+		//Si el recognizer ya está inicializado y no cambio de modo
+		if(recognizer != null && cliente == esCliente) {
+			System.out.println("SIGO NORMAL");
 			try {
+				//Sigo normal
 				recognizer.resume();
-				
-			} catch (AudioException e) {
-				e.printStackTrace();
-			} catch (EngineStateError e) {
+			} catch (AudioException | EngineStateError e) {
 				e.printStackTrace();
 			}
 		}else {
+			//Si cambio de modo
+			if(cliente != esCliente) {
+				System.out.println("Cambio de modo");
+				//Desalojo el reconocedor
+				try {
+					recognizer.deallocate();
+				} catch (EngineException | EngineStateError e) {
+					e.printStackTrace();
+				}
+			} 			
 			this.intUI = i;
+			System.out.println("PRIMERA VEZ");
 			escucha(esCliente);
 		}
 	}
@@ -135,26 +105,27 @@ public class Escucha extends ResultAdapter{
  			recognizer.allocate();
  			
  			//Lee el archivo donde se encuentra el diccionario (Misma ubicación del proyecto)
- 			grammarCliente =new FileReader("GramaticaCliente.txt"); 
+ 			grammarCliente = new FileReader("GramaticaCliente.txt"); 
  			grammarVendedor = new FileReader("GramaticaVendedor.txt");
  			
- 			//Carga la gramática disponible.
- 			rgCliente = recognizer.loadJSGF(grammarCliente);
- 			//rgVendedor = recognizer.loadJSGF(grammarVendedor);
- 			
- 			//if(esCliente) {
+ 			if(esCliente) {
+ 				//Carga la gramática disponible.
+ 	 			rgCliente = recognizer.loadJSGF(grammarCliente);
  				//Habilito la gramática
  				rgCliente.setEnabled(true);
-				/*rgVendedor.setEnabled(false);
+ 				cliente = true;
 				System.out.println("Seteo gramática cliente al inicio");
  			}else {
- 				rgCliente.setEnabled(false);
+ 				//Carga la gramática disponible.
+ 				rgVendedor = recognizer.loadJSGF(grammarVendedor);
+ 				//Habilito la gramática
 				rgVendedor.setEnabled(true);
+				cliente = false;
 				System.out.println("Seteo gramática vendedor al inicio");
- 			}*/
+ 			}
  			 			
  			//Agrega un listener al reconocedor para obtener los resultados
- 			recognizer.addResultListener(this/*new Escucha(this.intUI)*/);
+ 			recognizer.addResultListener(this);
  			
  			//Guarda los cambios en el reconocedor
  			recognizer.commitChanges();

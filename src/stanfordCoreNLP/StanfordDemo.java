@@ -43,10 +43,17 @@ public class StanfordDemo {
 		//Elimino los signos de puntuación como los puntos, comas, etc.
 		eliminarPuntuaciones(palabras);
 		for (Palabra p : palabras) {
+			System.out.println(p.getPalabra());
 			//Elimino a minúscula
 			pasarAMinuscula(p);
+			System.out.println(p.getPalabra());
 			//Si es adjetivo o sustantivo lo paso a singular //X es para la tablet que no se porque no me la clasifica
-			if(p.getParte().equalsIgnoreCase("ADJ")|| p.getParte().equalsIgnoreCase("X") || p.getParte().equalsIgnoreCase("PROPN") || p.getParte().equalsIgnoreCase("NOUN") || p.getPalabra().startsWith("notebook")) {
+
+			if((p.getParte().equalsIgnoreCase("ADJ")|| p.getParte().equalsIgnoreCase("X") 
+					|| p.getParte().equalsIgnoreCase("PROPN") || p.getParte().equalsIgnoreCase("NOUN")
+					|| p.getPalabra().startsWith("notebook") ) 
+					&& !p.getPalabra().startsWith("io")) {
+
 				pluralASingular(p);
 			}
 			//Elimino acentos
@@ -58,6 +65,10 @@ public class StanfordDemo {
 			}
 		}
 		
+		for(Palabra p : palabras) {
+			System.out.println(p.getPalabra()+"		"+p.getParte());
+		}
+			
 	}
 
 	private void pasarAInfinitivo(Palabra p) {
@@ -127,7 +138,6 @@ public class StanfordDemo {
 	    s = s.replaceAll("[\\p{InCombiningDiacriticalMarks}]", "");
 	    	    
 	    p.setPalabra(s);
-	    //System.out.println("Sin acento: "+p.getPalabra());
 	}
 
 	private void pasarAMinuscula(Palabra p) {
@@ -146,10 +156,6 @@ public class StanfordDemo {
 				palabras.remove(p);
 			}
 		}
-		/*System.out.println("LUEGO DE ELIMINAR LA PUNTUACÓN");
-		for(Palabra p : palabras) {
-			System.out.println(p.getPalabra()+" , "+p.getParte());
-		}*/
 	}
 	
 	public ArrayList<String> normalizarPalabras(String oracion){

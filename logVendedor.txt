@@ -1,0 +1,42 @@
+					BUSCANDO UNA RESPUESTA...
+ 
+MEMORIA DE TRABAJO:
+[que, notebook, barata, tenemos]
+ 
+FASE DE COTEJO:
+REGLAS ACTIVAS DE VENDEDOR:
+10) P:4 - [barata, notebook])===>Notebook baratas: ^ FiltrarPor(notebook) ^ FiltrarPor(gastarpoco)
+ 
+FASE DE RESOLUCION:
+SE EJECUTA LA REGLA:10 UTILIZANDO: 
+ 
+FASE DE EJECUCION:
+FiltrarPor(notebook) FiltrarPor(gastarpoco)
+ 
+--------------------------------------------------------------------------------------------------------
+ 
+					BUSCANDO UNA RESPUESTA...
+ 
+MEMORIA DE TRABAJO:
+[que, televisor, 4, k, tenemos]
+ 
+FASE DE COTEJO:
+REGLAS ACTIVAS DE VENDEDOR:
+ 
+					BUSCANDO UNA RESPUESTA...
+ 
+MEMORIA DE TRABAJO:
+[que, celular, con, android, tenemos]
+ 
+FASE DE COTEJO:
+REGLAS ACTIVAS DE VENDEDOR:
+33) P:16 - [celular, android])===>Celulares con android:  ^ FiltrarPor(smartphone) ^ FiltrarPor(android)
+ 
+FASE DE RESOLUCION:
+SE EJECUTA LA REGLA:33 UTILIZANDO: 
+ 
+FASE DE EJECUCION:
+FiltrarPor(smartphone) FiltrarPor(android)
+ 
+--------------------------------------------------------------------------------------------------------
+ 

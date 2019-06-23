@@ -1266,3 +1266,180 @@ Usuario>> que notebooks para jugar hay?
 Chatbot>> Las notebooks con placa de video que tenemos son las siguientes:
 Asus Intel core i5 Ram: 8GB DISCO: 1000GB 15'' FULL HD $57985.0
 
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  java
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Qué notebook baratas tenemos? 
+Chatbot>> Notebook baratas:
+LENOVO Intel Celeron Ram: 2GB DISCO: 120GB 13'' HD $17999.0
+Acer Intel core i5 Ram: 4GB DISCO: 1000GB 15'' HD $3600.0
+
+Usuario>>  Qué televisor 4K tenemos? 
+Chatbot>> No te entendi
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Necesito notebook 
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>>   Necesito notebook mucho RAM 
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Necesito notebook 
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>>  Necesito notebook 
+Chatbot>> Genial, tengo notebooks para ofrecerte
+¿Qué uso le piensa dar?
+Usuario>>  para desarrollar 
+Chatbot>> Tengo algunas notebooks con buen desempeño en procesador. 
+¿Cual es tu presupuesto?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> Que celulares con android tenemos?
+Chatbot>> Celulares con android: 
+Moto RAM: 2 DISCO: 16GB 5.7'' Camara: 13.0 SO:android $10000.0
+LG RAM: 3 DISCO: 32GB 5.3'' Camara: 13.0 SO:android $14000.0
+Samsung RAM: 3 DISCO: 32GB 6.0'' Camara: 16.0 SO:android $15280.0
+Samsung RAM: 8 DISCO: 128GB 6.0'' Camara: 16.0 SO:android $55000.0
+
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> que notebooks para jugar tenemos?
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> que notebooks para jugar tenemos?
+Chatbot>> Creo que no me respondiste :S
+Usuario>> televisores smartphones notebooks celulares tablets
+Chatbot>> Creo que no me respondiste :S
+Usuario>> notebooks
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> notebooks
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> Necesito una tablet
+Chatbot>> Genial, tengo tablets para ofrecerte
+¿Cuanto piensas gastar?
+Usuario>> Quiero un televisor
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Grande o chico?
+Usuario>> Pantalla grande
+Chatbot>> Buenisimo!
+¿Hd, Full hd o 4K?
+Usuario>> quiero un celular
+Chatbot>> Genial, tengo celulares para ofrecerte
+¿Cuanto piensa gastar?
+Usuario>> quiero un celular
+Chatbot>> Genial, tengo celulares para ofrecerte
+¿Cuanto piensa gastar?
+Usuario>> pienso gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Queres una buena camara o una normal?
+Usuario>> quiero una buena camara
+Chatbot>> Fantastico!
+¿Lo queres con Android o IOS?
+Usuario>> Con IOS
+Chatbot>> Creo que no me respondiste :S
+Usuario>> con ios
+Chatbot>> Creo que no me respondiste :S
+Usuario>> con android
+Chatbot>> Tengo unos Android que podrían interesarte.
+¿Cuanta RAM?
+Usuario>> Sistema operativo IOS
+Chatbot>> Creo que no me respondiste :S
+Usuario>> Con IOS
+Chatbot>> Creo que no me respondiste :S
+Usuario>> busco un celular
+Chatbot>> Genial, tengo celulares para ofrecerte
+¿Cuanto piensa gastar?
+Usuario>> Pienso gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Con que tipo de camara?
+Usuario>> Quiero una buena camara
+Chatbot>> Fantastico!
+¿Que sistema operativo?
+Usuario>> Con IOS
+Chatbot>> Creo que no me respondiste :S
+Usuario>> Sistema operativo IOS
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> Quiero un celular
+Chatbot>> Buenisimo! Tengo cosas que te pueden interesar
+¿Cual es tu presupuesto?
+Usuario>> pienso gastar mucho
+Chatbot>> Tengo algunas topes de gama que podrían interesarte.
+¿Queres una buena camara o una normal?
+Usuario>> Quiero una buena camara
+Chatbot>> Fantastico!
+¿Que sistema operativo?
+Usuario>>  Con IOS
+Chatbot>> Creo que no me respondiste :S
+Usuario>> con ios
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero un celular
+Chatbot>> Genial, tengo celulares para ofrecerte
+¿Cuanto piensa gastar?
+Usuario>> Tengo un presupuesto alto
+Chatbot>> Tengo topes de gama que podrían interesarte.
+¿Queres una buena camara o una normal?
+Usuario>> Quiero con buena camara
+Chatbot>> Fantastico!
+¿Lo queres con Android o IOS?
+Usuario>> con IOS
+Chatbot>> Creo que no me respondiste :S
+Usuario>> con ios
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> quiero un Celular
+Chatbot>> Genial, tengo celulares para ofrecerte
+¿Cuanto piensa gastar?
+Usuario>> Tengo un presupuesto alto
+Chatbot>> Tengo algo de calidad que podría interesarte.
+¿Con que tipo de camara?
+Usuario>> Con buena camara
+Chatbot>> Fantastico!
+¿Lo queres con Android o IOS?
+Usuario>> con IOS
+Chatbot>> Creo que no me respondiste :S
+Usuario>> con ios
+Chatbot>> Creo que no me respondiste :S
+Usuario>> con IOS
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> necisto un celular
+Chatbot>> Creo que no me respondiste :S
+Usuario>> necesito un celular
+Chatbot>> Genial, tengo celulares para ofrecerte
+¿Cuanto piensa gastar?
+Usuario>> Tengo un presupuesto alto
+Chatbot>> Tengo topes de gama que podrían interesarte.
+¿Queres una buena camara o una normal?
+Usuario>> Quiero con buena camara
+Chatbot>> Fantastico!
+¿Lo queres con Android o IOS?
+Usuario>> con ios
+Chatbot>> Creo que no me respondiste :S
+Usuario>> con IOS
+Chatbot>> Tengo algunos iphone que te podrian gustar
+¿Cuanta RAM?
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> necesito un celular
+Chatbot>> Genial, tengo celulares para ofrecerte
+¿Cuanto piensa gastar?
+Usuario>> tengo un presupuesto alto
+Chatbot>> Tengo topes de gama que podrían interesarte.
+¿Queres una buena camara o una normal?
+Usuario>> con buena camara
+Chatbot>> Fantastico!
+¿Que sistema operativo?
+Usuario>> con ios
+Chatbot>> Creo que no me respondiste :S
+Chatbot>> Hola!, ¿Que necesitas?
+Usuario>> con ios
+Chatbot>> Creo que no me respondiste :S
+Usuario>> con IOS
+Chatbot>> Creo que no me respondiste :S

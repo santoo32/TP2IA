@@ -332,8 +332,7 @@ public class interfazPrincipal extends javax.swing.JFrame {
 	 	escribe.escribir("Usuario", this.jTextField1.getText(), "Prueba");
     	this.setBotText(this.jTextField1.getText(), false);
     	String respuesta;
-        
-    	respuesta = agent.start(this.jTextField1.getText(), isUserMode);
+        respuesta = agent.start(this.jTextField1.getText(), isUserMode);
     	this.jTextField1.setText("");
     	this.setBotText(respuesta, true);
     	
